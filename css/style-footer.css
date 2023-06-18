@@ -1,0 +1,133 @@
+.footer {
+  position: relative;
+  padding: 0 4%;
+  width: 100%;
+  height: auto;
+  background-color: #146c94;
+}
+.container-footer {
+  display: flex;
+  background-color: #146c94;
+  padding: 2rem 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.col-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.logo-foot {
+  margin-bottom: -0.5rem;
+  width: 300px;
+  height: auto;
+  cursor: pointer;
+}
+.col-footer p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: rgb(241, 241, 241);
+}
+.col-footer iframe {
+  width: 300px;
+  height: 300px;
+}
+.col-footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.col-footer h6 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: rgb(241, 241, 241);
+  line-height: 2.5rem;
+}
+.col-footer a {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  color: rgb(241, 241, 241);
+
+  transition: 0.2s ease-in;
+}
+.col-footer a:hover {
+  color: #39a2db;
+}
+.col-footer:nth-child(5) {
+  display: flex;
+  flex-direction: column;
+}
+.sosmed-footer {
+  margin-top: 90%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+.sosmed-footer i {
+  font-size: 2rem;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 2.5rem;
+  background-color: rgb(241, 241, 241);
+}
+.copyright p,
+.copyright a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  color: black;
+  transition: 0.2s ease-in-out;
+}
+.copyright a:hover {
+  color: #146c94;
+}
+
+/* Ukuran Laptop */
+@media (max-width: 1366px) {
+}
+
+/* Ukuran Tablet */
+@media (max-width: 768px) {
+  .container-footer {
+    flex-direction: column;
+  }
+  .logo-foot {
+    width: 280px;
+  }
+  .col-footer p,
+  .col-footer a {
+    font-size: 1.4rem;
+  }
+  .col-footer h6 {
+    font-size: 1.6rem;
+  }
+  .col-footer iframe {
+    width: 250px;
+    height: 250px;
+  }
+  .sosmed-footer {
+    margin-top: 1.7rem;
+  }
+  .copyright p {
+    font-size: 1rem;
+  }
+}
+
+/* Ukuran Android */
+@media (max-width: 450) {
+  .logo-foot {
+    width: 280px;
+  }
+}

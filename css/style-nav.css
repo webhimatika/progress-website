@@ -1,0 +1,380 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+.blank {
+  display: none;
+}
+/*html {
+  height: 3000px;
+}*/
+/* Style Navigasi Bar Start*/
+.navbar {
+  /*Bagian nav fixed(tetap)*/
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4%;
+  background-color: rgb(241, 241, 241);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  height: 70px;
+  z-index: 999;
+}
+.logo-nav {
+  height: 3.5rem;
+  width: auto;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  margin: 0 1rem;
+}
+.menu a {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  margin: 0.1rem;
+  transition: 0.5s;
+  font-weight: 600;
+}
+.menu:last-child .dropdown {
+  right: 0%;
+}
+.menu-item {
+  display: inline-flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  height: 4.2rem;
+  cursor: pointer;
+}
+#icon-menu {
+  height: 20px;
+}
+.menu-wrapper > a {
+  display: none;
+}
+.chevron-down {
+  height: 20px;
+}
+/*Hamburger Icon*/
+.navbar-icon {
+  display: none;
+}
+.menu-modern-1 {
+  margin-bottom: 4px;
+  width: 22px;
+  height: 3px;
+  background-color: black;
+}
+.menu-modern-2 {
+  margin-bottom: 4px;
+  width: 27px;
+  height: 3px;
+  background-color: black;
+}
+.menu-modern-3 {
+  width: 17px;
+  height: 3px;
+  background-color: black;
+}
+.menu-item:hover a,
+.menu-item:hover .menu-icon {
+  color: #39a2db;
+}
+/* Dropdown */
+.menu-item:hover .dropdown,
+.menu-item:hover .dropdown-beranda {
+  display: block;
+}
+.menu-item:hover .dropdown {
+  animation: animate 250ms ease-in-out forwards;
+}
+.menu-item:hover .dropdown--animated-2 {
+  animation: animate-2 200ms ease-in-out forwards;
+}
+.menu-item:hover .dropdown--animated-3 {
+  animation: animate-2 200ms ease-in-out forwards;
+}
+.menu-item:hover .drop-line {
+  animation: line-motion 250ms ease-in-out forwards;
+}
+.menu-item:hover .drop-line-beranda {
+  animation: line-motion-beranda 250ms ease-in-out forwards;
+}
+@keyframes animate {
+  /*Keyframe untuk animasi scroll bagian menu bar*/
+  0% {
+    height: 0;
+  }
+  40% {
+    height: 4rem;
+  }
+  80% {
+    height: 6rem;
+  }
+  100% {
+    height: 7rem;
+  }
+}
+@keyframes animate-2 {
+  0% {
+    height: 0;
+  }
+  40% {
+    height: 3rem;
+  }
+  80% {
+    height: 7rem;
+  }
+  100% {
+    height: 10rem;
+  }
+}
+@keyframes animate-3 {
+  0% {
+    height: 0;
+  }
+  40% {
+    height: 6rem;
+  }
+  80% {
+    height: 10rem;
+  }
+  100% {
+    height: 15rem;
+  }
+}
+@keyframes line-motion {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 13rem;
+  }
+}
+@keyframes line-motion-beranda {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 7rem;
+  }
+}
+.menu-item:hover .dropdown a {
+  color: rgb(48, 48, 48);
+}
+.drop-line {
+  background-color: #39a2db;
+  width: 13rem;
+  height: 4px;
+}
+.drop-line-beranda {
+  background-color: #39a2db;
+  width: 7rem;
+  height: 4px;
+}
+.dropdown {
+  position: absolute;
+  width: 13rem;
+  display: none;
+  top: 100%;
+  background-color: rgb(241, 241, 241);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.dropdown-beranda {
+  position: absolute;
+  display: none;
+  top: 95%;
+}
+.dropdown-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 1rem;
+  padding-right: 0.9rem;
+  padding-left: 0.5rem;
+}
+.dropdown .dropdown-content:first-child {
+  padding-top: 1rem;
+}
+.dropdown .dropdown-content:last-child {
+  padding-bottom: 1rem;
+}
+.dropdown .dropdown-content:hover a {
+  color: #39a2db;
+}
+
+.nav-visit a,
+.nav-visit .menu-icon {
+  color: #146c94;
+}
+/* Style Navigasi Bar End*/
+
+/* Style Page Lanjutan Untuk dekstop*/
+/* Style Penutup Page Lanjutan Dekstop*/
+
+/* Media Queires */
+
+/* Ukuran Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 100%;
+  }
+}
+/* Style Page Lanjutan Untuk Laptop*/
+/* Style Penutup Page Lanjutan Laptop*/
+
+/* Ukuran Tablet */
+@media (max-width: 1000px) {
+  html {
+    font-size: 70%;
+  }
+  .navbar {
+    height: 60px;
+  }
+  .menu:last-child {
+    margin-right: 0;
+  }
+  /*Side bar style*/
+  .navbar-menu {
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    display: block;
+    background-color: rgb(58, 58, 58);
+    width: 30rem;
+    height: 100vh;
+    transition: 0.2s;
+    overflow: visible;
+  }
+  .logo-nav {
+    height: 4rem;
+    width: auto;
+    cursor: pointer;
+  }
+  .drop-line,
+  .drop-line-beranda {
+    margin-top: 0.3rem;
+    background-color: white;
+    height: 1px;
+    width: 28rem;
+    opacity: 0.7;
+  }
+  .navbar-menu.active {
+    left: 0%;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .menu-item a {
+    font-size: 1.5rem;
+    color: white;
+  }
+  .menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .menu-item {
+    display: block;
+    padding-top: 2rem;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    height: min-content;
+    cursor: auto;
+  }
+  .menu-item a {
+    cursor: pointer;
+  }
+  #icon-menu {
+    height: 12px;
+  }
+  .menu-wrapper > a {
+    display: block;
+  }
+  .dropdown,
+  .dropdown-beranda {
+    display: block;
+    position: relative;
+    width: max-content;
+    border-top: none;
+    background-color: transparent;
+    box-shadow: none;
+    overflow: hidden;
+
+    transition: 0.3s;
+  }
+  .dropdown-content {
+    display: none;
+  }
+  .dropdown.active .dropdown-content {
+    display: block;
+  }
+  .dropdown-content {
+    padding-left: 3rem;
+  }
+  .menu-item:hover .dropdown,
+  .menu-item:hover .drop-line,
+  .menu-item:hover .drop-line-beranda {
+    animation: none;
+  }
+  .dropdown .dropdown-content:hover a,
+  .menu-item:hover .dropdown a,
+  .menu-item:hover a {
+    color: white;
+  }
+  .navbar-icon {
+    display: block;
+    cursor: pointer;
+  }
+  #menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .nav-visit .menu-item,
+  .menu-item .menu-icon {
+    color: white;
+  }
+}
+/* Navbar End Tables*/
+
+/* Style Page Lanjutan Untuk Tablet*/
+/* Style Penutup Page Lanjutan Tablet*/
+
+/* Ukuran Android */
+@media (max-width: 450px) {
+  html {
+    font-size: 60%;
+  }
+  .navbar {
+    height: 50px;
+  }
+  .navbar-menu {
+    overflow: auto;
+  }
+  .logo-nav {
+    height: 4.4rem;
+    width: auto;
+    cursor: pointer;
+  }
+}
+/* Style Page Lanjutan Untuk Android*/
+/* Style Penutup Page Lanjutan Android*/
