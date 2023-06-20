@@ -116,3 +116,10 @@ h1 {
   line-height: 1.5;
   border-radius: 10px;
 }
+@media (max-width: 450px) {
+  .image-container,
+  .deskripsi,
+  .konten-isi {
+    padding: 0 10px;
+  }
+}
