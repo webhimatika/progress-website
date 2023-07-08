@@ -1,0 +1,283 @@
+.header {
+  position: relative;
+  min-height: 22rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url(p.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.overlay {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 100%;
+  background: linear-gradient(90deg, #146c94 55.21%, #39a2db 100%);
+}
+.header-content {
+  margin-top: 70px;
+  position: relative;
+  width: 70%;
+  text-align: center;
+}
+.header-content h2 {
+  font-family: "montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+.visiMisi-wrapp {
+  padding: 0 6%;
+  padding-top: 3rem;
+}
+.visiMisi-wrapp h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2rem;
+  color: #000000;
+}
+.visi {
+  padding-top: 4rem;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.visi h5,
+.misi h5 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: 0.05em;
+  color: #146c94;
+}
+.visi p {
+  margin-top: 2rem;
+  padding: 1.6rem 5rem;
+  background: #d9d9d9;
+  box-shadow: inset 0px 0px 20px 2px rgba(103, 94, 94, 0.25);
+
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+.misi {
+  margin-top: 3rem;
+  padding-top: 5rem;
+  border-top: 1px solid rgba(56, 56, 56, 0.3);
+  text-align: center;
+}
+.misi h5 {
+  margin-bottom: 4rem;
+}
+.col-misi {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+.col-misi img {
+  width: 300px;
+  height: 300px;
+  transition: 0.3s ease-in;
+}
+.col-misi img:hover {
+  transform: scale(1.11) rotate(10deg);
+}
+.col-misi p {
+  margin-top: 3rem;
+  width: 50rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  text-align: left;
+
+  color: #146c94;
+}
+.col-misi.reverse {
+  flex-direction: row-reverse;
+}
+.jargon {
+  position: relative;
+  margin-top: 6rem;
+  background-color: #39a2db;
+  padding: 2rem 0;
+  z-index: -99;
+}
+.col-jargon {
+  margin: 0 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.jargon h1 {
+  position: relative;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: 0.05em;
+  color: #ffff;
+  background-color: #39a2db;
+  padding-bottom: 1rem;
+}
+.jargon h1::before {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  left: 0.2rem;
+  bottom: -10px;
+  right: 2rem;
+  background-image: linear-gradient(
+    57deg,
+    #e65c00,
+    #f9d423,
+    #6dd5ed,
+    #cc2b5e,
+    #753a88
+  );
+  background-size: 300%;
+  z-index: -1;
+  animation: gradient 3s linear infinite;
+  animation-direction: alternate;
+}
+.col-col-jargon {
+  padding: 1.3rem;
+  background-color: #146c94;
+  border-radius: 0.8rem 0.8rem 0 0;
+  border-bottom: 10px solid #ffffff;
+}
+.jargon h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+.jargon p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-color: 0% 50%;
+  }
+}
+
+/* Media Queires */
+
+/* Ukuran Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 100%;
+  }
+}
+/* Visi Misi Untuk Laptop*/
+/* Visi Misi Lanjutan Laptop*/
+
+/* Ukuran Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 70%;
+  }
+  /* Visi Misi Untuk Tablet*/
+  .header-content h2 {
+    font-size: 3.8rem;
+  }
+  .visi {
+    margin-bottom: 8rem;
+  }
+  .misi {
+    padding-top: 8rem;
+  }
+  .visi p {
+    padding: 1.6rem 2rem;
+    font-size: 1.6rem;
+  }
+  .col-misi {
+    flex-direction: column;
+    align-items: center;
+  }
+  .col-misi.reverse {
+    flex-direction: column;
+    align-items: center;
+  }
+  .col-misi img {
+    width: 230px;
+    height: auto;
+  }
+  .visiMisi-wrapp h1 {
+    font-size: 2.5rem;
+  }
+  .visi h5,
+  .misi h5 {
+    font-size: 3.4rem;
+  }
+  .col-misi p {
+    font-size: 1.5rem;
+    width: 50rem;
+  }
+}
+
+/* Visi Misi Lanjutan Tablet*/
+
+/* Ukuran Android */
+@media (max-width: 450px) {
+  html {
+    font-size: 60%;
+  }
+  .header-content h2 {
+    font-size: 3rem;
+  }
+  .visi p {
+    font-size: 1.4rem;
+  }
+  .col-misi p {
+    text-align: justify;
+    font-size: 1.5rem;
+    width: 30rem;
+  }
+  .col-misi img {
+    width: 200px;
+    height: auto;
+  }
+  .col-jargon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .col-col-jargon {
+    margin-top: 2.5rem;
+  }
+  .jargon h1 {
+    align-self: flex-start;
+    padding-bottom: 0.7rem;
+  }
+  .jargon h1::before {
+    bottom: -7px;
+  }
+  .jargon h2 {
+    font-size: 2.4rem;
+  }
+  .jargon p {
+    font-size: 1.6rem;
+  }
+}
+/* Visi Misi Untuk Android*/
+/* Visi Misi Lanjutan Android*/
