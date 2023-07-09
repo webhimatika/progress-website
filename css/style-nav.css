@@ -10,6 +10,10 @@
 /*html {
   height: 3000px;
 }*/
+
+.blank {
+  display: none;
+}
 /* Style Navigasi Bar Start*/
 .navbar {
   /*Bagian nav fixed(tetap)*/

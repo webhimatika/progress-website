@@ -214,12 +214,16 @@
     flex-direction: column;
     align-items: center;
   }
+  .col-misi p {
+    margin-top: 0;
+  }
   .col-misi.reverse {
     flex-direction: column;
     align-items: center;
   }
   .col-misi img {
-    width: 230px;
+    margin-top: 0.7rem;
+    width: 15rem;
     height: auto;
   }
   .visiMisi-wrapp h1 {
@@ -251,10 +255,10 @@
   .col-misi p {
     text-align: justify;
     font-size: 1.5rem;
-    width: 30rem;
+    width: 80%;
   }
   .col-misi img {
-    width: 200px;
+    width: 20rem;
     height: auto;
   }
   .col-jargon {
