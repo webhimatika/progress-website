@@ -8,8 +8,8 @@ const closeFull = document.querySelector(".close-full-btn");
 function showPDF(event, pdfURL) {
   event.preventDefault(); // Mencegah perilaku default dari anchor tag
   pdfViewer.data = pdfURL;
-  // cek apakah ukuran halaman < 1087
-  if (window.innerWidth < 1087) {
+  // cek apakah ukuran halaman < 500
+  if (window.innerWidth < 450) {
     window.open(pdfURL);
     return;
   }
@@ -20,18 +20,21 @@ function showPDF(event, pdfURL) {
   aksiomaContainer.classList.add("off");
   footer.classList.add("off");
   copyright.classList.add("off");
-  console.log(pdfURL);
+  console.log(pdfViewer);
 }
 
 function fullPDF() {
-  const pdfURL = document
-    .querySelector("a[data-pdf-url]")
-    .getAttribute("data-pdf-url"); //inisialisasi pdfURL = link ke pdf
+  const pdfURL = pdfViewer.getAttribute("data");
   window.open(pdfURL); //membuka pdf di tab baru
+  console.log(pdfURL);
   return;
 }
 
 function closePDF() {
+  let pdfURL = pdfViewer.getAttribute("data");
+  pdfURL = " "; // Ketika pdf di close maka pdfURL akan => ""
+  pdfViewer.data = pdfURL; // membuat data pada pdfViewer => ""
+
   pdfContainer.style.display = "none";
   closeFull.style.display = "none";
   aksiomaContainer.classList.remove("off");
