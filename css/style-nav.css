@@ -7,9 +7,6 @@
   box-sizing: border-box;
   list-style-type: none;
 }
-.blank {
-  display: none;
-}
 /*html {
   height: 3000px;
 }*/
@@ -106,7 +103,7 @@ ul {
   animation: animate-2 200ms ease-in-out forwards;
 }
 .menu-item:hover .dropdown--animated-3 {
-  animation: animate-2 200ms ease-in-out forwards;
+  animation: animate-3 200ms ease-in-out forwards;
 }
 .menu-item:hover .drop-line {
   animation: line-motion 250ms ease-in-out forwards;
