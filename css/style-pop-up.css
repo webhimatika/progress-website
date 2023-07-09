@@ -1,0 +1,94 @@
+.pop-up {
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+  z-index: 99;
+}
+.icon-pop-up {
+  position: fixed;
+  display: flex;
+  top: 80%;
+  right: 5%;
+  transition: 1000ms;
+}
+.icon-pop-up.hide {
+  display: none;
+}
+.icon-pop-up.move-right {
+  transform: translateX(300px);
+}
+
+.icon-pop-up img {
+  width: 80px;
+  height: auto;
+}
+.tooltip {
+  position: relative;
+}
+.tooltip .tooltip-text {
+  visibility: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  width: 120px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 40%;
+  right: 100%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -7px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: transparent transparent transparent rgba(0, 0, 0, 0.6);
+}
+.tooltip a:hover ~ .tooltip-text {
+  visibility: visible;
+}
+.close-btn {
+  position: absolute;
+  right: 0;
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+.close-pop {
+  color: white;
+  height: 17px;
+  width: auto;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  transition: 300ms;
+}
+.close-pop:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 1024px) {
+  .icon-pop-up img {
+    width: 130px;
+    height: auto;
+  }
+  .close-pop {
+    height: 22px;
+  }
+}
+@media (max-width: 450px) {
+  .icon-pop-up img {
+    width: 70px;
+    height: auto;
+  }
+  .close-pop {
+    height: 15px;
+  }
+}
