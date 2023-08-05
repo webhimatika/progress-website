@@ -95,7 +95,7 @@
   font-size: 1.1rem;
   color: #000000;
   font-family: "Montserrat", sans-serif;
-  line-height: 1rem;
+  line-height: 1.2rem;
   font-weight: 600;
 }
 .content-book p {
@@ -209,6 +209,48 @@
   background-color: transparent;
   letter-spacing: 2px;
 }
+/* PAGINATION START DEKSTOP */
+.items {
+  display: none;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  color: #39a2db;
+  font-weight: 600;
+}
+.pagination .prev-btn,
+.pagination .next-btn,
+.pagination .page-tabs .tab {
+  cursor: pointer;
+}
+.pagination .page-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.pagination .page-tabs a {
+  font-size: 1rem;
+  font-family: "calibri";
+  font-weight: 600;
+  line-height: 1.7rem;
+  color: #000000;
+  text-decoration: none;
+}
+.pagination .page-tabs .active-tab {
+  color: #fff;
+  text-align: center;
+  background-color: #39a2db;
+  border-radius: 10%;
+  height: 1.7rem;
+  width: 1.7rem;
+}
+/* PAGINATION END DEKSTOP */
 /*Ukuran Tablet*/
 @media (max-width: 1000px) {
   .group-book .content-book {
@@ -245,6 +287,21 @@
     height: 2.7rem;
     width: 2.7rem;
   }
+  /* PAGINATION START TABLET */
+  .pagination {
+    gap: 2.2rem;
+    font-size: 1.9rem;
+  }
+  .pagination .page-tabs {
+    gap: 2.4rem;
+    font-size: 1.9rem;
+    line-height: 2.7rem;
+  }
+  .pagination .page-tabs .active {
+    height: 2.7rem;
+    width: 2.7rem;
+  }
+  /* PAGINATION END DEKSTOP */
 }
 
 /*Ukuran Android*/
@@ -283,4 +340,19 @@
     height: 2.5rem;
     width: 2.5rem;
   }
+  /* PAGINATION START ANDROID */
+  .pagination {
+    gap: 2rem;
+    font-size: 1.7rem;
+  }
+  .pagination .page-tabs {
+    gap: 2.2rem;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+  }
+  .pagination .page-tabs .active {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  /* PAGINATION END ANDROID */
 }
