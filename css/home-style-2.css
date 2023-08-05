@@ -191,7 +191,7 @@
 }
 
 .manual-btn{
-    border:2px solid blueviolet;
+    border:2px solid white;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -203,7 +203,7 @@
 }
 
 .manual-btn:hover{
-    background: blueviolet;
+    background: white;
 }
 
 #radio1:checked ~ .first{
@@ -232,7 +232,7 @@
 }
 
 .navigation-auto div{
-    border: 2px solid blueviolet;
+    border: 2px solid white;
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -243,17 +243,17 @@
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: blueviolet;
+    background: white;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: blueviolet;
+    background: white;
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: blueviolet;
+    background: white;
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
-    background: blueviolet;
+    background: white;
 }
