@@ -29,6 +29,11 @@ document.addEventListener("DOMContentLoaded", function () {
             document.location.href = href;
             return false;
           }
+        } else {
+          const urlValue = 1;
+          showItems(urlValue);
+          updateItemsPage(urlValue);
+          return urlValue;
         }
       }
     } else {
