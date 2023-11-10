@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cover Song STAR FM</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/logo himatika.png"
+      type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Yeseva One"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Courgette"
+      rel="stylesheet" />
+
+    <!--Calibri Font => klo mau pake langsung di CSS(font-family: "calibri",sans-serif;)-->
+
+    <!-- My Css Style-->
+    <link rel="stylesheet" href="../css/style-nav.css" />
+    <link rel="stylesheet" href="../css/starfm/styleinpo.css" />
+    <link rel="stylesheet" href="../css/style-footer.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+    <!-- Feather Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- Navigasi Bar Start -->
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <a href="../index.html">
+          <img
+            src="../assets/logo-indo.png"
+            class="logo-nav"
+            alt="Logo Himatika FMIPA UNS" />
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <ul>
+          <li class="menu">
+            <div class="menu-item">
+              <i id="icon-menu" class="menu-icon" data-feather="home"></i>
+              <a href="../index.html">Beranda</a>
+              <ul class="dropdown-beranda">
+                <!--Hiasan Drop menu(drop-line)-->
+                <li class="drop-line-beranda"></li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu">
+            <div class="menu-item">
+              <i id="icon-menu" class="menu-icon" data-feather="users"></i>
+              <a href="#">Tentang Kami</a>
+              <ul class="dropdown">
+                <!--Hiasan Drop menu(drop-line)-->
+                <li class="drop-line"></li>
+                <li class="dropdown-content">
+                  <a href="../visi-misi.html"
+                    ><i id="icon-menu" data-feather="user"></i
+                  ></a>
+                  <a href="../visi-misi.html">Visi Misi</a>
+                </li>
+                <li class="dropdown-content">
+                  <a href="../susunan-pengurus.html"
+                    ><i id="icon-menu" data-feather="users"></i
+                  ></a>
+                  <a href="../susunan-pengurus.html">Susunan Pengurus</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu">
+            <div class="menu-item">
+              <i id="icon-menu" class="menu-icon" data-feather="book-open"></i>
+              <a href="#">Akademik</a>
+              <ul class="dropdown dropdown--animated-2">
+                <!--Hiasan Drop menu(drop-line)-->
+                <li class="drop-line"></li>
+                <li class="dropdown-content">
+                  <a href="../aksioma.html"
+                    ><i id="icon-menu" data-feather="book"></i
+                  ></a>
+                  <a href="../aksioma.html">Aksioma</a>
+                </li>
+                <li class="dropdown-content">
+                  <a
+                    href="https://drive.google.com/drive/folders/1iYcbjDgGIirnWdzUl4jQ6gX1yXAtf5eQ"
+                    ><i id="icon-menu" data-feather="book"></i
+                  ></a>
+                  <a
+                    href="https://drive.google.com/drive/folders/1iYcbjDgGIirnWdzUl4jQ6gX1yXAtf5eQ"
+                    >Bank Soal</a
+                  >
+                </li>
+                <li class="dropdown-content">
+                  <a
+                    href="https://drive.google.com/drive/folders/17Hz4_oWF9XgJzrRDMaZ8wYRz3mOzm-53"
+                    ><i id="icon-menu" data-feather="book"></i
+                  ></a>
+                  <a
+                    href="https://drive.google.com/drive/folders/17Hz4_oWF9XgJzrRDMaZ8wYRz3mOzm-53"
+                    >Buku Modus</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu">
+            <div class="menu-item nav-visit">
+              <i id="icon-menu" class="menu-icon" data-feather="calendar"></i>
+              <a href="#">Kegiatan</a>
+              <ul class="dropdown">
+                <!--Hiasan Drop menu(drop-line)-->
+                <li class="drop-line"></li>
+                <li class="dropdown-content">
+                  <a href="../berita acara.html"
+                    ><i id="icon-menu" data-feather="calendar"></i
+                  ></a>
+                  <a href="../berita acara.html">Review Kegiatan</a>
+                </li>
+                <li class="dropdown-content">
+                  <a href="https://www.instagram.com/starfm_uns/"
+                    ><i id="icon-menu" data-feather="calendar"></i
+                  ></a>
+                  <a href="https://www.instagram.com/starfm_uns/">STAR FM</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu">
+            <div class="menu-item">
+              <i id="icon-menu" class="menu-icon" data-feather="info"></i>
+              <a href="#">Informasi</a>
+              <ul class="dropdown dropdown--animated-3">
+                <!--Hiasan Drop menu(drop-line)-->
+                <li class="drop-line"></li>
+                <li class="blank">
+                  <a href="../informasi-kuliah.html"
+                    ><i id="icon-menu" data-feather="info"></i
+                  ></a>
+                  <a href="../informasi-kuliah.html">Informasi Kuliah</a>
+                </li>
+                <li class="blank">
+                  <a href="../informasi-kampus.html"
+                    ><i id="icon-menu" data-feather="info"></i
+                  ></a>
+                  <a href="../informasi-kampus.html">Informasi Kampus</a>
+                </li>
+                <li class="dropdown-content">
+                  <a href="http://uns.id/AspirasiMahasiswaMatematika"
+                    ><i id="icon-menu" data-feather="info"></i
+                  ></a>
+                  <a href="http://uns.id/AspirasiMahasiswaMatematika"
+                    >Aspirasi Mahasiswa</a
+                  >
+                </li>
+                <li class="dropdown-content">
+                  <a
+                    href="https://docs.google.com/spreadsheets/d/1jv8xUHh3H_3f-vINGhlzfrGTuFGoTF0HC7LiTBdWq4Y/htmlview"
+                    ><i id="icon-menu" data-feather="info"></i
+                  ></a>
+                  <a
+                    href="https://docs.google.com/spreadsheets/d/1jv8xUHh3H_3f-vINGhlzfrGTuFGoTF0HC7LiTBdWq4Y/htmlview"
+                    >Database Alumni</a
+                  >
+                </li>
+                <li class="dropdown-content">
+                  <a href="../database-mahasiswa.php"
+                    ><i id="icon-menu" data-feather="info"></i
+                  ></a>
+                  <a href="../database-mahasiswa.php">Database Mahasiswa</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-icon">
+        <div id="menu">
+          <div class="menu-modern-1"></div>
+          <div class="menu-modern-2"></div>
+          <div class="menu-modern-3"></div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigasi Bar End -->
+    <div class="header">
+      <img src="../assets/starfm/Pamflet Cover Song.png" alt="Poster Lomba" />
+    </div>
+    <div class="content">
+      <h2 class="judul-lomba">Cover Song Competition</h2>
+      <p class="penjelasan-lomba">
+        STARFEST merupakan salah satu dari beberapa rangkaian acara di STAR FM
+        yang di dalamnya terdapat kompetisi cover lagu dan seminar yang dapat
+        dihadiri oleh masyarakat umum. Starfest juga menjadi acara puncak dari
+        rangkaian acara starfm. di tahun 2023 ini starfest sudah memasuki tahun
+        ke 8
+      </p>
+      <ol type="A">
+        <li class="judul-subab">Alur Pendaftaran</li>
+        <ol class="isi-subab">
+          <li>Membaca buku panduan.</li>
+          <li>
+            Melakukan pendaftaran dengan mengisi formulir pada link berikut :
+            <a href="http://uns.id/CoverSongRegistration"
+              >Link Pendaftaran Cover Song Competition</a
+            >
+          </li>
+          <li>
+            Pembayaran pendaftaran melalui :
+            <p>-Dana : 081578848136 a.n Denisa Dwi Nanjalina</p>
+            <p>-Gopay : 081578848136 a.n Denisa Dwi Nanjalina</p>
+            <p>-Ovo : 081578848136 a.n Denisa Dwi Nanjalina</p>
+            <p>-Shopee pay : 081578848136 a.n denisadwi06</p>
+            <p>-BNI : 1284764226 a.n Denisa Dwi Nanjalina</p>
+          </li>
+          <li>
+            Melakukan konfirmasi pendaftaran ke CP : Zahra (081249126727) Bulan
+            (081568338114)
+          </li>
+          <li>
+            Setelah konfirmasi, diharapkan peserta wajib masuk ke grup WhatsApp
+            yang disediakan panitia
+          </li>
+        </ol>
+        <li class="judul-subab">Ketentuan Umum</li>
+        <ol class="isi-subab">
+          <li>
+            Peserta merupakan individu/kelompok yang terdiri dari 1 s.d. 7
+            orang.
+          </li>
+          <li>
+            Pilihan lagu yang dinyanyikan oleh peserta bebas dengan genre
+            Pop-song.
+          </li>
+          <li>
+            Lagu yang ditampilkan boleh gabungan dari beberapa lagu (mix).
+          </li>
+          <li>Video cover berdurasi 3-5 menit.</li>
+          <li>
+            Hasil karya video cover di-upload ke Google Drive masing-masing
+            perwakilan peserta dengan ketentuan judul: Nama peserta/Grup –
+            “Judul Lagu” – Cover Song Competition Star Fest 2023
+          </li>
+          <li>
+            Kemudian mengisi formulir pengumpulan karya pada link berikut ini
+            <a href="http://uns.id/PengumpulanKaryaCoverSong"
+              >Link Pengumpulan Karya Cover Song</a
+            >
+          </li>
+          <li>
+            Setiap peserta diperbolehkan mengirimkan maksimal 3 karya dengan
+            sistem satu karya satu biaya pendaftaran.
+          </li>
+          <li>
+            Jika menggunakan alat musik, peserta diharapkan memperlihatkan alat
+            musik yang digunakan.
+          </li>
+          <li>
+            Peserta diwajibkan menggunakan instrumen. Instrumen boleh
+            menggunakan midi, atau minus one berbentuk MP3.
+          </li>
+          <li>
+            Peserta tidak diperkenankan hanya menampilkan suara vocal tanpa
+            instrument.
+          </li>
+          <li>
+            Peserta yang telah melakukan pendaftaran dan membayar biaya
+            pendaftaran tetapi tidak mengirimkan karya dianggap gugur dan uang
+            tidak dapat dikembalikan.
+          </li>
+          <li>
+            Segala bentuk keputusan panitia dan juri mutlak, tidak dapat
+            diganggu gugat.
+          </li>
+          <li>
+            Setiap peserta diperbolehkan mengirimkan maksimal 3 karya dengan
+            sistem satu karya = satu biaya pendaftaran.
+          </li>
+        </ol>
+        <li class="judul-subab">Ketentuan Karya</li>
+        <ol class="isi-subab">
+          <li>
+            Peserta membuat karya cover song competition dengan ketentuan:
+            <p>• Format : MP4</p>
+            <p>• Kualitas : FHD (Full High Definition)</p>
+            <p>• Resolusi : 1920 × 1080 pixel</p>
+            <p>• Durasi Video : 3-5 menit</p>
+            <p>• Ukuran Maksimal File : 400 mb</p>
+          </li>
+          <li>
+            Video karya cover song harus live record tanpa melalui proses
+            editing.
+          </li>
+          <li>Tidak diperkenankan mengubah dan mengedit suara asli peserta.</li>
+          <li>
+            Karya merupakan video orisinil yang belum pernah dilombakan
+            sebelumnya.
+          </li>
+          <li>Karya tidak mengandung unsur pornografi dan SARA.</li>
+          <li>Karya yang sudah dikirimkan menjadi hak milik panitia.</li>
+        </ol>
+        <li class="judul-subab">Timeline</li>
+        <ol class="isi-subab">
+          <li>Pendaftaran :</li>
+          <p>12 Juni – 27 Agustus 2023</p>
+          <li>Technical Meeting :</li>
+          <p>7 September 2023</p>
+          <li>Maksimal Pengumpulan Karya :</li>
+          <p>30 September 2023</p>
+          <li>Penjurian :</li>
+          <p>23 Oktober 2023 - 24 Oktober 2023</p>
+          <li>Pengambilan Penilaian Likes :</li>
+          <p>1 Oktober- 23 Oktober 2023</p>
+          <li>Grand Final dan Pengumuman :</li>
+          <p>4 November 2023</p>
+        </ol>
+        <li class="judul-subab">Hadiah</li>
+        <ol class="isi-subab">
+          <li>Juara 1 :</li>
+          <p>Rp500.000,00 + Sertifikat + Piala + Competition Kit</p>
+          <li>Juara 2 :</li>
+          <p>Rp300.000,00 + Sertifikat + Piala + Competition Kit</p>
+          <li>Juara 3 :</li>
+          <p>Rp200.000,00 + Sertifikat + Piala + Competition Kit</p>
+        </ol>
+      </ol>
+      <p>
+        Informasi lebih lanjut mengenai Cover Song Competition dapat dilihat
+        pada
+        <a
+          href="https://drive.google.com/drive/folders/1Q3D0alxQw694si0UJvhdxNa4e7bwTn_Y"
+          >Buku Panduan Cover Song Competition</a
+        >
+      </p>
+    </div>
+    <!-- Footer Start -->
+    <div class="footer">
+      <div class="container-footer">
+        <div class="col-footer">
+          <img
+            src="../assets/logo_hima_putih.png"
+            class="logo-foot"
+            alt="Logo Himatika FMIPA UNS" />
+          <p>Email: himatika@mipa.uns.ac.id</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d494.3940046802911!2d110.85863901382751!3d-7.558396399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a17d795fd373d%3A0x66f70240a15a319d!2sSekretariat%20HIMATIKA%20FMIPA%20UNS!5e0!3m2!1sen!2sid!4v1682749275850!5m2!1sen!2sid"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-footer">
+          <h6>Tentang Kami</h6>
+          <ul>
+            <li><a href="../visi-misi.html">Visi Misi</a></li>
+            <li><a href="../susunan-pengurus.html">Susunan Pengurus</a></li>
+          </ul>
+        </div>
+        <div class="col-footer">
+          <h6>Akademik</h6>
+          <ul>
+            <li>
+              <a href="../aksioma.html">Aksioma</a>
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/drive/folders/17Hz4_oWF9XgJzrRDMaZ8wYRz3mOzm-53"
+                >Buku Modus</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/drive/folders/1iYcbjDgGIirnWdzUl4jQ6gX1yXAtf5eQ"
+                >Bank Soal</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-footer">
+          <h6>Kegiatan</h6>
+          <ul>
+            <li>
+              <a href="../berita acara.html">Review Kegiatan</a>
+            </li>
+            <li><a href="https://www.instagram.com/starfm_uns/">STAR FM</a></li>
+          </ul>
+        </div>
+        <div class="col-footer">
+          <div class="col-col-footer">
+            <h6>Informasi</h6>
+            <ul>
+              <li class="blank"><a href="">Informasi Kuliah</a></li>
+              <li class="blank"><a href="">Informasi Kampus</a></li>
+              <li>
+                <a href="http://uns.id/AspirasiMahasiswaMatematika"
+                  >Aspirasi Mahasiswa</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://docs.google.com/spreadsheets/d/1jv8xUHh3H_3f-vINGhlzfrGTuFGoTF0HC7LiTBdWq4Y/htmlview"
+                  >Database Alumni</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="sosmed-footer">
+            <a href="https://web.facebook.com/himatikafmipauns">
+              <i class="fab fa-facebook" style="color: #d9d9d9"></i>
+            </a>
+            <a href="https://www.instagram.com/himatikauns/"
+              ><i class="fab fa-instagram" style="color: #d9d9d9"></i
+            ></a>
+            <a href="https://twitter.com/himatikauns"
+              ><i class="fab fa-twitter" style="color: #d9d9d9"></i
+            ></a>
+            <a href="https://www.tiktok.com/@himatikauns"
+              ><i class="fab fa-tiktok" style="color: #d9d9d9"></i
+            ></a>
+            <a href="https://www.youtube.com/HIMATIKAFMIPAUNS"
+              ><i class="fab fa-youtube" style="color: #d9d9d9"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright ©<a href="">Website Team 2023</a> || HIMATIKA FMIPA UNS</p>
+    </div>
+    <!-- Footer End -->
+
+    <!-- My Java Script -->
+    <script src="../script/nav-script.js"></script>
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

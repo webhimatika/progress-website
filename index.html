@@ -57,6 +57,15 @@
         line-height: 1.8;
       }
 
+      /* Full height image header */
+      .bgimg-1 {
+        background-position: center;
+        background-size: cover;
+        background-image: url("assets/profil.jpg");
+        height: 100vh;
+        animation: slide 20s infinite;
+      }
+
       .w3-bar .w3-button {
         padding: 16px;
       }
@@ -67,7 +76,7 @@
     <div class="pop-up">
       <div class="icon-pop-up">
         <div class="tooltip">
-          <a href="https://www.instagram.com/starfm_uns/"
+          <a href="starfm.html"
             ><img src="assets/Maskot STAR FM VOL. X.png" alt=""
           /></a>
           <div class="tooltip-text">STAR FM VOL.X</div>
@@ -242,58 +251,7 @@
     <!-- Navbar (sit on top) -->
 
     <!-- Header with full-height image -->
-    <header class="w3-display-container w3-grayscale" id="home">
-      <div class="slider">
-        <div class="slides">
-          <input type="radio" name="radio-btn" id="radio1" />
-          <input type="radio" name="radio-btn" id="radio2" />
-          <input type="radio" name="radio-btn" id="radio3" />
-          <input type="radio" name="radio-btn" id="radio4" />
-
-          <div class="slide first">
-            <img
-              src="assets/berita/berita-grand opening star fm.png"
-              alt="grand opening starfm" />
-          </div>
-          <div class="slide">
-            <img
-              src="assets/berita/berita-hut himatika.jpg"
-              alt="hut himatika" />
-          </div>
-          <div class="slide">
-            <img src="assets/berita/berita-pelantikan.jpg" alt="pelantikan" />
-          </div>
-          <div class="slide">
-            <img
-              src="assets/berita/berita-raker.png"
-              alt="rapat kerja himatika" />
-          </div>
-
-          <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-          </div>
-        </div>
-        <div class="navigation-manual">
-          <label for="radio1" class="manual-btn"></label>
-          <label for="radio2" class="manual-btn"></label>
-          <label for="radio3" class="manual-btn"></label>
-          <label for="radio4" class="manual-btn"></label>
-        </div>
-      </div>
-
-      <script type="text/javascript">
-        var counter = 1;
-        setInterval(function () {
-          document.getElementById("radio" + counter).checked = true;
-          counter++;
-          if (counter > 4) {
-            counter = 1;
-          }
-        }, 5000);
-      </script>
+    <header class="bgimg-1 w3-display-container w3-grayscale" id="home">
       <div class="w3-display-middle w3-text-white center" style="width: 100%">
         <span
           class="w3-jumbo w3-hide-small center"
@@ -379,7 +337,7 @@
             class="w3-round-large medium-yt small-yt"
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/U3NiHHGuVNw"
+            src="https://www.youtube.com/embed/fKDGb43b1-Y"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

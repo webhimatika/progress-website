@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPA STAR FM</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/logo himatika.png"
+      type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Yeseva One"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Courgette"
+      rel="stylesheet" />
+
+    <!--Calibri Font => klo mau pake langsung di CSS(font-family: "calibri",sans-serif;)-->
+
+    <!-- My Css Style-->
+    <link rel="stylesheet" href="../css/style-nav.css" />
+    <link rel="stylesheet" href="../css/starfm/styleinpo.css" />
+    <link rel="stylesheet" href="../css/style-footer.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+    <!-- Feather Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- Navigasi Bar Start -->
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <a href="../index.html">
+          <img
+            src="../assets/logo-indo.png"
+            class="logo-nav"
+            alt="Logo Himatika FMIPA UNS" />
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <ul>
+          <li class="menu">
+            <div class="menu-item">
+              <i id="icon-menu" class="menu-icon" data-feather="home"></i>
+              <a href="../index.html">Beranda</a>
+              <ul class="dropdown-beranda">
+                <!--Hiasan Drop menu(drop-line)-->
+                <li class="drop-line-beranda"></li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu">
+            <div class="menu-item">
+              <i id="icon-menu" class="menu-icon" data-feather="users"></i>
+              <a href="#">Tentang Kami</a>
+              <ul class="dropdown">
+                <!--Hiasan Drop menu(drop-line)-->
+                <li class="drop-line"></li>
+                <li class="dropdown-content">
+                  <a href="../visi-misi.html"
+                    ><i id="icon-menu" data-feather="user"></i
+                  ></a>
+                  <a href="../visi-misi.html">Visi Misi</a>
+                </li>
+                <li class="dropdown-content">
+                  <a href="../susunan-pengurus.html"
+                    ><i id="icon-menu" data-feather="users"></i
+                  ></a>
+                  <a href="../susunan-pengurus.html">Susunan Pengurus</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu">
+            <div class="menu-item">
+              <i id="icon-menu" class="menu-icon" data-feather="book-open"></i>
+              <a href="#">Akademik</a>
+              <ul class="dropdown dropdown--animated-2">
+                <!--Hiasan Drop menu(drop-line)-->
+                <li class="drop-line"></li>
+                <li class="dropdown-content">
+                  <a href="../aksioma.html"
+                    ><i id="icon-menu" data-feather="book"></i
+                  ></a>
+                  <a href="../aksioma.html">Aksioma</a>
+                </li>
+                <li class="dropdown-content">
+                  <a
+                    href="https://drive.google.com/drive/folders/1iYcbjDgGIirnWdzUl4jQ6gX1yXAtf5eQ"
+                    ><i id="icon-menu" data-feather="book"></i
+                  ></a>
+                  <a
+                    href="https://drive.google.com/drive/folders/1iYcbjDgGIirnWdzUl4jQ6gX1yXAtf5eQ"
+                    >Bank Soal</a
+                  >
+                </li>
+                <li class="dropdown-content">
+                  <a
+                    href="https://drive.google.com/drive/folders/17Hz4_oWF9XgJzrRDMaZ8wYRz3mOzm-53"
+                    ><i id="icon-menu" data-feather="book"></i
+                  ></a>
+                  <a
+                    href="https://drive.google.com/drive/folders/17Hz4_oWF9XgJzrRDMaZ8wYRz3mOzm-53"
+                    >Buku Modus</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu">
+            <div class="menu-item nav-visit">
+              <i id="icon-menu" class="menu-icon" data-feather="calendar"></i>
+              <a href="#">Kegiatan</a>
+              <ul class="dropdown">
+                <!--Hiasan Drop menu(drop-line)-->
+                <li class="drop-line"></li>
+                <li class="dropdown-content">
+                  <a href="../berita acara.html"
+                    ><i id="icon-menu" data-feather="calendar"></i
+                  ></a>
+                  <a href="../berita acara.html">Review Kegiatan</a>
+                </li>
+                <li class="dropdown-content">
+                  <a href="https://www.instagram.com/starfm_uns/"
+                    ><i id="icon-menu" data-feather="calendar"></i
+                  ></a>
+                  <a href="https://www.instagram.com/starfm_uns/">STAR FM</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu">
+            <div class="menu-item">
+              <i id="icon-menu" class="menu-icon" data-feather="info"></i>
+              <a href="#">Informasi</a>
+              <ul class="dropdown dropdown--animated-3">
+                <!--Hiasan Drop menu(drop-line)-->
+                <li class="drop-line"></li>
+                <li class="blank">
+                  <a href="../informasi-kuliah.html"
+                    ><i id="icon-menu" data-feather="info"></i
+                  ></a>
+                  <a href="../informasi-kuliah.html">Informasi Kuliah</a>
+                </li>
+                <li class="blank">
+                  <a href="../informasi-kampus.html"
+                    ><i id="icon-menu" data-feather="info"></i
+                  ></a>
+                  <a href="../informasi-kampus.html">Informasi Kampus</a>
+                </li>
+                <li class="dropdown-content">
+                  <a href="http://uns.id/AspirasiMahasiswaMatematika"
+                    ><i id="icon-menu" data-feather="info"></i
+                  ></a>
+                  <a href="http://uns.id/AspirasiMahasiswaMatematika"
+                    >Aspirasi Mahasiswa</a
+                  >
+                </li>
+                <li class="dropdown-content">
+                  <a
+                    href="https://docs.google.com/spreadsheets/d/1jv8xUHh3H_3f-vINGhlzfrGTuFGoTF0HC7LiTBdWq4Y/htmlview"
+                    ><i id="icon-menu" data-feather="info"></i
+                  ></a>
+                  <a
+                    href="https://docs.google.com/spreadsheets/d/1jv8xUHh3H_3f-vINGhlzfrGTuFGoTF0HC7LiTBdWq4Y/htmlview"
+                    >Database Alumni</a
+                  >
+                </li>
+                <li class="dropdown-content">
+                  <a href="../database-mahasiswa.php"
+                    ><i id="icon-menu" data-feather="info"></i
+                  ></a>
+                  <a href="../database-mahasiswa.php">Database Mahasiswa</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-icon">
+        <div id="menu">
+          <div class="menu-modern-1"></div>
+          <div class="menu-modern-2"></div>
+          <div class="menu-modern-3"></div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigasi Bar End -->
+    <div class="header">
+      <img src="../assets/starfm/Pamflet SPA.png" alt="Poster Lomba" />
+    </div>
+    <div class="content">
+      <h2 class="judul-lomba">8th SCIENCE PROJECT AWARDS (SPA)</h2>
+      <p class="penjelasan-lomba">
+        Science, Technology, and Art Festival of Mathematics (STAR FM) merupakan
+        annual event Himpunan Mahasiswa Matematika (HIMATIKA), Fakultas
+        Matematika dan Ilmu Pengetahuan Alam, Universitas Sebelas Maret,
+        Surakarta. STAR FM adalah sebuah rangkaian acara yang terdiri dari
+        Sebelas Maret Mathematics Competition (SMART MC), Science Project Awards
+        (SPA), MCL dan Star Fest. STAR FM dilaksanakan pada tanggal 4 November
+        2023 yang bertempat di Zoom Cloud Meetings, ECC Convention Hall Solo
+        Paragon, dan Fakultas Matematika dan Ilmu Pengetahuan Alam, Universitas
+        Sebelas Maret, Surakarta. Science Project Awards merupakan kegiatan
+        apresiasi terhadap karya tulis ilmiah bagi siswa-siswi Sekolah Menengah
+        Pertama atau sederajat, Sekolah Menengah Atas atau sederajat, dan
+        Mahasiswa Perguruan Tinggi baik Negeri maupun Swasta yang dianggap
+        mempunyai kualitas yang sesuai dengan tuntutan masa yang akan datang. Di
+        masa yang akan datang, inovasi dan pola pikir kritis sangat dibutuhkan
+        supaya dapat mencapai era digital yang semakin lama semakin tak
+        terelakkan lagi kehadirannya. Dengan demikian, SPA diharapkan dapat
+        mewadahi karya siswa dan mahasiswa Indonesia yang inovatif dan solutif
+        sebagai upaya mewujudkan kemajuan negara dengan dasar Ilmu Pengetahuan
+        dan Teknologi (IPTEK).
+      </p>
+      <ol type="A">
+        <li class="judul-subab">Syarat dan Ketentuan Peserta</li>
+        <ol class="isi-subab">
+          <li>
+            Siswa SMP/SMA sederajat serta Mahasiswa Perguruan Tinggi
+            Negeri/Swasta se-Indonesia.
+          </li>
+          <li>
+            Lomba bersifat tim, satu tim terdiri dari satu ketua dan satu/dua
+            anggota yang berasal dari sekolah/perguruan tinggi yang sama.
+          </li>
+          <li>Ketua tim tidak boleh digantikan.</li>
+          <li>Setiap tim wajib memiliki guru/dosen pendamping.</li>
+          <li>
+            Setiap tim hanya diperbolehkan mengirimkan satu karya tulis
+            terbaiknya.
+          </li>
+          <li>
+            Setiap sekolah/perguruan tinggi boleh mengirimkan lebih dari satu
+            tim.
+          </li>
+          <li>
+            Seluruh peserta dari setiap tim wajib meng-upload twibbon beserta
+            caption menggunakan akun utama yang tidak di private serta pada
+            slide kedua diberi pamflet SPA.
+          </li>
+          <li>
+            Karya yang dikirimkan adalah karya asli bukan merupakan plagiat,
+            dibuktikan dengan lembar orisinalitas (bagi yang lolos ke babak
+            fullpaper).
+          </li>
+          <li>Karya tulis tidak mengandung unsur SARA dan pornografi.</li>
+          <li>
+            Peserta wajib mengisikan data yang dibutuhkan terkait dengan karya
+            dan hal lainnya.
+          </li>
+          <li>
+            Bagi tim yang lolos abstrak wajib untuk melakukan konfirmasi lanjut
+            ke babak fullpaper dan membayar Rp100.000,00 paling lambat tanggal 4
+            September 2023 pukul 23.59 WIB.
+          </li>
+          <li>
+            Tim yang tidak melakukan konfirmasi sampai tanggal yang telah
+            ditentukan secara otomatis didiskualifikasi.
+          </li>
+          <li>
+            Segala keputusan panitia dan juri bersifat mutlak dan tidak dapat
+            diganggu gugat.
+          </li>
+        </ol>
+        <li class="judul-subab">Timeline</li>
+        <ol class="isi-subab">
+          <li>Pendaftaran dan pengumpulan abstrak (online) :</li>
+          <p>12 Juni - 23 Juli 2023</p>
+          <li>Pengumuman lolos abstrak (online) :</li>
+          <p>21 Agustus 2023</p>
+          <li>Konfirmasi dan pembayaran fullpaper (online) :</li>
+          <p>22 Agustus - 4 September 2023</p>
+          <li>Pengumpulan fullpaper (online) :</li>
+          <p>22 Agustus – 19 September 2023</p>
+          <li>Penjurian fullpaper (online) :</li>
+          <p>19 September – 2 Oktober 2023</p>
+          <li>Pengumuman finalis (online) :</li>
+          <p>8 Oktober 2023</p>
+          <li>Konfirmasi dan pembayaran finalis SPA (online) :</li>
+          <p>9 Oktober - 14 Oktober 2023</p>
+          <li>Technical meeting (online) :</li>
+          <p>15 Oktober 2023</p>
+          <li>Pengumpulan poster (online) :</li>
+          <p>15 Oktober - 22 Oktober 2023</p>
+          <li>Presentasi dan pameran poster dan prototype (offline) :</li>
+          <p>4 November 2023</p>
+          <li>Pengumuman juara (offline) :</li>
+          <p>4 November 2023</p>
+        </ol>
+        <li class="judul-subab">Subtema</li>
+        <ol class="isi-subab">
+          <li>Bidang Pertanian</li>
+          <li>Bidang Pangan</li>
+          <li>Bidang Lingkungan</li>
+          <li>Bidang Energi Terbarukan</li>
+          <li>Bidang Teknologi</li>
+          <li>Bidang Kesehatan</li>
+          <li>Bidang Ekonomi</li>
+          <li>Bidang Budaya</li>
+          <li>Bidang Pendidikan</li>
+        </ol>
+      </ol>
+      <p>
+        Informasi lebih lanjut mengenai 8th SCIENCE PROJECT AWARDS (SPA) dapat
+        dilihat pada
+        <a
+          href="https://drive.google.com/drive/folders/10HtIwjEcWQSEHUC7SkA7xLNxCOhtj32k"
+          >Buku Panduan 8th SCIENCE PROJECT AWARDS (SPA)</a
+        >
+      </p>
+    </div>
+    <!-- Footer Start -->
+    <div class="footer">
+      <div class="container-footer">
+        <div class="col-footer">
+          <img
+            src="../assets/logo_hima_putih.png"
+            class="logo-foot"
+            alt="Logo Himatika FMIPA UNS" />
+          <p>Email: himatika@mipa.uns.ac.id</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d494.3940046802911!2d110.85863901382751!3d-7.558396399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a17d795fd373d%3A0x66f70240a15a319d!2sSekretariat%20HIMATIKA%20FMIPA%20UNS!5e0!3m2!1sen!2sid!4v1682749275850!5m2!1sen!2sid"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-footer">
+          <h6>Tentang Kami</h6>
+          <ul>
+            <li><a href="../visi-misi.html">Visi Misi</a></li>
+            <li><a href="../susunan-pengurus.html">Susunan Pengurus</a></li>
+          </ul>
+        </div>
+        <div class="col-footer">
+          <h6>Akademik</h6>
+          <ul>
+            <li>
+              <a href="../aksioma.html">Aksioma</a>
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/drive/folders/17Hz4_oWF9XgJzrRDMaZ8wYRz3mOzm-53"
+                >Buku Modus</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/drive/folders/1iYcbjDgGIirnWdzUl4jQ6gX1yXAtf5eQ"
+                >Bank Soal</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-footer">
+          <h6>Kegiatan</h6>
+          <ul>
+            <li>
+              <a href="../berita acara.html">Review Kegiatan</a>
+            </li>
+            <li><a href="https://www.instagram.com/starfm_uns/">STAR FM</a></li>
+          </ul>
+        </div>
+        <div class="col-footer">
+          <div class="col-col-footer">
+            <h6>Informasi</h6>
+            <ul>
+              <li class="blank"><a href="">Informasi Kuliah</a></li>
+              <li class="blank"><a href="">Informasi Kampus</a></li>
+              <li>
+                <a href="http://uns.id/AspirasiMahasiswaMatematika"
+                  >Aspirasi Mahasiswa</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://docs.google.com/spreadsheets/d/1jv8xUHh3H_3f-vINGhlzfrGTuFGoTF0HC7LiTBdWq4Y/htmlview"
+                  >Database Alumni</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="sosmed-footer">
+            <a href="https://web.facebook.com/himatikafmipauns">
+              <i class="fab fa-facebook" style="color: #d9d9d9"></i>
+            </a>
+            <a href="https://www.instagram.com/himatikauns/"
+              ><i class="fab fa-instagram" style="color: #d9d9d9"></i
+            ></a>
+            <a href="https://twitter.com/himatikauns"
+              ><i class="fab fa-twitter" style="color: #d9d9d9"></i
+            ></a>
+            <a href="https://www.tiktok.com/@himatikauns"
+              ><i class="fab fa-tiktok" style="color: #d9d9d9"></i
+            ></a>
+            <a href="https://www.youtube.com/HIMATIKAFMIPAUNS"
+              ><i class="fab fa-youtube" style="color: #d9d9d9"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright ©<a href="">Website Team 2023</a> || HIMATIKA FMIPA UNS</p>
+    </div>
+    <!-- Footer End -->
+
+    <!-- My Java Script -->
+    <script src="../script/nav-script.js"></script>
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

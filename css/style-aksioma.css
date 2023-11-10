@@ -340,17 +340,6 @@
     height: 2.5rem;
     width: 2.5rem;
   }
-  .pdf-container {
-    width: 80%;
-  }
-  .close-full-btn {
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .full-btn {
-    display: none;
-  }
   /* PAGINATION START ANDROID */
   .pagination {
     gap: 2rem;

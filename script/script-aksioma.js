@@ -10,12 +10,7 @@ function showPDF(event, pdfURL) {
   pdfViewer.data = pdfURL;
   // cek apakah ukuran halaman < 500
   if (window.innerWidth < 450) {
-    pdfContainer.style.display = "block"; // menampilkan PDF
-    closeFull.style.display = "flex"; // menampilkan close btn
-
-    aksiomaContainer.classList.add("off");
-    footer.classList.add("off");
-    copyright.classList.add("off");
+    window.open(pdfURL);
     return;
   }
 
