@@ -170,8 +170,8 @@ if ($endPrint > $total_pages) {
                                 <a href="berita acara.html">Review Kegiatan</a>
                             </li>
                             <li class="dropdown-content">
-                                <a href="https://www.instagram.com/starfm_uns/"><i id="icon-menu" data-feather="calendar"></i></a>
-                                <a href="https://www.instagram.com/starfm_uns/">STAR FM</a>
+                                <a href="starfm.html"><i id="icon-menu" data-feather="calendar"></i></a>
+                                <a href="starfm.html">STAR FM</a>
                             </li>
                         </ul>
                     </div>
@@ -332,7 +332,7 @@ if ($endPrint > $total_pages) {
                     <li>
                         <a href="berita acara.html">Review Kegiatan</a>
                     </li>
-                    <li><a href="https://www.instagram.com/starfm_uns/">STAR FM</a></li>
+                    <li><a href="starfm.html">STAR FM</a></li>
                 </ul>
             </div>
 
@@ -348,6 +348,9 @@ if ($endPrint > $total_pages) {
                         <li>
                             <a href="https://docs.google.com/spreadsheets/d/1jv8xUHh3H_3f-vINGhlzfrGTuFGoTF0HC7LiTBdWq4Y/htmlview">Database
                                 Alumni</a>
+                        </li>
+                        <li>
+                            <a href="database-mahasiswa.php">Database Mahasiswa</a>
                         </li>
                     </ul>
                 </div>
