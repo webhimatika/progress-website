@@ -25,6 +25,23 @@
   font-size: 2rem;
 }
 
+.judul-ref {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Anemia{
+  font-size: 16px;
+}
+
+.wipol{
+  font-weight: 200;
+}
+
+.kacang{
+  color: #146c94;
+}
+
 /*card section*/
 .container-card {
   padding: 0 40px;
@@ -61,16 +78,17 @@
   line-height: 3rem;
 }
 .card-card .top-text-card .name-card {
-  font-size: 1.7rem;
+  font-size: 24px;
   font-weight: 600;
   color: #202020;
-  line-height: 2.2rem;
+  line-height: 1.2; 
+  height: 96px;
 }
 .card-card .top-text-card p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #146c94;
-  line-height: 20px;
+  line-height: 1 ;
 }
 .card-card .bottom-text-card {
   padding: 0 20px 10px 20px;
@@ -80,6 +98,16 @@
 }
 .card-card .bottom-text-card .text-card {
   text-align: justify;
+  display: -webkit-box;               /* Use flexbox layout */
+  -webkit-box-orient: vertical;       /* Orient the flexbox vertically */
+  -webkit-line-clamp: 7;              /* Show only 3 lines */
+  overflow: hidden;                   /* Hide overflow */
+  text-overflow: ellipsis;            /* Show ellipsis at the end */
+  line-clamp: 7;                      /* For non-webkit browsers */
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: box;
+  box-orient: vertical;  
 }
 .card-card .bottom-text-card .btn-card {
   margin: 10px 0;
@@ -98,6 +126,7 @@
   background-color: #39a2db;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
+
 @media (max-width: 1000px) {
   .middle-vertical-tablet {
     display: flex;
@@ -141,6 +170,13 @@
   .card-card .bottom-text-card {
     font-size: 1.4rem;
   }
+  .card-card .top-text-card .name-card {
+    font-size: 24px;
+    font-weight: 600;
+    color: #202020;
+    line-height: 1.2; 
+    height: 3rem;
+  }
 }
 
 @media (max-width: 450px) {
@@ -150,5 +186,12 @@
   }
   .card-card {
     width: 250px;
+  }
+  .card-card .top-text-card .name-card {
+    font-size: 24px;
+    font-weight: 600;
+    color: #202020;
+    line-height: 1.2; 
+    height: fit-content;
   }
 }
