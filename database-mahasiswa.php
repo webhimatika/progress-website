@@ -119,17 +119,17 @@ if ($endPrint > $total_pages) {
                 <li class="menu">
                     <div class="menu-item">
                         <i id="icon-menu" class="menu-icon" data-feather="users"></i>
-                        <a href="#">Tentang Kami</a>
+                        <a href="tentang-kami.html">Tentang Kami</a>
                         <ul class="dropdown">
                             <!--Hiasan Drop menu(drop-line)-->
                             <li class="drop-line"></li>
                             <li class="dropdown-content">
-                                <a href="visi-misi.html"><i id="icon-menu" data-feather="user"></i></a>
-                                <a href="visi-misi.html">Visi Misi</a>
+                                <a href="tentang-kami.html"><i id="icon-menu" data-feather="user"></i></a>
+                                <a href="tentang-kami.html">Visi Misi</a>
                             </li>
                             <li class="dropdown-content">
-                                <a href="susunan-pengurus.html"><i id="icon-menu" data-feather="users"></i></a>
-                                <a href="susunan-pengurus.html">Susunan Pengurus</a>
+                                <a href="tentang-kami.html#susunan-pengurus"><i id="icon-menu" data-feather="users"></i></a>
+                                <a href="tentag-kami.html#susunan=pengurus">Susunan Pengurus</a>
                             </li>
                         </ul>
                     </div>
@@ -146,14 +146,12 @@ if ($endPrint > $total_pages) {
                                 <a href="aksioma.html">Aksioma</a>
                             </li>
                             <li class="dropdown-content">
-                                <a href="https://drive.google.com/drive/folders/1iYcbjDgGIirnWdzUl4jQ6gX1yXAtf5eQ"><i id="icon-menu" data-feather="book"></i></a>
-                                <a href="https://drive.google.com/drive/folders/1iYcbjDgGIirnWdzUl4jQ6gX1yXAtf5eQ">Bank
-                                    Soal</a>
+                                <a href="https://drive.google.com/drive/folders/1DuNWBqIT_X61VAM7iDVfnqTb3isphz-g"><i id="icon-menu" data-feather="book"></i></a>
+                                <a href="https://drive.google.com/drive/folders/1DuNWBqIT_X61VAM7iDVfnqTb3isphz-g">Bank Soal</a>
                             </li>
                             <li class="dropdown-content">
-                                <a href="https://drive.google.com/drive/folders/17Hz4_oWF9XgJzrRDMaZ8wYRz3mOzm-53"><i id="icon-menu" data-feather="book"></i></a>
-                                <a href="https://drive.google.com/drive/folders/17Hz4_oWF9XgJzrRDMaZ8wYRz3mOzm-53">Buku
-                                    Modus</a>
+                                <a href="https://drive.google.com/drive/folders/1yPTCguQmiFszaWVbzkLhYlQF3UiJDM6n"><i id="icon-menu" data-feather="book"></i></a>
+                                <a href="https://drive.google.com/drive/folders/1yPTCguQmiFszaWVbzkLhYlQF3UiJDM6n">Buku Modus</a>
                             </li>
                         </ul>
                     </div>
@@ -177,7 +175,7 @@ if ($endPrint > $total_pages) {
                     </div>
                 </li>
                 <li class="menu">
-                    <div class="menu-item  nav-visit">
+                    <div class="menu-item nav-visit">
                         <i id="icon-menu" class="menu-icon" data-feather="info"></i>
                         <a href="#">Informasi</a>
                         <ul class="dropdown dropdown--animated-3">
@@ -192,18 +190,16 @@ if ($endPrint > $total_pages) {
                                 <a href="informasi-kampus.html">Informasi Kampus</a>
                             </li>
                             <li class="dropdown-content">
-                                <a href="http://uns.id/AspirasiMahasiswaMatematika"><i id="icon-menu" data-feather="info"></i></a>
-                                <a href="http://uns.id/AspirasiMahasiswaMatematika">Aspirasi Mahasiswa</a>
+                                <a href="https://docs.google.com/forms/u/6/d/e/1FAIpQLSfHzuTVYr1xaXzaaOLbAGpkG884NUVoejojRkes8V3gGi6spw/viewform?usp=send_form"><i id="icon-menu" data-feather="info"></i></a>
+                                <a href="https://docs.google.com/forms/u/6/d/e/1FAIpQLSfHzuTVYr1xaXzaaOLbAGpkG884NUVoejojRkes8V3gGi6spw/viewform?usp=send_form">Aspirasi Mahasiswa</a>
                             </li>
                             <li class="dropdown-content">
                                 <a href="https://docs.google.com/spreadsheets/d/1jv8xUHh3H_3f-vINGhlzfrGTuFGoTF0HC7LiTBdWq4Y/htmlview"><i id="icon-menu" data-feather="info"></i></a>
-                                <a href="https://docs.google.com/spreadsheets/d/1jv8xUHh3H_3f-vINGhlzfrGTuFGoTF0HC7LiTBdWq4Y/htmlview">Database
-                                    Alumni</a>
+                                <a href="https://docs.google.com/spreadsheets/d/1jv8xUHh3H_3f-vINGhlzfrGTuFGoTF0HC7LiTBdWq4Y/htmlview">Database Alumni</a>
                             </li>
                             <li class="dropdown-content">
                                 <a href="database-mahasiswa.php"><i id="icon-menu" data-feather="info"></i></a>
-                                <a href="database-mahasiswa.php">Database
-                                    Mahasiswa</a>
+                                <a href="database-mahasiswa.php">Database Mahasiswa</a>
                             </li>
                         </ul>
                     </div>
@@ -296,7 +292,7 @@ if ($endPrint > $total_pages) {
     </div>
 
     <!-- Footer Start -->
-    <div class=" footer">
+    <div class="footer">
         <div class="container-footer">
             <div class="col-footer">
                 <img src="assets/logo_hima_putih.png" class="logo-foot" alt="Logo Himatika FMIPA UNS" />
@@ -306,8 +302,10 @@ if ($endPrint > $total_pages) {
             <div class="col-footer">
                 <h6>Tentang Kami</h6>
                 <ul>
-                    <li><a href="visi-misi.html">Visi Misi</a></li>
-                    <li><a href="susunan-pengurus.html">Susunan Pengurus</a></li>
+                    <li><a href="tentang-kami.html">Visi Misi</a></li>
+                    <li>
+                        <a href="tentang-kami.html#susunan-pengurus">Susunan Pengurus</a>
+                    </li>
                 </ul>
             </div>
             <div class="col-footer">
@@ -317,12 +315,10 @@ if ($endPrint > $total_pages) {
                         <a href="aksioma.html">Aksioma</a>
                     </li>
                     <li>
-                        <a href="https://drive.google.com/drive/folders/17Hz4_oWF9XgJzrRDMaZ8wYRz3mOzm-53">Buku
-                            Modus</a>
+                        <a href="https://drive.google.com/drive/folders/1yPTCguQmiFszaWVbzkLhYlQF3UiJDM6n">Buku Modus</a>
                     </li>
                     <li>
-                        <a href="https://drive.google.com/drive/folders/1iYcbjDgGIirnWdzUl4jQ6gX1yXAtf5eQ">Bank
-                            Soal</a>
+                        <a href="https://drive.google.com/drive/folders/1DuNWBqIT_X61VAM7iDVfnqTb3isphz-g">Bank Soal</a>
                     </li>
                 </ul>
             </div>
@@ -335,7 +331,6 @@ if ($endPrint > $total_pages) {
                     <li><a href="starfm.html">STAR FM</a></li>
                 </ul>
             </div>
-
             <div class="col-footer">
                 <div class="col-col-footer">
                     <h6>Informasi</h6>
@@ -343,11 +338,10 @@ if ($endPrint > $total_pages) {
                         <li class="blank"><a href="">Informasi Kuliah</a></li>
                         <li class="blank"><a href="">Informasi Kampus</a></li>
                         <li>
-                            <a href="http://uns.id/AspirasiMahasiswaMatematika">Aspirasi Mahasiswa</a>
+                            <a href="https://docs.google.com/forms/u/6/d/e/1FAIpQLSfHzuTVYr1xaXzaaOLbAGpkG884NUVoejojRkes8V3gGi6spw/viewform?usp=send_form">Aspirasi Mahasiswa</a>
                         </li>
                         <li>
-                            <a href="https://docs.google.com/spreadsheets/d/1jv8xUHh3H_3f-vINGhlzfrGTuFGoTF0HC7LiTBdWq4Y/htmlview">Database
-                                Alumni</a>
+                            <a href="https://docs.google.com/spreadsheets/d/1jv8xUHh3H_3f-vINGhlzfrGTuFGoTF0HC7LiTBdWq4Y/htmlview">Database Alumni</a>
                         </li>
                         <li>
                             <a href="database-mahasiswa.php">Database Mahasiswa</a>
