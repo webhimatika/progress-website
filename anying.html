@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test List Style</title>
+    <link rel="stylesheet" href="css/style-nav.css" />
+    <!-- <link rel="stylesheet" href="css/style-page-susunan-pengurus.css" /> -->
+    <link rel="stylesheet" href="css/style-footer.css" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        border: none;
+        text-decoration: none;
+        outline: none;
+        box-sizing: border-box;
+        font-family: "poppins";
+      }
+      .header {
+        margin-top: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 5rem;
+        margin-bottom: -10px;
+      }
+
+      .header-content h2 {
+        font-size: 60px;
+        font-weight: 700;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+
+      .swiper {
+        margin-top: -5px;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+      }
+
+      .swiper-slide .slide-content img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: -20%;
+      }
+
+      .slide-content {
+        display: grid;
+        place-items: center;
+        text-align: center;
+      }
+
+      .swiper {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .deskripsi {
+        overflow: hidden;
+        /* display: block; */
+        margin: 5px;
+        font-size: 20px;
+        padding: 30px;
+      }
+      .tugas ol {
+        padding-left: 20px !important;
+        list-style: decimal !important;
+        margin-top: 30px !important;
+      }
+
+      .tugas li {
+        display: list-item !important;
+      }
+
+      @media (max-width: 1000px) {
+        .header {
+          margin-top: 80px;
+        }
+      }
+
+      /* Ukuran Android */
+      @media (max-width: 450px) {
+        .header {
+          margin-top: 80px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tugas">
+      <h4>Tugas:</h4>
+      <ol>
+        <li>Fungsi pengelolaan administrasi kesekretariatan.</li>
+        <li>Menjalankan fungsi inventaris HIMATIKA.</li>
+        <li>Melakukan pengoptimalan sekretariat HIMATIKA.</li>
+        <li>
+          Melakukan pendampingan terhadap sekretaris kegiatan suatu kepanitiaan.
+        </li>
+      </ol>
+    </div>
+  </body>
+</html>
