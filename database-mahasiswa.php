@@ -97,7 +97,7 @@ if ($endPrint > $total_pages) {
 </head>
 
 <body>
-    <!--navigasi bar start-->
+    <!-- Navigasi Bar Start -->
     <nav class="navbar">
         <div class="navbar-logo">
             <a href="index.html">
@@ -129,7 +129,7 @@ if ($endPrint > $total_pages) {
                             </li>
                             <li class="dropdown-content">
                                 <a href="tentang-kami.html#susunan-pengurus"><i id="icon-menu" data-feather="users"></i></a>
-                                <a href="tentag-kami.html#susunan=pengurus">Susunan Pengurus</a>
+                                <a href="tentang-kami.html#susunan-pengurus">Susunan Pengurus</a>
                             </li>
                         </ul>
                     </div>
@@ -214,7 +214,7 @@ if ($endPrint > $total_pages) {
             </div>
         </div>
     </nav>
-    <!--navigasi bar end-->
+    <!-- Navigasi Bar End -->
     <header class="header">
         <div class="overlay"></div>
         <main class="header-content">
