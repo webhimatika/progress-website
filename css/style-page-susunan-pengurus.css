@@ -5,6 +5,7 @@
   text-decoration: none;
   outline: none;
   box-sizing: border-box;
+  list-style-type: none;
   font-family: "montserrat";
 }
 .header {
@@ -80,6 +81,7 @@
 }
 
 .tugas li {
+  list-style: decimal !important;
   margin-bottom: 0.5rem;
   display: list-item !important;
 }
