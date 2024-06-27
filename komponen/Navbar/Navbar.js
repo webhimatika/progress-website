@@ -1,8 +1,9 @@
 window.addEventListener("DOMContentLoaded", () => {
   const pages = {
     beranda: ["/index"],
-    tentangKami: ["/tentang-kami"],
-    kegiatan: ["/berita acara","/review-kegiatan", "/starfm"],
+    tentangKami: ["/tentang-kami", "/susunan-pengurus"],
+    akademik: ["/aksioma"],
+    kegiatan: ["/berita","/review-kegiatan", "/starfm"],
     informasi: ["/database-mahasiswa"],
   };
   const currentPage = window.location.pathname;
