@@ -1,2120 +1,2810 @@
-[
-  {
-    "id": 1,
-    "nim": "M0122001",
-    "nama": "Adelia Shinta Ayu Ningtyas",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 2,
-    "nim": "M0122002",
-    "nama": "Adib Haidar Zaky",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 3,
-    "nim": "M0122003",
-    "nama": "Adinda Nala Nathania",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 4,
-    "nim": "M0122004",
-    "nama": "Adinda Putri Azzahra",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 5,
-    "nim": "M0122005",
-    "nama": "Afifah Nuraini Majid",
-    "status": "Anggota Biasa"
-  },
-  {
-    "id": 6,
-    "nim": "M0122006",
-    "nama": "Agrippina Nicola Putra",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 7,
-    "nim": "M0122007",
-    "nama": "Ahmad Fikri Firdaus",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 8,
-    "nim": "M0122008",
-    "nama": "Ajeng Rosalia Kesuma",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 9,
-    "nim": "M0122010",
-    "nama": "Aprilia Mercyana Marito Manalu",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 10,
-    "nim": "M0122011",
-    "nama": "Arif Febrorianto Hidayat",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 11,
-    "nim": "M0122012",
-    "nama": "Asha Amalia Safitra",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 12,
-    "nim": "M0122013",
-    "nama": "Asyifa Lutfiana Putri",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 13,
-    "nim": "M0122014",
-    "nama": "Ayu Cikal Purnamasari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 14,
-    "nim": "M0122015",
-    "nama": "Ayu Dewi Gayatri",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 15,
-    "nim": "M0122016",
-    "nama": "Bintang Segara Iman",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 16,
-    "nim": "M0122017",
-    "nama": "Bulan Mulya Utama",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 17,
-    "nim": "M0122018",
-    "nama": "Callista Zada Fernanda",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 18,
-    "nim": "M0122020",
-    "nama": "Caveena Citra Annisa Jauhari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 19,
-    "nim": "M0122021",
-    "nama": "Chalista Divia Maharani Djuanda",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 20,
-    "nim": "M0122022",
-    "nama": "Chantika Bunga Tamiya",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 21,
-    "nim": "M0122023",
-    "nama": "Chika Bunga Permata",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 22,
-    "nim": "M0122024",
-    "nama": "Chris Sekar Nathania",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 23,
-    "nim": "M0122025",
-    "nama": "Denanda Putri Setyaningrum",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 24,
-    "nim": "M0122026",
-    "nama": "Denisa Dwi Nanjalina",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 25,
-    "nim": "M0122027",
-    "nama": "Dewi Fadriani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 26,
-    "nim": "M0122028",
-    "nama": "Dhela Ermita Prameswari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 27,
-    "nim": "M0122029",
-    "nama": "Dian Mufarikha",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 28,
-    "nim": "M0122030",
-    "nama": "Dian Putri Susanti",
-    "status": "Anggota Biasa"
-  },
-  {
-    "id": 29,
-    "nim": "M0122031",
-    "nama": "Dinda Ayu Lestari",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 30,
-    "nim": "M0122032",
-    "nama": "Dinda Laura Putri Permadi",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 31,
-    "nim": "M0122033",
-    "nama": "Dita Anggraini Soekarno",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 32,
-    "nim": "M0122034",
-    "nama": "Divaliana Putri Susanto",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 33,
-    "nim": "M0122035",
-    "nama": "Eka Nadiya Putri",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 34,
-    "nim": "M0122036",
-    "nama": "Elfrida Arroudhatun Nadya",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 35,
-    "nim": "M0122037",
-    "nama": "Elga Septia",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 36,
-    "nim": "M0122038",
-    "nama": "Elita Putri Sisilia",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 37,
-    "nim": "M0122039",
-    "nama": "Embun Putri Hapsari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 38,
-    "nim": "M0122040",
-    "nama": "Enindya Ageng Pangesti",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 39,
-    "nim": "M0122041",
-    "nama": "Erland Wiecahyan",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 40,
-    "nim": "M0122043",
-    "nama": "Ewisandha Rachmadani",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 41,
-    "nim": "M0122044",
-    "nama": "Fadila Yogi Syahidatun Wahidah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 42,
-    "nim": "M0122045",
-    "nama": "Fardian Putra Dwi Setiawan",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 43,
-    "nim": "M0122046",
-    "nama": "Fathan Syarif Hidayatullah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 44,
-    "nim": "M0122047",
-    "nama": "Fathimah Nurul Azizah",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 45,
-    "nim": "M0122048",
-    "nama": "Fathuddin Izzul Haqq Al Hamas",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 46,
-    "nim": "M0122049",
-    "nama": "Fatihah Nasywa Hamidah",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 47,
-    "nim": "M0122050",
-    "nama": "Ferry Prabowo",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 48,
-    "nim": "M0122051",
-    "nama": "Ghaitsa Shafa Cinta Kananta",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 49,
-    "nim": "M0122052",
-    "nama": "Hamidah Nabila Zahra",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 50,
-    "nim": "M0122053",
-    "nama": "Hanifa Purmela Setyawati",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 51,
-    "nim": "M0122054",
-    "nama": "Hikmawan Prasetyo Budi H. P.",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 52,
-    "nim": "M0122055",
-    "nama": "Ihsan Nur Rohman",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 53,
-    "nim": "M0122056",
-    "nama": "Iqbal Ghani Assaduddiari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 54,
-    "nim": "M0122057",
-    "nama": "Jesica Putri Widyastuti",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 55,
-    "nim": "M0122058",
-    "nama": "Jovita Agustin",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 56,
-    "nim": "M0122059",
-    "nama": "Juliana Iswandi",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 57,
-    "nim": "M0122060",
-    "nama": "Khoirul Lutfi Pratiwi",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 58,
-    "nim": "M0122061",
-    "nama": "Khoirunnisa Abdullah Nurhanifa",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 59,
-    "nim": "M0122062",
-    "nama": "Laili Kharisma Octavia",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 60,
-    "nim": "M0122063",
-    "nama": "Linda Hastuti",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 61,
-    "nim": "M0122064",
-    "nama": "Luthfi Mahendra Widiarto",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 62,
-    "nim": "M0122065",
-    "nama": "Moh. Azfa Isdihar",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 63,
-    "nim": "M0122066",
-    "nama": "Muda Kusuma Dananjaya",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 64,
-    "nim": "M0122067",
-    "nama": "Muthia Hashna Firdausi Subeno",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 65,
-    "nim": "M0122068",
-    "nama": "Naili Azqiyah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 66,
-    "nim": "M0122069",
-    "nama": "Nasywa 'Athiyyatur Rafii'",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 67,
-    "nim": "M0122070",
-    "nama": "Natasya Intan Anggraini",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 68,
-    "nim": "M0122071",
-    "nama": "Nayan Riyadi Prasetyo",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 69,
-    "nim": "M0122072",
-    "nama": "Nicolas Ray Amarco Tambunan",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 70,
-    "nim": "M0122073",
-    "nama": "Nikmatull Tsalasa Putri",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 71,
-    "nim": "M0122074",
-    "nama": "Nita Kusuma Putri",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 72,
-    "nim": "M0122075",
-    "nama": "Nurul Fu'adi",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 73,
-    "nim": "M0122076",
-    "nama": "Pandya Arsa Nugraha",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 74,
-    "nim": "M0122077",
-    "nama": "Ratri Dewi Murti",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 75,
-    "nim": "M0122078",
-    "nama": "Ristra Agustine De Labela",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 76,
-    "nim": "M0122079",
-    "nama": "Sendy Herlinasari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 77,
-    "nim": "M0122080",
-    "nama": "Shiva Mahira Bagindo",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 78,
-    "nim": "M0122081",
-    "nama": "Syauqina Naila Syahidah",
-    "status": "Anggota Biasa"
-  },
-  {
-    "id": 79,
-    "nim": "M0122082",
-    "nama": "Sylviana Dewi Eka Candra",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 80,
-    "nim": "M0122083",
-    "nama": "Syradennita Ayu Kinasih",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 81,
-    "nim": "M0122084",
-    "nama": "Triya Agus Tiyaningrum",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 82,
-    "nim": "M0122085",
-    "nama": "Tsabita Nasywa Salsabila",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 83,
-    "nim": "M0122086",
-    "nama": "Vildha Maya Shabila",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 84,
-    "nim": "M0122087",
-    "nama": "Vitto Rendi Setiawan",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 85,
-    "nim": "M0122088",
-    "nama": "Wildan Titto Aminurrohman",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 86,
-    "nim": "M0122089",
-    "nama": "Yunita Puspita Dewi",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 87,
-    "nim": "M0122090",
-    "nama": "Yuzril Mahendra Darma Putra",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 88,
-    "nim": "M0122091",
-    "nama": "Zahra Atikah sari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 89,
-    "nim": "M0122092",
-    "nama": "Zahra Aulia Hapsari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 90,
-    "nim": "M0122093",
-    "nama": "Zhafira Oktaviani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 91,
-    "nim": "M0121001",
-    "nama": "Adelia Puspitasari",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 92,
-    "nim": "M0121002",
-    "nama": "Adelia Ratna Juliastutik",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 93,
-    "nim": "M0121003",
-    "nama": "Adifa Yasin Aksyarafah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 94,
-    "nim": "M0121004",
-    "nama": "Adiska Sephia Sari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 95,
-    "nim": "M0121005",
-    "nama": "Ahmad Rosikh Al Muttaqy",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 96,
-    "nim": "M0121006",
-    "nama": "Aisya Rahma Yusriyya",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 97,
-    "nim": "M0121007",
-    "nama": "Alfiah Nur Hayati",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 98,
-    "nim": "M0121008",
-    "nama": "Alvira Paris Damashinta",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 99,
-    "nim": "M0121009",
-    "nama": "Amirul Sahla Airin Utomo",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 100,
-    "nim": "M0121010",
-    "nama": "Andre Fajry Al Barra",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 101,
-    "nim": "M0121012",
-    "nama": "Angellica Manja Sari Surindayang",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 102,
-    "nim": "M0121013",
-    "nama": "Annisa Diva Putri Trynita",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 103,
-    "nim": "M0121014",
-    "nama": "Annisa Parahita Nayaka",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 104,
-    "nim": "M0121016",
-    "nama": "Asna Fadilah Al Muniyar",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 105,
-    "nim": "M0121017",
-    "nama": "Aura Yasmin Ariyanto",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 106,
-    "nim": "M0121018",
-    "nama": "Avicenna Nanda Saputra",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 107,
-    "nim": "M0121019",
-    "nama": "Awanda Miswega Zebina",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 108,
-    "nim": "M0121020",
-    "nama": "Chaliesya Nabila Adinda Supriyanto",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 109,
-    "nim": "M0121021",
-    "nama": "Cherishka Noviana",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 110,
-    "nim": "M0121022",
-    "nama": "Dafi' Ichsani Aysar Ni�am",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 111,
-    "nim": "M0121023",
-    "nama": "Dafif Afin Annafi",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 112,
-    "nim": "M0121024",
-    "nama": "Daniel Geraldy Natama Sianipar",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 113,
-    "nim": "M0121025",
-    "nama": "Dedi Arianto",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 114,
-    "nim": "M0121026",
-    "nama": "Devika Arsinta Fourindira",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 115,
-    "nim": "M0121027",
-    "nama": "Devita Wahyu Marhandani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 116,
-    "nim": "M0121028",
-    "nama": "Dewan Serui Iriantini",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 117,
-    "nim": "M0121029",
-    "nama": "Diva Fikri Setyawan",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 118,
-    "nim": "M0121030",
-    "nama": "Dwi Septiana",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 119,
-    "nim": "M0121031",
-    "nama": "Eligius Saka Gede Sasmito",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 120,
-    "nim": "M0121032",
-    "nama": "Fatimah Jihan",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 121,
-    "nim": "M0121033",
-    "nama": "Firsty Yosa Akhsani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 122,
-    "nim": "M0121034",
-    "nama": "Galuh Ayu Wulandari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 123,
-    "nim": "M0121035",
-    "nama": "Ghini Haberta Wiwoho",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 124,
-    "nim": "M0121036",
-    "nama": "Gregorius Laurent",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 125,
-    "nim": "M0121037",
-    "nama": "Hamda Yauma Istiqlala",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 126,
-    "nim": "M0121038",
-    "nama": "Haninda Alivia Wibowo",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 127,
-    "nim": "M0121039",
-    "nama": "Helmia Agita",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 128,
-    "nim": "M0121040",
-    "nama": "Iin Kurnia Adji Pangestu",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 129,
-    "nim": "M0121041",
-    "nama": "Inas Hamidah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 130,
-    "nim": "M0121042",
-    "nama": "Indra Wijaya Purba Nugroho",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 131,
-    "nim": "M0121043",
-    "nama": "Jesica Santoso",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 132,
-    "nim": "M0121044",
-    "nama": "Khalifatur Rivan Akbar",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 133,
-    "nim": "M0121045",
-    "nama": "Khusna Latifah Ivani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 134,
-    "nim": "M0121046",
-    "nama": "Kinar Nakeisha Putri Ginanjar",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 135,
-    "nim": "M0121047",
-    "nama": "Lusy Dahniar Alfiani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 136,
-    "nim": "M0121048",
-    "nama": "Mar'ata Sholeha",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 137,
-    "nim": "M0121049",
-    "nama": "Maulana Fari Asrafi",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 138,
-    "nim": "M0121050",
-    "nama": "Muhammad Rizqi Akhyar",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 139,
-    "nim": "M0121051",
-    "nama": "Nabela Afrilia",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 140,
-    "nim": "M0121052",
-    "nama": "Nabila Aisyah Rabbani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 141,
-    "nim": "M0121053",
-    "nama": "Nabila Nur Afifah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 142,
-    "nim": "M0121054",
-    "nama": "Nadia Nuzul Nirmalasari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 143,
-    "nim": "M0121055",
-    "nama": "Narisya Zahrani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 144,
-    "nim": "M0121056",
-    "nama": "Pijar Hanif Mukti",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 145,
-    "nim": "M0121057",
-    "nama": "Pratisia Tri Handayani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 146,
-    "nim": "M0121058",
-    "nama": "Prince Faza Hasya Wildan Santoso",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 147,
-    "nim": "M0121059",
-    "nama": "Qonita Rahmanilla Syabaniah Imasti",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 148,
-    "nim": "M0121060",
-    "nama": "Restu Agil Purnomo Adi",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 149,
-    "nim": "M0121061",
-    "nama": "Revi Nur Azizah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 150,
-    "nim": "M0121062",
-    "nama": "Rinda Wahyu Lestari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 151,
-    "nim": "M0121063",
-    "nama": "Salsabila Bintang Maharani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 152,
-    "nim": "M0121064",
-    "nama": "Salsabila Pramatya",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 153,
-    "nim": "M0121065",
-    "nama": "Sectio Krisna Wijaya",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 154,
-    "nim": "M0121066",
-    "nama": "Shabila Damayanti",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 155,
-    "nim": "M0121067",
-    "nama": "Sherly Dian Cahyani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 156,
-    "nim": "M0121068",
-    "nama": "Siti Hanifah",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 157,
-    "nim": "M0121069",
-    "nama": "Skolastika Evangeline Sekar Larasati",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 158,
-    "nim": "M0121070",
-    "nama": "Sophia Balqis",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 159,
-    "nim": "M0121071",
-    "nama": "Syakila Putri Utami",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 160,
-    "nim": "M0121072",
-    "nama": "Taufiq Hamid Rahwanto",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 161,
-    "nim": "M0121074",
-    "nama": "Zulfi Syah Putra",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 162,
-    "nim": "M0121075",
-    "nama": "Alya Nur Andini",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 163,
-    "nim": "M0121076",
-    "nama": "Athalia Dwiyansari Qomar",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 164,
-    "nim": "M0121077",
-    "nama": "Gohan Lasuli Silvia",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 165,
-    "nim": "M0120003",
-    "nama": "Ade Safira Septiany",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 166,
-    "nim": "M0120004",
-    "nama": "Adhel Bella Aulyana Sari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 167,
-    "nim": "M0120006",
-    "nama": "Aisyah Hani`ah Salsabilla",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 168,
-    "nim": "M0120008",
-    "nama": "Alifah Prameswari Yosi",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 169,
-    "nim": "M0120009",
-    "nama": "Alifia Difa Az-Zahra",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 170,
-    "nim": "M0120010",
-    "nama": "Aliza Muslimah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 171,
-    "nim": "M0120011",
-    "nama": "Amalia Rusita",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 172,
-    "nim": "M0120013",
-    "nama": "Anita Dwi Rahmawati",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 173,
-    "nim": "M0120014",
-    "nama": "Athifah Setyoningsih",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 174,
-    "nim": "M0120015",
-    "nama": "Azizah Salsabila Sabekti",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 175,
-    "nim": "M0120016",
-    "nama": "Chessa Fanny Ekasiwi",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 176,
-    "nim": "M0120017",
-    "nama": "Clarinda Cheril Wikana",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 177,
-    "nim": "M0120018",
-    "nama": "Cyntia Rizky Ramdiani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 178,
-    "nim": "M0120019",
-    "nama": "Danendra Amrih",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 179,
-    "nim": "M0120020",
-    "nama": "Dea Putri Anandov",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 180,
-    "nim": "M0120021",
-    "nama": "Dito Rizky Maulana",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 181,
-    "nim": "M0120022",
-    "nama": "Dwi Mu`afatul Muslikhah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 182,
-    "nim": "M0120023",
-    "nama": "Dyah Kusumaningrum",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 183,
-    "nim": "M0120025",
-    "nama": "Fadilla Putri Pinayungan",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 184,
-    "nim": "M0120026",
-    "nama": "Fahri Aimar Kusumo",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 185,
-    "nim": "M0120028",
-    "nama": "Hafizhah Adi Syafitri",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 186,
-    "nim": "M0120029",
-    "nama": "Heronimus Ravhel Eza Putra Chana",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 187,
-    "nim": "M0120030",
-    "nama": "Hijar Ridho Winantu",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 188,
-    "nim": "M0120031",
-    "nama": "Ika Amelia Cahyaningrum",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 189,
-    "nim": "M0120032",
-    "nama": "Ika Nurfitriani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 190,
-    "nim": "M0120033",
-    "nama": "Intan Fajarrini",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 191,
-    "nim": "M0120034",
-    "nama": "Ivan Yahya Pratama",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 192,
-    "nim": "M0120035",
-    "nama": "Kevin Sakti Mahendrajaya",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 193,
-    "nim": "M0120036",
-    "nama": "Kharisma Ayu Prastoyowati",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 194,
-    "nim": "M0120037",
-    "nama": "Kusuma Widyawati",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 195,
-    "nim": "M0120038",
-    "nama": "Lensi Maharani Pangestu Widi",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 196,
-    "nim": "M0120039",
-    "nama": "Lukhy Nanda Warseno",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 197,
-    "nim": "M0120040",
-    "nama": "M. Nazhif Abda Putera Khano",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 198,
-    "nim": "M0120041",
-    "nama": "Maharani Aulia Syifa",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 199,
-    "nim": "M0120042",
-    "nama": "Marchella Abisag Lasma",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 200,
-    "nim": "M0120043",
-    "nama": "Mayada Ficky Rachman",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 201,
-    "nim": "M0120044",
-    "nama": "Mochamad Raffli Ispriyanto",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 202,
-    "nim": "M0120045",
-    "nama": "Muhammad Arsyad",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 203,
-    "nim": "M0120046",
-    "nama": "Muhammad Faris Atstsauri",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 204,
-    "nim": "M0120047",
-    "nama": "Muhammad Helmi Ade Pamungkas",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 205,
-    "nim": "M0120048",
-    "nama": "Muhammad Ilyas Rabsani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 206,
-    "nim": "M0120050",
-    "nama": "Muhammad Yogi Sentosa",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 207,
-    "nim": "M0120051",
-    "nama": "Nabiella Zahra Rizkita",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 208,
-    "nim": "M0120052",
-    "nama": "Nanda Alif Eki Suryandari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 209,
-    "nim": "M0120053",
-    "nama": "Naysilla Aisha Rizqhta",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 210,
-    "nim": "M0120054",
-    "nama": "Padmadi Cahyo Wibowo",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 211,
-    "nim": "M0120055",
-    "nama": "Putri Arrum Nur Agustin",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 212,
-    "nim": "M0120056",
-    "nama": "Putri Aura Santika",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 213,
-    "nim": "M0120057",
-    "nama": "Putri Wulandari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 214,
-    "nim": "M0120058",
-    "nama": "Rhadya Putranaya",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 215,
-    "nim": "M0120059",
-    "nama": "Riko Fajarudin",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 216,
-    "nim": "M0120060",
-    "nama": "Rima Meinawati",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 217,
-    "nim": "M0120061",
-    "nama": "Rina Santi",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 218,
-    "nim": "M0120062",
-    "nama": "Risma Listya Utami",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 219,
-    "nim": "M0120063",
-    "nama": "Rizal Faqihuddin",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 220,
-    "nim": "M0120064",
-    "nama": "Rizal Rahmadani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 221,
-    "nim": "M0120065",
-    "nama": "Salsabila Aulia Putri",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 222,
-    "nim": "M0120066",
-    "nama": "Salsadila Husna Rizki Vira",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 223,
-    "nim": "M0120067",
-    "nama": "Sela Putri Indriati",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 224,
-    "nim": "M0120068",
-    "nama": "Septiana Widiyanti",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 225,
-    "nim": "M0120070",
-    "nama": "Syaifudin Zyuhri",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 226,
-    "nim": "M0120071",
-    "nama": "Tegar Ahmad Arsy",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 227,
-    "nim": "M0120072",
-    "nama": "Thetania Miftakul Zalsa",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 228,
-    "nim": "M0120073",
-    "nama": "Titi Nurhalimah Hidayah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 229,
-    "nim": "M0120074",
-    "nama": "Titis Prasetyowati",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 230,
-    "nim": "M0120075",
-    "nama": "Yesika Amalia Kusuma Wardani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 231,
-    "nim": "M0120076",
-    "nama": "Zam Zam Yusuf Wibowo",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 232,
-    "nim": "M0120077",
-    "nama": "Zhafirah Miranti Verdiana",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 233,
-    "nim": "M0120079",
-    "nama": "Aisah Desi Fitriani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 234,
-    "nim": "M0120083",
-    "nama": "Bayu Krisna C.",
-    "status": "Anggota Biasa"
-  },
-  {
-    "id": 235,
-    "nim": "M0119001",
-    "nama": "Ajeng Nur Azizah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 236,
-    "nim": "M0119002",
-    "nama": "Ade Adam Nisa Sabrina",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 237,
-    "nim": "M0119003",
-    "nama": "Agista Ayuningtyas",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 238,
-    "nim": "M0119004",
-    "nama": "Ahmad Dhiya Al Fakhri",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 239,
-    "nim": "M0119005",
-    "nama": "Ahmad Jundi Tsabit",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 240,
-    "nim": "M0119006",
-    "nama": "Aldian Wimar Putra",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 241,
-    "nim": "M0119007",
-    "nama": "Alfianita Arih Kusumaningrum",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 242,
-    "nim": "M0119008",
-    "nama": "Alya Zahra Aniendhita",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 243,
-    "nim": "M0119010",
-    "nama": "Anas Ivanni",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 244,
-    "nim": "M0119012",
-    "nama": "Annisa Shabrina Alaska",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 245,
-    "nim": "M0119013",
-    "nama": "Ardhan Arbyantono",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 246,
-    "nim": "M0119014",
-    "nama": "Arum Veliana",
-    "status": "Anggota Biasa"
-  },
-  {
-    "id": 247,
-    "nim": "M0119015",
-    "nama": "Aulia Salsabila Haning Puspita",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 248,
-    "nim": "M0119017",
-    "nama": "Bhecti Purwaningsih",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 249,
-    "nim": "M0119018",
-    "nama": "Briliana Zahra Adiyati",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 250,
-    "nim": "M0119021",
-    "nama": "Cynthia Rizky Amelia",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 251,
-    "nim": "M0119022",
-    "nama": "Danisa Rahmatus Septiana",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 252,
-    "nim": "M0119023",
-    "nama": "Darmawan Mistachus Saifi",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 253,
-    "nim": "M0119024",
-    "nama": "Diana Rahmawati",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 254,
-    "nim": "M0119025",
-    "nama": "Elisa Nur Yuliantika Ardani",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 255,
-    "nim": "M0119026",
-    "nama": "Elsa Zakia Damayanti",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 256,
-    "nim": "M0119027",
-    "nama": "Fadhlan Fuady",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 257,
-    "nim": "M0119028",
-    "nama": "Fadiah Khairina",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 258,
-    "nim": "M0119029",
-    "nama": "Fadilla Wahyu Fauzia",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 259,
-    "nim": "M0119030",
-    "nama": "Fanea Fresty Antonieta",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 260,
-    "nim": "M0119031",
-    "nama": "Fara Rizkhi Karunia",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 261,
-    "nim": "M0119032",
-    "nama": "Febri Heryo Yudanto",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 262,
-    "nim": "M0119033",
-    "nama": "Fitrihana Afifah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 263,
-    "nim": "M0119034",
-    "nama": "Fryska Alvianita",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 264,
-    "nim": "M0119035",
-    "nama": "Ghazi Taqiyya Al Anshari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 265,
-    "nim": "M0119036",
-    "nama": "Ghufron Musta`In",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 266,
-    "nim": "M0119037",
-    "nama": "Haabijasa Luckmanoor Adzakie",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 267,
-    "nim": "M0119038",
-    "nama": "Hafizhah",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 268,
-    "nim": "M0119039",
-    "nama": "Hanifa Fauziah Nurrahma",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 269,
-    "nim": "M0119042",
-    "nama": "Ilham Setyawan",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 270,
-    "nim": "M0119043",
-    "nama": "Imam Suyuti",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 271,
-    "nim": "M0119044",
-    "nama": "Iswatun Hasanah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 272,
-    "nim": "M0119045",
-    "nama": "Izmah Ashfayel Hikmah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 273,
-    "nim": "M0119046",
-    "nama": "Januar Kieraha Putra",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 274,
-    "nim": "M0119047",
-    "nama": "Jasmine Laksmi Maharani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 275,
-    "nim": "M0119049",
-    "nama": "Khairina Altaf Salsabila",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 276,
-    "nim": "M0119050",
-    "nama": "Khamid Muhammad Arrazaq",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 277,
-    "nim": "M0119052",
-    "nama": "Lailatul Chairul Nisa'",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 278,
-    "nim": "M0119053",
-    "nama": "Laili Dani Ramadhan",
-    "status": "Anggota Biasa"
-  },
-  {
-    "id": 279,
-    "nim": "M0119054",
-    "nama": "Layinatu Khusniyatinna'im",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 280,
-    "nim": "M0119055",
-    "nama": "Lutfia Kartika Sari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 281,
-    "nim": "M0119056",
-    "nama": "Lutfiah Alifia Zalzabila",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 282,
-    "nim": "M0119058",
-    "nama": "Melinda Dinar Puji Anggraini",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 283,
-    "nim": "M0119062",
-    "nama": "Nabila Shafia Indira",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 284,
-    "nim": "M0119063",
-    "nama": "Nur Fadila Marsaoly",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 285,
-    "nim": "M0119064",
-    "nama": "Oktaviana Putri",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 286,
-    "nim": "M0119067",
-    "nama": "Pramisti Rigita Aprilia Sahrani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 287,
-    "nim": "M0119068",
-    "nama": "Rahma Shinta Vinatih",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 288,
-    "nim": "M0119069",
-    "nama": "Reika Putri Wardani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 289,
-    "nim": "M0119070",
-    "nama": "Rifka Annisa Nurfitri",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 290,
-    "nim": "M0119071",
-    "nama": "Risanti Puji Utami",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 291,
-    "nim": "M0119072",
-    "nama": "Risma Nur Faida",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 292,
-    "nim": "M0119073",
-    "nama": "Rizal Fahrur Rozi",
-    "status": "Anggota Biasa"
-  },
-  {
-    "id": 293,
-    "nim": "M0119074",
-    "nama": "Rizki Eka Oktavia",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 294,
-    "nim": "M0119076",
-    "nama": "Sabrina Sri Mulyani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 295,
-    "nim": "M0119077",
-    "nama": "Sahmura Maula Al Maghribi",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 296,
-    "nim": "M0119078",
-    "nama": "Salma Eka Aryani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 297,
-    "nim": "M0119079",
-    "nama": "Salsabilla Rachma Adriantasari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 298,
-    "nim": "M0119080",
-    "nama": "Sarah Nurul Faridah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 299,
-    "nim": "M0119081",
-    "nama": "Satriani Hestiningtyas Laksono",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 300,
-    "nim": "M0119082",
-    "nama": "Siti Roqhilu Yumaroh",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 301,
-    "nim": "M0119083",
-    "nama": "Sukma Wahyu Cahyani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 302,
-    "nim": "M0119084",
-    "nama": "Syafiq Kurnia Rabbani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 303,
-    "nim": "M0119085",
-    "nama": "Taufiqul Firdaus",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 304,
-    "nim": "M0119086",
-    "nama": "Thabitha Oktavianasta Pakpahan",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 305,
-    "nim": "M0119087",
-    "nama": "Tiara Permata Sari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 306,
-    "nim": "M0119088",
-    "nama": "Tiyas Astutiningsih",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 307,
-    "nim": "M0119089",
-    "nama": "Tri Hartati",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 308,
-    "nim": "M0119090",
-    "nama": "Tsabita Azzahra",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 309,
-    "nim": "M0119091",
-    "nama": "Ulya Fatmawati",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 310,
-    "nim": "M0119092",
-    "nama": "Vania Atalie Pratista",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 311,
-    "nim": "M0119093",
-    "nama": "Y. Khennisa Saputri",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 312,
-    "nim": "M0119095",
-    "nama": "Yahya Putra Pradana",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 313,
-    "nim": "M0119098",
-    "nama": "Yusuf Ath-Thariq Putro Wijayanto",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 314,
-    "nim": "M0119100",
-    "nama": "Zahra Febrilia Rachmawati",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 315,
-    "nim": "M0119101",
-    "nama": "Zakia Nur Ramadhani Putri",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 316,
-    "nim": "M0118008",
-    "nama": "Anggarjito Sasikirono",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 317,
-    "nim": "M0118009",
-    "nama": "Anggit Daneswara Purbaningrum",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 318,
-    "nim": "M0118011",
-    "nama": "Anita Ramadhani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 319,
-    "nim": "M0118012",
-    "nama": "Annisa Nurul Fadhilah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 320,
-    "nim": "M0118015",
-    "nama": "Arnelia Wahyu Chrisnawati",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 321,
-    "nim": "M0118017",
-    "nama": "Arum Qurrotulaini Pradjna Paramita",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 322,
-    "nim": "M0118018",
-    "nama": "Arya Bima Sena",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 323,
-    "nim": "M0118020",
-    "nama": "Ayya Agustina Riza",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 324,
-    "nim": "M0118022",
-    "nama": "Bima Adji Sanjaya",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 325,
-    "nim": "M0118035",
-    "nama": "Ilyas Mahfud",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 326,
-    "nim": "M0118036",
-    "nama": "Inna Imro'atu Sholiha",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 327,
-    "nim": "M0118041",
-    "nama": "Mudaarisatu Kalamillah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 328,
-    "nim": "M0118049",
-    "nama": "Nurul Hidayah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 329,
-    "nim": "M0118050",
-    "nama": "Octavia Devi Safitri Sunanto",
-    "status": "Anggota Biasa"
-  },
-  {
-    "id": 330,
-    "nim": "M0118052",
-    "nama": "Priantama Putra Ramadhani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 331,
-    "nim": "M0118055",
-    "nama": "Ratna Zakkiya Meilia Utami",
-    "status": "Anggota Biasa"
-  },
-  {
-    "id": 332,
-    "nim": "M0118059",
-    "nama": "Rika Wijayati",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 333,
-    "nim": "M0118066",
-    "nama": "Syifahana Mellanie Putri",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 334,
-    "nim": "M0118067",
-    "nama": "Wahyu Rendra Kurniawan",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 335,
-    "nim": "M0118068",
-    "nama": "Wardatul Jannah",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 336,
-    "nim": "M0118069",
-    "nama": "Warih Qodri Pramesthi",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 337,
-    "nim": "M0118071",
-    "nama": "Yuni Wulandari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 338,
-    "nim": "M0117001",
-    "nama": "Abdul Malik Aljabar",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 339,
-    "nim": "M0117003",
-    "nama": "Afifah Tri Rejeki",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 340,
-    "nim": "M0117004",
-    "nama": "Agus Wahyudi",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 341,
-    "nim": "M0117010",
-    "nama": "Amaranti Sekar Imani",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 342,
-    "nim": "M0117014",
-    "nama": "Asmi Dwi Atnasari",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 343,
-    "nim": "M0117016",
-    "nama": "Basanohana Lativa Paradise",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 344,
-    "nim": "M0117029",
-    "nama": "Fauzan Rafif",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 345,
-    "nim": "M0117045",
-    "nama": "Mumtaza Aini Azmiyatie",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 346,
-    "nim": "M0117046",
-    "nama": "Munbais Husni Zam Zam",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 347,
-    "nim": "M0117051",
-    "nama": "Najwa Awalina",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 348,
-    "nim": "M0117065",
-    "nama": "Vie'an Huzair Majalawa",
-    "status": "Anggota Aktif"
-  },
-  {
-    "id": 349,
-    "nim": "M0116023",
-    "nama": "Ghooda Phateena Taqi",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 350,
-    "nim": "M0116031",
-    "nama": "Leni Wulanda Larasati",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 351,
-    "nim": "M0116038",
-    "nama": "Nandhika Wahyu P.",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 352,
-    "nim": "M0116047",
-    "nama": "Rivani Febri Andini",
-    "status": "Anggota Istimewa"
-  },
-  {
-    "id": 353,
-    "nim": "M0115030",
-    "nama": "Nur Sesa Oktaviani",
-    "status": "Anggota Istimewa"
-  }
+[ 
+    {
+      "id": 1,
+      "nim": "M0123001",
+      "nama": "Adian Dwi Nugraha",
+      "status": "Biasa"
+     },
+     {
+      "id": 2,
+      "nim": "M0123002",
+      "nama": "Aisyah",
+      "status": "Istemewa"
+     },
+     {
+      "id": 3,
+      "nim": "M0123003",
+      "nama": "Aisyah Putri Amanah",
+      "status": "Istemewa"
+     },
+     {
+      "id": 4,
+      "nim": "M0123005",
+      "nama": "Alfansyah Sandy Putra Perdana",
+      "status": "Istemewa"
+     },
+     {
+      "id": 5,
+      "nim": "M0123006",
+      "nama": "Alya Regina Putri Wijaya",
+      "status": "Aktif"
+     },
+     {
+      "id": 6,
+      "nim": "M0123007",
+      "nama": "Amalia Juniastika Hamidah",
+      "status": "Istemewa"
+     },
+     {
+      "id": 7,
+      "nim": "M0123008",
+      "nama": "Amanda Alya Destina",
+      "status": "Aktif"
+     },
+     {
+      "id": 8,
+      "nim": "M0123009",
+      "nama": "Angga Haris Saputro",
+      "status": "Istemewa"
+     },
+     {
+      "id": 9,
+      "nim": "M0123010",
+      "nama": "Annisa Hidayat Nur Fadhillah",
+      "status": "Istemewa"
+     },
+     {
+      "id": 10,
+      "nim": "M0123011",
+      "nama": "Arda Fiyo Afda'Ul",
+      "status": "Aktif"
+     },
+     {
+      "id": 11,
+      "nim": "M0123012",
+      "nama": "Arifah Nur Azizah",
+      "status": "Istemewa"
+     },
+     {
+      "id": 12,
+      "nim": "M0123013",
+      "nama": "Arline Sinta Waragita",
+      "status": "Aktif"
+     },
+     {
+      "id": 13,
+      "nim": "M0123014",
+      "nama": "Arzety Seftiya Putri",
+      "status": "Istemewa"
+     },
+     {
+      "id": 14,
+      "nim": "M0123015",
+      "nama": "Aufa Dhiyaul Haq",
+      "status": "Biasa"
+     },
+     {
+      "id": 15,
+      "nim": "M0123016",
+      "nama": "Bagus Yudhistira",
+      "status": "Istemewa"
+     },
+     {
+      "id": 16,
+      "nim": "M0123017",
+      "nama": "Bella Afrila Widyatama",
+      "status": "Aktif"
+     },
+     {
+      "id": 17,
+      "nim": "M0123018",
+      "nama": "Cantika Yovitania Meiriska",
+      "status": "Istemewa"
+     },
+     {
+      "id": 18,
+      "nim": "M0123019",
+      "nama": "Chesya Cahyana",
+      "status": "Biasa"
+     },
+     {
+      "id": 19,
+      "nim": "M0123020",
+      "nama": "Cinta Zefanya Anjani",
+      "status": "Istemewa"
+     },
+     {
+      "id": 20,
+      "nim": "M0123021",
+      "nama": "Daffa Ikhwanul Aulia",
+      "status": "Istemewa"
+     },
+     {
+      "id": 21,
+      "nim": "M0123022",
+      "nama": "Delia Fiallo",
+      "status": "Biasa"
+     },
+     {
+      "id": 22,
+      "nim": "M0123023",
+      "nama": "Dewi Fitriyani",
+      "status": "Istemewa"
+     },
+     {
+      "id": 23,
+      "nim": "M0123024",
+      "nama": "Diah Nur Utami",
+      "status": "Istemewa"
+     },
+     {
+      "id": 24,
+      "nim": "M0123025",
+      "nama": "Dian Ayu Shintawati",
+      "status": "Aktif"
+     },
+     {
+      "id": 25,
+      "nim": "M0123026",
+      "nama": "Dufa Alwan Farras",
+      "status": "Istemewa"
+     },
+     {
+      "id": 26,
+      "nim": "M0123027",
+      "nama": "Duta Kurniawan",
+      "status": "Istemewa"
+     },
+     {
+      "id": 27,
+      "nim": "M0123028",
+      "nama": "Dwika Farah Herlistya",
+      "status": "Istemewa"
+     },
+     {
+      "id": 28,
+      "nim": "M0123029",
+      "nama": "Escamareta Rizky Indah Siwi",
+      "status": "Istemewa"
+     },
+     {
+      "id": 29,
+      "nim": "M0123030",
+      "nama": "Fadhila Eka Amanda Putri",
+      "status": "Aktif"
+     },
+     {
+      "id": 30,
+      "nim": "M0123031",
+      "nama": "Fairuz Salsabila Manrapai",
+      "status": "Aktif"
+     },
+     {
+      "id": 31,
+      "nim": "M0123032",
+      "nama": "Faiz Afina Rachma Maulida",
+      "status": "Aktif"
+     },
+     {
+      "id": 32,
+      "nim": "M0123033",
+      "nama": "Fajar Ardiansyach",
+      "status": "Aktif"
+     },
+     {
+      "id": 33,
+      "nim": "M0123035",
+      "nama": "Fasilia Putri Wulandari",
+      "status": "Istemewa"
+     },
+     {
+      "id": 34,
+      "nim": "M0123036",
+      "nama": "Fathimah Salsa Fadhillah",
+      "status": "Aktif"
+     },
+     {
+      "id": 35,
+      "nim": "M0123037",
+      "nama": "Fidelithu Vristher",
+      "status": "Aktif"
+     },
+     {
+      "id": 36,
+      "nim": "M0123038",
+      "nama": "Fidia Zikra Mumtazah",
+      "status": "Istemewa"
+     },
+     {
+      "id": 37,
+      "nim": "M0123039",
+      "nama": "Firda Muawanah",
+      "status": "Istemewa"
+     },
+     {
+      "id": 38,
+      "nim": "M0123040",
+      "nama": "Galuh Wahyu Chandra",
+      "status": "Istemewa"
+     },
+     {
+      "id": 39,
+      "nim": "M0123041",
+      "nama": "Garrand Malona Simanjuntak",
+      "status": "Istemewa"
+     },
+     {
+      "id": 40,
+      "nim": "M0123042",
+      "nama": "Ghina Rohadatul 'Aisy",
+      "status": "Istemewa"
+     },
+     {
+      "id": 41,
+      "nim": "M0123043",
+      "nama": "Hafidh Qodry Ramadhan",
+      "status": "Istemewa"
+     },
+     {
+      "id": 42,
+      "nim": "M0123044",
+      "nama": "Hanif Kurniawan",
+      "status": "Istemewa"
+     },
+     {
+      "id": 43,
+      "nim": "M0123045",
+      "nama": "Hanifah Qurratul 'Aini",
+      "status": "Istemewa"
+     },
+     {
+      "id": 44,
+      "nim": "M0123046",
+      "nama": "Hardani Ismu Nabil",
+      "status": "Aktif"
+     },
+     {
+      "id": 45,
+      "nim": "M0123047",
+      "nama": "Hawina Sabela Faza Manshurina",
+      "status": "Aktif"
+     },
+     {
+      "id": 46,
+      "nim": "M0123048",
+      "nama": "Herning Kusumaningtyas",
+      "status": "Istemewa"
+     },
+     {
+      "id": 47,
+      "nim": "M0123049",
+      "nama": "Kukuh Ibnu Hafidin",
+      "status": "Istemewa"
+     },
+     {
+      "id": 48,
+      "nim": "M0123050",
+      "nama": "Laili Sabila Nur Aini",
+      "status": "Istemewa"
+     },
+     {
+      "id": 49,
+      "nim": "M0123051",
+      "nama": "Laurensia Aninda Prajna Diva",
+      "status": "Istemewa"
+     },
+     {
+      "id": 50,
+      "nim": "M0123052",
+      "nama": "Lutfia Nurshatita",
+      "status": "Istemewa"
+     },
+     {
+      "id": 51,
+      "nim": "M0123053",
+      "nama": "Mahir Fajar Utomo",
+      "status": "Istemewa"
+     },
+     {
+      "id": 52,
+      "nim": "M0123054",
+      "nama": "Maysarah Intan Lestari",
+      "status": "Istemewa"
+     },
+     {
+      "id": 53,
+      "nim": "M0123056",
+      "nama": "Muhammad Alfin Hidayat",
+      "status": "Aktif"
+     },
+     {
+      "id": 54,
+      "nim": "M0123057",
+      "nama": "Muhamad Faisal Alwi",
+      "status": "Istemewa"
+     },
+     {
+      "id": 55,
+      "nim": "M0123058",
+      "nama": "Muhammad Fariz Abror",
+      "status": "Istemewa"
+     },
+     {
+      "id": 56,
+      "nim": "M0123059",
+      "nama": "Muhammad Hafidh Ananto",
+      "status": "Aktif"
+     },
+     {
+      "id": 57,
+      "nim": "M0123060",
+      "nama": "Muhammad Ilham Priambudi",
+      "status": "Istemewa"
+     },
+     {
+      "id": 58,
+      "nim": "M0123061",
+      "nama": "Muhammad Raihan Anshari",
+      "status": "Istemewa"
+     },
+     {
+      "id": 59,
+      "nim": "M0123062",
+      "nama": "Muhammad Rizqi Saputra",
+      "status": "Istemewa"
+     },
+     {
+      "id": 60,
+      "nim": "M0123063",
+      "nama": "Muhammad Tamhidan Taufiqiy",
+      "status": "Istemewa"
+     },
+     {
+      "id": 61,
+      "nim": "M0123064",
+      "nama": "Muthia Bilqis Azzahra",
+      "status": "Istemewa"
+     },
+     {
+      "id": 62,
+      "nim": "M0123065",
+      "nama": "Nabila Mas'ud",
+      "status": "Istemewa"
+     },
+     {
+      "id": 63,
+      "nim": "M0123066",
+      "nama": "Nadia Khanza Pratista",
+      "status": "Istemewa"
+     },
+     {
+      "id": 64,
+      "nim": "M0123067",
+      "nama": "Nadia Putri Anggraini",
+      "status": "Istemewa"
+     },
+     {
+      "id": 65,
+      "nim": "M0123069",
+      "nama": "Nafisa Amalia",
+      "status": "Aktif"
+     },
+     {
+      "id": 66,
+      "nim": "M0123069",
+      "nama": "Nafisah Rahma Aulya",
+      "status": "Istemewa"
+     },
+     {
+      "id": 67,
+      "nim": "M0123070",
+      "nama": "Naufal Helmy Mustofa",
+      "status": "Istemewa"
+     },
+     {
+      "id": 68,
+      "nim": "M0123071",
+      "nama": "Novendra Dwi Aryanda",
+      "status": "Istemewa"
+     },
+     {
+      "id": 69,
+      "nim": "M0123072",
+      "nama": "Nur Alifah Az-Zahra",
+      "status": "Istemewa"
+     },
+     {
+      "id": 70,
+      "nim": "M0123074",
+      "nama": "Orisa Illa Sativa",
+      "status": "Aktif"
+     },
+     {
+      "id": 71,
+      "nim": "M0123075",
+      "nama": "Pramesti Isnaini Agrita Putri",
+      "status": "Aktif"
+     },
+     {
+      "id": 72,
+      "nim": "M0123075",
+      "nama": "Pratiwi Indah Ramadhani",
+      "status": "Istemewa"
+     },
+     {
+      "id": 73,
+      "nim": "M0123076",
+      "nama": "Pratiwi Widyaningsih",
+      "status": "Istemewa"
+     },
+     {
+      "id": 74,
+      "nim": "M0123077",
+      "nama": "Putri Rahma Lestari",
+      "status": "Istemewa"
+     },
+     {
+      "id": 75,
+      "nim": "M0123078",
+      "nama": "Radhitya Ramadhan Kumoro W.",
+      "status": "Istemewa"
+     },
+     {
+      "id": 76,
+      "nim": "M0123079",
+      "nama": "Rangga Alif Excellino",
+      "status": "Istemewa"
+     },
+     {
+      "id": 77,
+      "nim": "M0123080",
+      "nama": "Regina Restu Anjani",
+      "status": "Istemewa"
+     },
+     {
+      "id": 78,
+      "nim": "M0123081",
+      "nama": "Ridwan Putra Ardiyanto",
+      "status": "Istemewa"
+     },
+     {
+      "id": 79,
+      "nim": "M0123083",
+      "nama": "Rista Raisya Seputro",
+      "status": "Aktif"
+     },
+     {
+      "id": 80,
+      "nim": "M0123083",
+      "nama": "Ruben Gabe Aditiya Panjaitan",
+      "status": "Istemewa"
+     },
+     {
+      "id": 81,
+      "nim": "M0123084",
+      "nama": "Ruth Vania Tyurma Zachrin",
+      "status": "Istemewa"
+     },
+     {
+      "id": 82,
+      "nim": "M0123085",
+      "nama": "Salsabila Khalida",
+      "status": "Istemewa"
+     },
+     {
+      "id": 83,
+      "nim": "M0123086",
+      "nama": "Siti Arbaniyah",
+      "status": "Istemewa"
+     },
+     {
+      "id": 84,
+      "nim": "M0123087",
+      "nama": "Syafika Audria Wahda",
+      "status": "Istemewa"
+     },
+     {
+      "id": 85,
+      "nim": "M0123089",
+      "nama": "Syandina Aisyah Darma",
+      "status": "Aktif"
+     },
+     {
+      "id": 86,
+      "nim": "M0123089",
+      "nama": "Tizza Yuflih Nazani",
+      "status": "Istemewa"
+     },
+     {
+      "id": 87,
+      "nim": "M0123090",
+      "nama": "Tomy Rizky Wahyu Akbar",
+      "status": "Istemewa"
+     },
+     {
+      "id": 88,
+      "nim": "M0123091",
+      "nama": "Yudha Winesti",
+      "status": "Istemewa"
+     },
+     {
+      "id": 89,
+      "nim": "M0122001",
+      "nama": "Adelia Shinta Ayu Ningtyas",
+      "status": "Istimewa"
+     },
+     {
+      "id": 90,
+      "nim": "M0122002",
+      "nama": "Adib Haidar Zaky",
+      "status": "Istimewa"
+     },
+     {
+      "id": 91,
+      "nim": "M0122003",
+      "nama": "Adinda Nala Nathania",
+      "status": "Istimewa"
+     },
+     {
+      "id": 92,
+      "nim": "M0122004",
+      "nama": "Adinda Putri Azzahra",
+      "status": "Istimewa"
+     },
+     {
+      "id": 93,
+      "nim": "M0122005",
+      "nama": "Afifah Nuraini Majid",
+      "status": "Biasa"
+     },
+     {
+      "id": 94,
+      "nim": "M0122006",
+      "nama": "Agrippina Nicola Putra",
+      "status": "Istimewa"
+     },
+     {
+      "id": 95,
+      "nim": "M0122007",
+      "nama": "Ahmad Fikri Firdaus",
+      "status": "Istimewa"
+     },
+     {
+      "id": 96,
+      "nim": "M0122008",
+      "nama": "Ajeng Rosalia Kesuma",
+      "status": "Istimewa"
+     },
+     {
+      "id": 97,
+      "nim": "M0122010",
+      "nama": "Aprilia Mercyana Marito Manalu",
+      "status": "Istimewa"
+     },
+     {
+      "id": 98,
+      "nim": "M0122011",
+      "nama": "Arif Febrorianto Hidayat",
+      "status": "Istimewa"
+     },
+     {
+      "id": 99,
+      "nim": "M0122012",
+      "nama": "Asha Amalia Safitra",
+      "status": "Istimewa"
+     },
+     {
+      "id": 100,
+      "nim": "M0122013",
+      "nama": "Asyifa Lutfiana Putri",
+      "status": "Aktif"
+     },
+     {
+      "id": 101,
+      "nim": "M0122014",
+      "nama": "Ayu Cikal Purnamasari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 102,
+      "nim": "M0122015",
+      "nama": "Ayu Dewi Gayatri",
+      "status": "Istimewa"
+     },
+     {
+      "id": 103,
+      "nim": "M0122016",
+      "nama": "Bintang Segara Iman",
+      "status": "Istimewa"
+     },
+     {
+      "id": 104,
+      "nim": "M0122017",
+      "nama": "Bulan Mulya Utama",
+      "status": "Istimewa"
+     },
+     {
+      "id": 105,
+      "nim": "M0122018",
+      "nama": "Callista Zada Fernanda",
+      "status": "Istimewa"
+     },
+     {
+      "id": 106,
+      "nim": "M0122020",
+      "nama": "Caveena Citra Annisa Jauhari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 107,
+      "nim": "M0122021",
+      "nama": "Chalista Divia Maharani Djuanda",
+      "status": "Istimewa"
+     },
+     {
+      "id": 108,
+      "nim": "M0122022",
+      "nama": "Chantika Bunga Tamiya",
+      "status": "Aktif"
+     },
+     {
+      "id": 109,
+      "nim": "M0122023",
+      "nama": "Chika Bunga Permata",
+      "status": "Istimewa"
+     },
+     {
+      "id": 110,
+      "nim": "M0122024",
+      "nama": "Chris Sekar Nathania",
+      "status": "Aktif"
+     },
+     {
+      "id": 111,
+      "nim": "M0122025",
+      "nama": "Denanda Putri Setyaningrum",
+      "status": "Istimewa"
+     },
+     {
+      "id": 112,
+      "nim": "M0122026",
+      "nama": "Denisa Dwi Nanjalina",
+      "status": "Istimewa"
+     },
+     {
+      "id": 113,
+      "nim": "M0122027",
+      "nama": "Dewi Fadriani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 114,
+      "nim": "M0122028",
+      "nama": "Dhela Ermita Prameswari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 115,
+      "nim": "M0122029",
+      "nama": "Dian Mufarikha",
+      "status": "Istimewa"
+     },
+     {
+      "id": 116,
+      "nim": "M0122030",
+      "nama": "Dian Putri Susanti",
+      "status": "Biasa"
+     },
+     {
+      "id": 117,
+      "nim": "M0122031",
+      "nama": "Dinda Ayu Lestari",
+      "status": "Aktif"
+     },
+     {
+      "id": 118,
+      "nim": "M0122032",
+      "nama": "Dinda Laura Putri Permadi",
+      "status": "Aktif"
+     },
+     {
+      "id": 119,
+      "nim": "M0122033",
+      "nama": "Dita Anggraini Soekarno",
+      "status": "Istimewa"
+     },
+     {
+      "id": 120,
+      "nim": "M0122034",
+      "nama": "Divaliana Putri Susanto",
+      "status": "Aktif"
+     },
+     {
+      "id": 121,
+      "nim": "M0122035",
+      "nama": "Eka Nadiya Putri",
+      "status": "Aktif"
+     },
+     {
+      "id": 122,
+      "nim": "M0122036",
+      "nama": "Elfrida Arroudhatun Nadya",
+      "status": "Istimewa"
+     },
+     {
+      "id": 123,
+      "nim": "M0122037",
+      "nama": "Elga Septia",
+      "status": "Istimewa"
+     },
+     {
+      "id": 124,
+      "nim": "M0122038",
+      "nama": "Elita Putri Sisilia",
+      "status": "Istimewa"
+     },
+     {
+      "id": 125,
+      "nim": "M0122039",
+      "nama": "Embun Putri Hapsari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 126,
+      "nim": "M0122040",
+      "nama": "Enindya Ageng Pangesti",
+      "status": "Istimewa"
+     },
+     {
+      "id": 127,
+      "nim": "M0122041",
+      "nama": "Erland Wiecahyan",
+      "status": "Istimewa"
+     },
+     {
+      "id": 128,
+      "nim": "M0122043",
+      "nama": "Ewisandha Rachmadani",
+      "status": "Aktif"
+     },
+     {
+      "id": 129,
+      "nim": "M0122044",
+      "nama": "Fadila Yogi Syahidatun Wahidah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 130,
+      "nim": "M0122045",
+      "nama": "Fardian Putra Dwi Setiawan",
+      "status": "Aktif"
+     },
+     {
+      "id": 131,
+      "nim": "M0122046",
+      "nama": "Fathan Syarif Hidayatullah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 132,
+      "nim": "M0122047",
+      "nama": "Fathimah Nurul Azizah",
+      "status": "Aktif"
+     },
+     {
+      "id": 133,
+      "nim": "M0122048",
+      "nama": "Fathuddin Izzul Haqq Al Hamas",
+      "status": "Aktif"
+     },
+     {
+      "id": 134,
+      "nim": "M0122049",
+      "nama": "Fatihah Nasywa Hamidah",
+      "status": "Aktif"
+     },
+     {
+      "id": 135,
+      "nim": "M0122050",
+      "nama": "Ferry Prabowo",
+      "status": "Istimewa"
+     },
+     {
+      "id": 136,
+      "nim": "M0122051",
+      "nama": "Ghaitsa Shafa Cinta Kananta",
+      "status": "Istimewa"
+     },
+     {
+      "id": 137,
+      "nim": "M0122052",
+      "nama": "Hamidah Nabila Zahra",
+      "status": "Aktif"
+     },
+     {
+      "id": 138,
+      "nim": "M0122053",
+      "nama": "Hanifa Purmela Setyawati",
+      "status": "Istimewa"
+     },
+     {
+      "id": 139,
+      "nim": "M0122054",
+      "nama": "Hikmawan Prasetyo Budi H. P.",
+      "status": "Istimewa"
+     },
+     {
+      "id": 140,
+      "nim": "M0122055",
+      "nama": "Ihsan Nur Rohman",
+      "status": "Istimewa"
+     },
+     {
+      "id": 141,
+      "nim": "M0122056",
+      "nama": "Iqbal Ghani Assaduddiari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 142,
+      "nim": "M0122057",
+      "nama": "Jesica Putri Widyastuti",
+      "status": "Istimewa"
+     },
+     {
+      "id": 143,
+      "nim": "M0122058",
+      "nama": "Jovita Agustin",
+      "status": "Istimewa"
+     },
+     {
+      "id": 144,
+      "nim": "M0122059",
+      "nama": "Juliana Iswandi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 145,
+      "nim": "M0122060",
+      "nama": "Khoirul Lutfi Pratiwi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 146,
+      "nim": "M0122061",
+      "nama": "Khoirunnisa Abdullah Nurhanifa",
+      "status": "Istimewa"
+     },
+     {
+      "id": 147,
+      "nim": "M0122062",
+      "nama": "Laili Kharisma Octavia",
+      "status": "Istimewa"
+     },
+     {
+      "id": 148,
+      "nim": "M0122063",
+      "nama": "Linda Hastuti",
+      "status": "Istimewa"
+     },
+     {
+      "id": 149,
+      "nim": "M0122064",
+      "nama": "Luthfi Mahendra Widiarto",
+      "status": "Aktif"
+     },
+     {
+      "id": 150,
+      "nim": "M0122065",
+      "nama": "Moh. Azfa Isdihar",
+      "status": "Istimewa"
+     },
+     {
+      "id": 151,
+      "nim": "M0122066",
+      "nama": "Muda Kusuma Dananjaya",
+      "status": "Istimewa"
+     },
+     {
+      "id": 152,
+      "nim": "M0122067",
+      "nama": "Muthia Hashna Firdausi Subeno",
+      "status": "Aktif"
+     },
+     {
+      "id": 153,
+      "nim": "M0122068",
+      "nama": "Naili Azqiyah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 154,
+      "nim": "M0122069",
+      "nama": "Nasywa 'Athiyyatur Rafii'",
+      "status": "Istimewa"
+     },
+     {
+      "id": 155,
+      "nim": "M0122070",
+      "nama": "Natasya Intan Anggraini",
+      "status": "Istimewa"
+     },
+     {
+      "id": 156,
+      "nim": "M0122071",
+      "nama": "Nayan Riyadi Prasetyo",
+      "status": "Istimewa"
+     },
+     {
+      "id": 157,
+      "nim": "M0122072",
+      "nama": "Nicolas Ray Amarco Tambunan",
+      "status": "Istimewa"
+     },
+     {
+      "id": 158,
+      "nim": "M0122073",
+      "nama": "Nikmatull Tsalasa Putri",
+      "status": "Aktif"
+     },
+     {
+      "id": 159,
+      "nim": "M0122074",
+      "nama": "Nita Kusuma Putri",
+      "status": "Istimewa"
+     },
+     {
+      "id": 160,
+      "nim": "M0122075",
+      "nama": "Nurul Fu’adi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 161,
+      "nim": "M0122076",
+      "nama": "Pandya Arsa Nugraha",
+      "status": "Istimewa"
+     },
+     {
+      "id": 162,
+      "nim": "M0122077",
+      "nama": "Ratri Dewi Murti",
+      "status": "Istimewa"
+     },
+     {
+      "id": 163,
+      "nim": "M0122078",
+      "nama": "Ristra Agustine De Labela",
+      "status": "Istimewa"
+     },
+     {
+      "id": 164,
+      "nim": "M0122079",
+      "nama": "Sendy Herlinasari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 165,
+      "nim": "M0122080",
+      "nama": "Shiva Mahira Bagindo",
+      "status": "Istimewa"
+     },
+     {
+      "id": 166,
+      "nim": "M0122081",
+      "nama": "Syauqina Naila Syahidah",
+      "status": "Biasa"
+     },
+     {
+      "id": 167,
+      "nim": "M0122082",
+      "nama": "Sylviana Dewi Eka Candra",
+      "status": "Istimewa"
+     },
+     {
+      "id": 168,
+      "nim": "M0122083",
+      "nama": "Syradennita Ayu Kinasih",
+      "status": "Aktif"
+     },
+     {
+      "id": 169,
+      "nim": "M0122084",
+      "nama": "Triya Agus Tiyaningrum",
+      "status": "Istimewa"
+     },
+     {
+      "id": 170,
+      "nim": "M0122085",
+      "nama": "Tsabita Nasywa Salsabila",
+      "status": "Istimewa"
+     },
+     {
+      "id": 171,
+      "nim": "M0122086",
+      "nama": "Vildha Maya Shabila",
+      "status": "Istimewa"
+     },
+     {
+      "id": 172,
+      "nim": "M0122087",
+      "nama": "Vitto Rendi Setiawan",
+      "status": "Istimewa"
+     },
+     {
+      "id": 173,
+      "nim": "M0122088",
+      "nama": "Wildan Titto Aminurrohman",
+      "status": "Istimewa"
+     },
+     {
+      "id": 174,
+      "nim": "M0122089",
+      "nama": "Yunita Puspita Dewi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 175,
+      "nim": "M0122090",
+      "nama": "Yuzril Mahendra Darma Putra",
+      "status": "Istimewa"
+     },
+     {
+      "id": 176,
+      "nim": "M0122091",
+      "nama": "Zahra Atikah sari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 177,
+      "nim": "M0122092",
+      "nama": "Zahra Aulia Hapsari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 178,
+      "nim": "M0122093",
+      "nama": "Zhafira Oktaviani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 179,
+      "nim": "M0121001",
+      "nama": "Adelia Puspitasari",
+      "status": "Aktif"
+     },
+     {
+      "id": 180,
+      "nim": "M0121002",
+      "nama": "Adelia Ratna Juliastutik",
+      "status": "Istimewa"
+     },
+     {
+      "id": 181,
+      "nim": "M0121003",
+      "nama": "Adifa Yasin Aksyarafah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 182,
+      "nim": "M0121004",
+      "nama": "Adiska Sephia Sari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 183,
+      "nim": "M0121005",
+      "nama": "Ahmad Rosikh Al Muttaqy",
+      "status": "Istimewa"
+     },
+     {
+      "id": 184,
+      "nim": "M0121006",
+      "nama": "Aisya Rahma Yusriyya",
+      "status": "Aktif"
+     },
+     {
+      "id": 185,
+      "nim": "M0121007",
+      "nama": "Alfiah Nur Hayati",
+      "status": "Istimewa"
+     },
+     {
+      "id": 186,
+      "nim": "M0121008",
+      "nama": "Alvira Paris Damashinta",
+      "status": "Istimewa"
+     },
+     {
+      "id": 187,
+      "nim": "M0121009",
+      "nama": "Amirul Sahla Airin Utomo",
+      "status": "Istimewa"
+     },
+     {
+      "id": 188,
+      "nim": "M0121010",
+      "nama": "Andre Fajry Al Barra",
+      "status": "Istimewa"
+     },
+     {
+      "id": 189,
+      "nim": "M0121012",
+      "nama": "Angellica Manja Sari Surindayang",
+      "status": "Aktif"
+     },
+     {
+      "id": 190,
+      "nim": "M0121013",
+      "nama": "Annisa Diva Putri Trynita",
+      "status": "Istimewa"
+     },
+     {
+      "id": 191,
+      "nim": "M0121014",
+      "nama": "Annisa Parahita Nayaka",
+      "status": "Istimewa"
+     },
+     {
+      "id": 192,
+      "nim": "M0121016",
+      "nama": "Asna Fadilah Al Muniyar",
+      "status": "Istimewa"
+     },
+     {
+      "id": 193,
+      "nim": "M0121017",
+      "nama": "Aura Yasmin Ariyanto",
+      "status": "Istimewa"
+     },
+     {
+      "id": 194,
+      "nim": "M0121018",
+      "nama": "Avicenna Nanda Saputra",
+      "status": "Aktif"
+     },
+     {
+      "id": 195,
+      "nim": "M0121019",
+      "nama": "Awanda Miswega Zebina",
+      "status": "Istimewa"
+     },
+     {
+      "id": 196,
+      "nim": "M0121020",
+      "nama": "Chaliesya Nabila Adinda Supriyanto",
+      "status": "Istimewa"
+     },
+     {
+      "id": 197,
+      "nim": "M0121021",
+      "nama": "Cherishka Noviana",
+      "status": "Istimewa"
+     },
+     {
+      "id": 198,
+      "nim": "M0121022",
+      "nama": "Dafi’ Ichsani Aysar Ni’am",
+      "status": "Istimewa"
+     },
+     {
+      "id": 199,
+      "nim": "M0121023",
+      "nama": "Dafif Afin Annafi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 200,
+      "nim": "M0121024",
+      "nama": "Daniel Geraldy Natama Sianipar",
+      "status": "Istimewa"
+     },
+     {
+      "id": 201,
+      "nim": "M0121025",
+      "nama": "Dedi Arianto",
+      "status": "Istimewa"
+     },
+     {
+      "id": 202,
+      "nim": "M0121026",
+      "nama": "Devika Arsinta Fourindira",
+      "status": "Istimewa"
+     },
+     {
+      "id": 203,
+      "nim": "M0121027",
+      "nama": "Devita Wahyu Marhandani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 204,
+      "nim": "M0121028",
+      "nama": "Dewan Serui Iriantini",
+      "status": "Aktif"
+     },
+     {
+      "id": 205,
+      "nim": "M0121029",
+      "nama": "Diva Fikri Setyawan",
+      "status": "Istimewa"
+     },
+     {
+      "id": 206,
+      "nim": "M0121030",
+      "nama": "Dwi Septiana",
+      "status": "Istimewa"
+     },
+     {
+      "id": 207,
+      "nim": "M0121031",
+      "nama": "Eligius Saka Gede Sasmito",
+      "status": "Istimewa"
+     },
+     {
+      "id": 208,
+      "nim": "M0121032",
+      "nama": "Fatimah Jihan",
+      "status": "Istimewa"
+     },
+     {
+      "id": 209,
+      "nim": "M0121033",
+      "nama": "Firsty Yosa Akhsani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 210,
+      "nim": "M0121034",
+      "nama": "Galuh Ayu Wulandari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 211,
+      "nim": "M0121035",
+      "nama": "Ghini Haberta Wiwoho",
+      "status": "Istimewa"
+     },
+     {
+      "id": 212,
+      "nim": "M0121036",
+      "nama": "Gregorius Laurent",
+      "status": "Aktif"
+     },
+     {
+      "id": 213,
+      "nim": "M0121037",
+      "nama": "Hamda Yauma Istiqlala",
+      "status": "Istimewa"
+     },
+     {
+      "id": 214,
+      "nim": "M0121038",
+      "nama": "Haninda Alivia Wibowo",
+      "status": "Istimewa"
+     },
+     {
+      "id": 215,
+      "nim": "M0121039",
+      "nama": "Helmia Agita",
+      "status": "Istimewa"
+     },
+     {
+      "id": 216,
+      "nim": "M0121040",
+      "nama": "Iin Kurnia Adji Pangestu",
+      "status": "Istimewa"
+     },
+     {
+      "id": 217,
+      "nim": "M0121041",
+      "nama": "Inas Hamidah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 218,
+      "nim": "M0121042",
+      "nama": "Indra Wijaya Purba Nugroho",
+      "status": "Istimewa"
+     },
+     {
+      "id": 219,
+      "nim": "M0121043",
+      "nama": "Jesica Santoso",
+      "status": "Istimewa"
+     },
+     {
+      "id": 220,
+      "nim": "M0121044",
+      "nama": "Khalifatur Rivan Akbar",
+      "status": "Istimewa"
+     },
+     {
+      "id": 221,
+      "nim": "M0121045",
+      "nama": "Khusna Latifah Ivani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 222,
+      "nim": "M0121046",
+      "nama": "Kinar Nakeisha Putri Ginanjar",
+      "status": "Istimewa"
+     },
+     {
+      "id": 223,
+      "nim": "M0121047",
+      "nama": "Lusy Dahniar Alfani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 224,
+      "nim": "M0121048",
+      "nama": "Mar'ata Sholeha",
+      "status": "Aktif"
+     },
+     {
+      "id": 225,
+      "nim": "M0121049",
+      "nama": "Maulana Fari Asrafi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 226,
+      "nim": "M0121050",
+      "nama": "Muhammad Rizqi Akhyar",
+      "status": "Istimewa"
+     },
+     {
+      "id": 227,
+      "nim": "M0121051",
+      "nama": "Nabela Afrilia",
+      "status": "Istimewa"
+     },
+     {
+      "id": 228,
+      "nim": "M0121052",
+      "nama": "Nabila Aisyah Rabbani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 229,
+      "nim": "M0121053",
+      "nama": "Nabila Nur Afifah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 230,
+      "nim": "M0121054",
+      "nama": "Nadia Nuzul Nirmalasari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 231,
+      "nim": "M0121055",
+      "nama": "Narisya Zahrani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 232,
+      "nim": "M0121056",
+      "nama": "Pijar Hanif Mukti",
+      "status": "Istimewa"
+     },
+     {
+      "id": 233,
+      "nim": "M0121057",
+      "nama": "Pratisia Tri Handayani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 234,
+      "nim": "M0121058",
+      "nama": "Prince Faza Hasya Wildan Santoso",
+      "status": "Istimewa"
+     },
+     {
+      "id": 235,
+      "nim": "M0121059",
+      "nama": "Qonita Rahmanilla Syabaniah Imasti",
+      "status": "Aktif"
+     },
+     {
+      "id": 236,
+      "nim": "M0121060",
+      "nama": "Restu Agil Purnomo Adi",
+      "status": "Aktif"
+     },
+     {
+      "id": 237,
+      "nim": "M0121061",
+      "nama": "Revi Nur Azizah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 238,
+      "nim": "M0121062",
+      "nama": "Rinda Wahyu Lestari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 239,
+      "nim": "M0121063",
+      "nama": "Salsabila Bintang Maharani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 240,
+      "nim": "M0121064",
+      "nama": "Salsabilla Pramatya",
+      "status": "Istimewa"
+     },
+     {
+      "id": 241,
+      "nim": "M0121065",
+      "nama": "Sectio Krisna Wijaya",
+      "status": "Aktif"
+     },
+     {
+      "id": 242,
+      "nim": "M0121066",
+      "nama": "Shabila Damayanti",
+      "status": "Istimewa"
+     },
+     {
+      "id": 243,
+      "nim": "M0121067",
+      "nama": "Sherly Dian Cahyani  ",
+      "status": "Istimewa"
+     },
+     {
+      "id": 244,
+      "nim": "M0121068",
+      "nama": "Siti Hanifah",
+      "status": "Aktif"
+     },
+     {
+      "id": 245,
+      "nim": "M0121069",
+      "nama": "Skolastika Evangeline Sekar Larasati",
+      "status": "Istimewa"
+     },
+     {
+      "id": 246,
+      "nim": "M0121070",
+      "nama": "Sophia Balqis",
+      "status": "Istimewa"
+     },
+     {
+      "id": 247,
+      "nim": "M0121071",
+      "nama": "Syakila Putri Utami",
+      "status": "Istimewa"
+     },
+     {
+      "id": 248,
+      "nim": "M0121072",
+      "nama": "Taufiq Hamid Rahwanto",
+      "status": "Istimewa"
+     },
+     {
+      "id": 249,
+      "nim": "M0121074",
+      "nama": "Zulfi Syah Putra",
+      "status": "Aktif"
+     },
+     {
+      "id": 250,
+      "nim": "M0121075",
+      "nama": "Alya Nur Andini",
+      "status": "Istimewa"
+     },
+     {
+      "id": 251,
+      "nim": "M0121076",
+      "nama": "Athalia Dwiyansari Qomar",
+      "status": "Istimewa"
+     },
+     {
+      "id": 252,
+      "nim": "M0121077",
+      "nama": "Gohan Lasuli Silvia",
+      "status": "Istimewa"
+     },
+     {
+      "id": 253,
+      "nim": "M0120003",
+      "nama": "Ade Safira Septiany",
+      "status": "Istimewa"
+     },
+     {
+      "id": 254,
+      "nim": "M0120004",
+      "nama": "Adhel Bella Aulyana Sari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 255,
+      "nim": "M0120006",
+      "nama": "Aisyah Hani`ah Salsabilla",
+      "status": "Istimewa"
+     },
+     {
+      "id": 256,
+      "nim": "M0120008",
+      "nama": "Alifah Prameswari Yosi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 257,
+      "nim": "M0120009",
+      "nama": "Alifia Difa Az-Zahra",
+      "status": "Istimewa"
+     },
+     {
+      "id": 258,
+      "nim": "M0120010",
+      "nama": "Aliza Muslimah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 259,
+      "nim": "M0120011",
+      "nama": "Amalia Rusita",
+      "status": "Istimewa"
+     },
+     {
+      "id": 260,
+      "nim": "M0120013",
+      "nama": "Anita Dwi Rahmawati",
+      "status": "Istimewa"
+     },
+     {
+      "id": 261,
+      "nim": "M0120014",
+      "nama": "Athifah Setyoningsih",
+      "status": "Istimewa"
+     },
+     {
+      "id": 262,
+      "nim": "M0120015",
+      "nama": "Azizah Salsabila Sabekti",
+      "status": "Istimewa"
+     },
+     {
+      "id": 263,
+      "nim": "M0120016",
+      "nama": "Chessa Fanny Ekasiwi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 264,
+      "nim": "M0120017",
+      "nama": "Clarinda Cheril Wikana",
+      "status": "Istimewa"
+     },
+     {
+      "id": 265,
+      "nim": "M0120018",
+      "nama": "Cyntia Rizky Ramdiani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 266,
+      "nim": "M0120019",
+      "nama": "Danendra Amrih",
+      "status": "Istimewa"
+     },
+     {
+      "id": 267,
+      "nim": "M0120020",
+      "nama": "Dea Putri Anandov",
+      "status": "Istimewa"
+     },
+     {
+      "id": 268,
+      "nim": "M0120021",
+      "nama": "Dito Rizky Maulana",
+      "status": "Aktif"
+     },
+     {
+      "id": 269,
+      "nim": "M0120022",
+      "nama": "Dwi Mu`afatul Muslikhah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 270,
+      "nim": "M0120023",
+      "nama": "Dyah Kusumaningrum",
+      "status": "Aktif"
+     },
+     {
+      "id": 271,
+      "nim": "M0120025",
+      "nama": "Fadilla Putri Pinayungan",
+      "status": "Istimewa"
+     },
+     {
+      "id": 272,
+      "nim": "M0120026",
+      "nama": "Fahri Aimar Kusumo",
+      "status": "Istimewa"
+     },
+     {
+      "id": 273,
+      "nim": "M0120028",
+      "nama": "Hafizhah Adi Syafitri",
+      "status": "Istimewa"
+     },
+     {
+      "id": 274,
+      "nim": "M0120029",
+      "nama": "Heronimus Ravhel Eza Putra Chana",
+      "status": "Istimewa"
+     },
+     {
+      "id": 275,
+      "nim": "M0120030",
+      "nama": "Hijar Ridho Winantu",
+      "status": "Istimewa"
+     },
+     {
+      "id": 276,
+      "nim": "M0120031",
+      "nama": "Ika Amelia Cahyaningrum",
+      "status": "Istimewa"
+     },
+     {
+      "id": 277,
+      "nim": "M0120032",
+      "nama": "Ika Nurfitriani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 278,
+      "nim": "M0120033",
+      "nama": "Intan Fajarrini",
+      "status": "Istimewa"
+     },
+     {
+      "id": 279,
+      "nim": "M0120034",
+      "nama": "Ivan Yahya Pratama",
+      "status": "Istimewa"
+     },
+     {
+      "id": 280,
+      "nim": "M0120035",
+      "nama": "Kevin Sakti Mahendrajaya",
+      "status": "Istimewa"
+     },
+     {
+      "id": 281,
+      "nim": "M0120036",
+      "nama": "Kharisma Ayu Prastoyowati",
+      "status": "Istimewa"
+     },
+     {
+      "id": 282,
+      "nim": "M0120037",
+      "nama": "Kusuma Widyawati",
+      "status": "Istimewa"
+     },
+     {
+      "id": 283,
+      "nim": "M0120038",
+      "nama": "Lensi Maharani Pangestu Widi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 284,
+      "nim": "M0120039",
+      "nama": "Lukhy Nanda Warseno",
+      "status": "Istimewa"
+     },
+     {
+      "id": 285,
+      "nim": "M0120040",
+      "nama": "M. Nazhif Abda Putera Khano",
+      "status": "Istimewa"
+     },
+     {
+      "id": 286,
+      "nim": "M0120041",
+      "nama": "Maharani Aulia Syifa",
+      "status": "Istimewa"
+     },
+     {
+      "id": 287,
+      "nim": "M0120042",
+      "nama": "Marchella Abisag Lasma",
+      "status": "Istimewa"
+     },
+     {
+      "id": 288,
+      "nim": "M0120043",
+      "nama": "Mayada Ficky Rachman",
+      "status": "Istimewa"
+     },
+     {
+      "id": 289,
+      "nim": "M0120044",
+      "nama": "Mochamad Raffli Ispriyanto",
+      "status": "Istimewa"
+     },
+     {
+      "id": 290,
+      "nim": "M0120045",
+      "nama": "Muhammad Arsyad",
+      "status": "Aktif"
+     },
+     {
+      "id": 291,
+      "nim": "M0120046",
+      "nama": "Muhammad Faris Atstsauri",
+      "status": "Istimewa"
+     },
+     {
+      "id": 292,
+      "nim": "M0120047",
+      "nama": "Muhammad Helmi Ade Pamungkas",
+      "status": "Istimewa"
+     },
+     {
+      "id": 293,
+      "nim": "M0120048",
+      "nama": "Muhammad Ilyas Rabsani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 294,
+      "nim": "M0120050",
+      "nama": "Muhammad Yogi Sentosa",
+      "status": "Istimewa"
+     },
+     {
+      "id": 295,
+      "nim": "M0120051",
+      "nama": "Nabiella Zahra Rizkita",
+      "status": "Istimewa"
+     },
+     {
+      "id": 296,
+      "nim": "M0120052",
+      "nama": "Nanda Alif Eki Suryandari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 297,
+      "nim": "M0120053",
+      "nama": "Naysilla Aisha Rizqhta",
+      "status": "Istimewa"
+     },
+     {
+      "id": 298,
+      "nim": "M0120054",
+      "nama": "Padmadi Cahyo Wibowo",
+      "status": "Istimewa"
+     },
+     {
+      "id": 299,
+      "nim": "M0120055",
+      "nama": "Putri Arrum Nur Agustin",
+      "status": "Istimewa"
+     },
+     {
+      "id": 300,
+      "nim": "M0120056",
+      "nama": "Putri Aura Santika",
+      "status": "Istimewa"
+     },
+     {
+      "id": 301,
+      "nim": "M0120057",
+      "nama": "Putri Wulandari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 302,
+      "nim": "M0120058",
+      "nama": "Rhadya Putranaya",
+      "status": "Istimewa"
+     },
+     {
+      "id": 303,
+      "nim": "M0120059",
+      "nama": "Riko Fajarudin",
+      "status": "Istimewa"
+     },
+     {
+      "id": 304,
+      "nim": "M0120060",
+      "nama": "Rima Meinawati",
+      "status": "Istimewa"
+     },
+     {
+      "id": 305,
+      "nim": "M0120061",
+      "nama": "Rina Santi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 306,
+      "nim": "M0120062",
+      "nama": "Risma Listya Utami",
+      "status": "Istimewa"
+     },
+     {
+      "id": 307,
+      "nim": "M0120063",
+      "nama": "Rizal Faqihuddin",
+      "status": "Istimewa"
+     },
+     {
+      "id": 308,
+      "nim": "M0120064",
+      "nama": "Rizal Rahmadani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 309,
+      "nim": "M0120065",
+      "nama": "Salsabila Aulia Putri",
+      "status": "Istimewa"
+     },
+     {
+      "id": 310,
+      "nim": "M0120066",
+      "nama": "Salsadila Husna Rizki Vira",
+      "status": "Istimewa"
+     },
+     {
+      "id": 311,
+      "nim": "M0120067",
+      "nama": "Sela Putri Indriati",
+      "status": "Istimewa"
+     },
+     {
+      "id": 312,
+      "nim": "M0120068",
+      "nama": "Septiana Widiyanti",
+      "status": "Istimewa"
+     },
+     {
+      "id": 313,
+      "nim": "M0120070",
+      "nama": "Syaifudin Zyuhri",
+      "status": "Istimewa"
+     },
+     {
+      "id": 314,
+      "nim": "M0120071",
+      "nama": "Tegar Ahmad Arsy",
+      "status": "Istimewa"
+     },
+     {
+      "id": 315,
+      "nim": "M0120072",
+      "nama": "Thetania Miftakul Zalsa",
+      "status": "Istimewa"
+     },
+     {
+      "id": 316,
+      "nim": "M0120073",
+      "nama": "Titi Nurhalimah Hidayah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 317,
+      "nim": "M0120074",
+      "nama": "Titis Prasetyowati",
+      "status": "Istimewa"
+     },
+     {
+      "id": 318,
+      "nim": "M0120075",
+      "nama": "Yesika Amalia Kusuma Wardani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 319,
+      "nim": "M0120076",
+      "nama": "Zam Zam Yusuf Wibowo",
+      "status": "Istimewa"
+     },
+     {
+      "id": 320,
+      "nim": "M0120077",
+      "nama": "Zhafirah Miranti Verdiana",
+      "status": "Istimewa"
+     },
+     {
+      "id": 321,
+      "nim": "M0120079",
+      "nama": "Aisah Desi Fitriani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 322,
+      "nim": "M0120083",
+      "nama": "Bayu Krisna C.",
+      "status": "Biasa"
+     },
+     {
+      "id": 323,
+      "nim": "M0119001",
+      "nama": "Ajeng Nur Azizah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 324,
+      "nim": "M0119002",
+      "nama": "Ade Adam Nisa Sabrina",
+      "status": "Istimewa"
+     },
+     {
+      "id": 325,
+      "nim": "M0119003",
+      "nama": "Agista Ayuningtyas",
+      "status": "Istimewa"
+     },
+     {
+      "id": 326,
+      "nim": "M0119004",
+      "nama": "Ahmad Dhiya Al Fakhri",
+      "status": "Istimewa"
+     },
+     {
+      "id": 327,
+      "nim": "M0119005",
+      "nama": "Ahmad Jundi Tsabit",
+      "status": "Istimewa"
+     },
+     {
+      "id": 328,
+      "nim": "M0119006",
+      "nama": "Aldian Wimar Putra",
+      "status": "Istimewa"
+     },
+     {
+      "id": 329,
+      "nim": "M0119007",
+      "nama": "Alfianita Arih Kusumaningrum",
+      "status": "Istimewa"
+     },
+     {
+      "id": 330,
+      "nim": "M0119008",
+      "nama": "Alya Zahra Aniendhita",
+      "status": "Aktif"
+     },
+     {
+      "id": 331,
+      "nim": "M0119010",
+      "nama": "Anas Ivanni",
+      "status": "Istimewa"
+     },
+     {
+      "id": 332,
+      "nim": "M0119011",
+      "nama": "Andjani Ayu Cahaya Tanjung",
+      "status": "Istimewa"
+     },
+     {
+      "id": 333,
+      "nim": "M0119012",
+      "nama": "Annisa Shabrina Alaska",
+      "status": "Istimewa"
+     },
+     {
+      "id": 334,
+      "nim": "M0119013",
+      "nama": "Ardhan Arbyantono",
+      "status": "Istimewa"
+     },
+     {
+      "id": 335,
+      "nim": "M0119014",
+      "nama": "Arum Veliana",
+      "status": "Biasa"
+     },
+     {
+      "id": 336,
+      "nim": "M0119015",
+      "nama": "Aulia Salsabila Haning Puspita",
+      "status": "Istimewa"
+     },
+     {
+      "id": 337,
+      "nim": "M0119016",
+      "nama": "Bayu Purboutomo",
+      "status": "Istimewa"
+     },
+     {
+      "id": 338,
+      "nim": "M0119017",
+      "nama": "Bhecti Purwaningsih",
+      "status": "Istimewa"
+     },
+     {
+      "id": 339,
+      "nim": "M0119018",
+      "nama": "Briliana Zahra Adiyati",
+      "status": "Istimewa"
+     },
+     {
+      "id": 340,
+      "nim": "M0119021",
+      "nama": "Cynthia Rizky Amelia",
+      "status": "Istimewa"
+     },
+     {
+      "id": 341,
+      "nim": "M0119022",
+      "nama": "Danisa Rahmatus Septiana",
+      "status": "Istimewa"
+     },
+     {
+      "id": 342,
+      "nim": "M0119023",
+      "nama": "Darmawan Mistachus Saifi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 343,
+      "nim": "M0119024",
+      "nama": "Diana Rahmawati",
+      "status": "Istimewa"
+     },
+     {
+      "id": 344,
+      "nim": "M0119025",
+      "nama": "Elisa Nur Yuliantika Ardani",
+      "status": "Aktif"
+     },
+     {
+      "id": 345,
+      "nim": "M0119026",
+      "nama": "Elsa Zakia Damayanti",
+      "status": "Aktif"
+     },
+     {
+      "id": 346,
+      "nim": "M0119027",
+      "nama": "Fadhlan Fuady",
+      "status": "Istimewa"
+     },
+     {
+      "id": 347,
+      "nim": "M0119028",
+      "nama": "Fadiah Khairina",
+      "status": "Istimewa"
+     },
+     {
+      "id": 348,
+      "nim": "M0119029",
+      "nama": "Fadilla Wahyu Fauzia",
+      "status": "Istimewa"
+     },
+     {
+      "id": 349,
+      "nim": "M0119030",
+      "nama": "Fanea Fresty Antonieta",
+      "status": "Istimewa"
+     },
+     {
+      "id": 350,
+      "nim": "M0119031",
+      "nama": "Fara Rizkhi Karunia",
+      "status": "Istimewa"
+     },
+     {
+      "id": 351,
+      "nim": "M0119032",
+      "nama": "Febri Heryo Yudanto",
+      "status": "Istimewa"
+     },
+     {
+      "id": 352,
+      "nim": "M0119033",
+      "nama": "Fitrihana Afifah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 353,
+      "nim": "M0119034",
+      "nama": "Fryska Alvianita",
+      "status": "Istimewa"
+     },
+     {
+      "id": 354,
+      "nim": "M0119035",
+      "nama": "Ghazi Taqiyya Al Anshari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 355,
+      "nim": "M0119036",
+      "nama": "Ghufron Musta`In",
+      "status": "Istimewa"
+     },
+     {
+      "id": 356,
+      "nim": "M0119037",
+      "nama": "Haabijasa Luckmanoor Adzakie",
+      "status": "Aktif"
+     },
+     {
+      "id": 357,
+      "nim": "M0119038",
+      "nama": "Hafizhah",
+      "status": "Aktif"
+     },
+     {
+      "id": 358,
+      "nim": "M0119039",
+      "nama": "Hanifa Fauziah Nurrahma",
+      "status": "Istimewa"
+     },
+     {
+      "id": 359,
+      "nim": "M0119040",
+      "nama": "Harun Al Rasyid",
+      "status": "Istimewa"
+     },
+     {
+      "id": 360,
+      "nim": "M0119042",
+      "nama": "Ilham Setyawan",
+      "status": "Istimewa"
+     },
+     {
+      "id": 361,
+      "nim": "M0119043",
+      "nama": "Imam Suyuti",
+      "status": "Istimewa"
+     },
+     {
+      "id": 362,
+      "nim": "M0119044",
+      "nama": "Iswatun Hasanah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 363,
+      "nim": "M0119045",
+      "nama": "Izmah Ashfayel Hikmah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 364,
+      "nim": "M0119046",
+      "nama": "Januar Kieraha Putra",
+      "status": "Istimewa"
+     },
+     {
+      "id": 365,
+      "nim": "M0119047",
+      "nama": "Jasmine Laksmi Maharani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 366,
+      "nim": "M0119048",
+      "nama": "Kezia Abigail Vania",
+      "status": "Istimewa"
+     },
+     {
+      "id": 367,
+      "nim": "M0119049",
+      "nama": "Khairina Altaf Salsabila",
+      "status": "Istimewa"
+     },
+     {
+      "id": 368,
+      "nim": "M0119050",
+      "nama": "Khamid Muhammad Arrazaq",
+      "status": "Istimewa"
+     },
+     {
+      "id": 369,
+      "nim": "M0119051",
+      "nama": "Krisna Sidiq",
+      "status": "Istimewa"
+     },
+     {
+      "id": 370,
+      "nim": "M0119052",
+      "nama": "Lailatul Chairul Nisa'",
+      "status": "Aktif"
+     },
+     {
+      "id": 371,
+      "nim": "M0119053",
+      "nama": "Laili Dani Ramadhan",
+      "status": "Biasa"
+     },
+     {
+      "id": 372,
+      "nim": "M0119054",
+      "nama": "Layinatu Khusniyatinna'im",
+      "status": "Istimewa"
+     },
+     {
+      "id": 373,
+      "nim": "M0119055",
+      "nama": "Lutfia Kartika Sari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 374,
+      "nim": "M0119056",
+      "nama": "Lutfiah Alifia Zalzabila",
+      "status": "Istimewa"
+     },
+     {
+      "id": 375,
+      "nim": "M0119058",
+      "nama": "Melinda Dinar Puji Anggraini",
+      "status": "Istimewa"
+     },
+     {
+      "id": 376,
+      "nim": "M0119062",
+      "nama": "Nabila Shafia Indira",
+      "status": "Istimewa"
+     },
+     {
+      "id": 377,
+      "nim": "M0119063",
+      "nama": "Nur Fadila Marsaoly",
+      "status": "Istimewa"
+     },
+     {
+      "id": 378,
+      "nim": "M0119064",
+      "nama": "Oktaviana Putri",
+      "status": "Aktif"
+     },
+     {
+      "id": 379,
+      "nim": "M0119067",
+      "nama": "Pramisti Rigita Aprilia Sahrani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 380,
+      "nim": "M0119068",
+      "nama": "Rahma Shinta Vinatih",
+      "status": "Istimewa"
+     },
+     {
+      "id": 381,
+      "nim": "M0119069",
+      "nama": "Reika Putri Wardani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 382,
+      "nim": "M0119070",
+      "nama": "Rifka Annisa Nurfitri",
+      "status": "Istimewa"
+     },
+     {
+      "id": 383,
+      "nim": "M0119071",
+      "nama": "Risanti Puji Utami",
+      "status": "Aktif"
+     },
+     {
+      "id": 384,
+      "nim": "M0119072",
+      "nama": "Risma Nur Faida",
+      "status": "Istimewa"
+     },
+     {
+      "id": 385,
+      "nim": "M0119073",
+      "nama": "Rizal Fahrur Rozi",
+      "status": "Biasa"
+     },
+     {
+      "id": 386,
+      "nim": "M0119074",
+      "nama": "Rizki Eka Oktavia",
+      "status": "Istimewa"
+     },
+     {
+      "id": 387,
+      "nim": "M0119075",
+      "nama": "Rizqi Ummami",
+      "status": "Aktif"
+     },
+     {
+      "id": 388,
+      "nim": "M0119076",
+      "nama": "Sabrina Sri Mulyani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 389,
+      "nim": "M0119077",
+      "nama": "Sahmura Maula Al Maghribi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 390,
+      "nim": "M0119078",
+      "nama": "Salma Eka Aryani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 391,
+      "nim": "M0119079",
+      "nama": "Salsabilla Rachma Adriantasari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 392,
+      "nim": "M0119080",
+      "nama": "Sarah Nurul Faridah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 393,
+      "nim": "M0119081",
+      "nama": "Satriani Hestiningtyas Laksono",
+      "status": "Istimewa"
+     },
+     {
+      "id": 394,
+      "nim": "M0119082",
+      "nama": "Siti Roqhilu Yumaroh",
+      "status": "Istimewa"
+     },
+     {
+      "id": 395,
+      "nim": "M0119083",
+      "nama": "Sukma Wahyu Cahyani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 396,
+      "nim": "M0119084",
+      "nama": "Syafiq Kurnia Rabbani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 397,
+      "nim": "M0119085",
+      "nama": "Taufiqul Firdaus",
+      "status": "Istimewa"
+     },
+     {
+      "id": 398,
+      "nim": "M0119086",
+      "nama": "Thabitha Oktavianasta Pakpahan",
+      "status": "Istimewa"
+     },
+     {
+      "id": 399,
+      "nim": "M0119087",
+      "nama": "Tiara Permata Sari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 400,
+      "nim": "M0119088",
+      "nama": "Tiyas Astutiningsih",
+      "status": "Istimewa"
+     },
+     {
+      "id": 401,
+      "nim": "M0119089",
+      "nama": "Tri Hartati",
+      "status": "Istimewa"
+     },
+     {
+      "id": 402,
+      "nim": "M0119090",
+      "nama": "Tsabita Azzahra",
+      "status": "Istimewa"
+     },
+     {
+      "id": 403,
+      "nim": "M0119091",
+      "nama": "Ulya Fatmawati",
+      "status": "Istimewa"
+     },
+     {
+      "id": 404,
+      "nim": "M0119092",
+      "nama": "Vania Atalie Pratista",
+      "status": "Istimewa"
+     },
+     {
+      "id": 405,
+      "nim": "M0119093",
+      "nama": "Y. Khennisa Saputri",
+      "status": "Istimewa"
+     },
+     {
+      "id": 406,
+      "nim": "M0119095",
+      "nama": "Yahya Putra Pradana",
+      "status": "Istimewa"
+     },
+     {
+      "id": 407,
+      "nim": "M0119096",
+      "nama": "Yessy Dwi Ramadani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 408,
+      "nim": "M0119097",
+      "nama": "Yuni Ardi Eliana",
+      "status": "Istimewa"
+     },
+     {
+      "id": 409,
+      "nim": "M0119098",
+      "nama": "Yusuf Ath-Thariq Putro Wijayanto",
+      "status": "Istimewa"
+     },
+     {
+      "id": 410,
+      "nim": "M0119100",
+      "nama": "Zahra Febrilia Rachmawati",
+      "status": "Istimewa"
+     },
+     {
+      "id": 411,
+      "nim": "M0119101",
+      "nama": "Zakia Nur Ramadhani Putri",
+      "status": "Istimewa"
+     },
+     {
+      "id": 412,
+      "nim": "M0119102",
+      "nama": "Zelika Berlianti Wijaya",
+      "status": "Istimewa"
+     },
+     {
+      "id": 413,
+      "nim": "M0118002",
+      "nama": "Afifatunnisaa` Khoiriyah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 414,
+      "nim": "M0118004",
+      "nama": "Aini Ayu Wulandari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 415,
+      "nim": "M0118005",
+      "nama": "Aliyatussya`ni",
+      "status": "Istimewa"
+     },
+     {
+      "id": 416,
+      "nim": "M0118007",
+      "nama": "Ananda Prisanty Noto",
+      "status": "Istimewa"
+     },
+     {
+      "id": 417,
+      "nim": "M0118008",
+      "nama": "Anggarjito Sasikirono",
+      "status": "Istimewa"
+     },
+     {
+      "id": 418,
+      "nim": "M0118009",
+      "nama": "Anggit Daneswara Purbaningrum ",
+      "status": "Aktif"
+     },
+     {
+      "id": 419,
+      "nim": "M0118011",
+      "nama": "Anita Ramadhani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 420,
+      "nim": "M0118012",
+      "nama": "Annisa Nurul Fadhilah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 421,
+      "nim": "M0118015",
+      "nama": "Arnelia Wahyu Chrisnawati ",
+      "status": "Aktif"
+     },
+     {
+      "id": 422,
+      "nim": "M0118016",
+      "nama": "Arti Budi Utami",
+      "status": "Istimewa"
+     },
+     {
+      "id": 423,
+      "nim": "M0118017",
+      "nama": "Arum Qurrotulaini Pradjna Paramita",
+      "status": "Istimewa"
+     },
+     {
+      "id": 424,
+      "nim": "M0118018",
+      "nama": "Arya Bima Sena",
+      "status": "Istimewa"
+     },
+     {
+      "id": 425,
+      "nim": "M0118019",
+      "nama": "Avilian Anniza",
+      "status": "Istimewa"
+     },
+     {
+      "id": 426,
+      "nim": "M0118020",
+      "nama": "Ayya Agustina Riza",
+      "status": "Istimewa"
+     },
+     {
+      "id": 427,
+      "nim": "M0118022",
+      "nama": "Bima Adji Sanjaya ",
+      "status": "Aktif"
+     },
+     {
+      "id": 428,
+      "nim": "M0118023",
+      "nama": "Dewanti Purna Witular",
+      "status": "Istimewa"
+     },
+     {
+      "id": 429,
+      "nim": "M0118025",
+      "nama": "Diki Aryo Wijanarko ",
+      "status": "Biasa"
+     },
+     {
+      "id": 430,
+      "nim": "M0118027",
+      "nama": "Fatata A`izza Rosyada",
+      "status": "Istimewa"
+     },
+     {
+      "id": 431,
+      "nim": "M0118031",
+      "nama": "Hanif Nurmilasari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 432,
+      "nim": "M0118035",
+      "nama": "Ilyas Mahfud",
+      "status": "Istimewa"
+     },
+     {
+      "id": 433,
+      "nim": "M0118036",
+      "nama": "Inna Imro'atu Sholiha ",
+      "status": "Aktif"
+     },
+     {
+      "id": 434,
+      "nim": "M0118041",
+      "nama": "Mudaarisatu Kalamillah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 435,
+      "nim": "M0118042",
+      "nama": "Musthofa Syarifudin",
+      "status": "Istimewa"
+     },
+     {
+      "id": 436,
+      "nim": "M0118043",
+      "nama": "Nafis Saiful Arsyi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 437,
+      "nim": "M0118045",
+      "nama": "Nikmatul Ilmi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 438,
+      "nim": "M0118049",
+      "nama": "Nurul Hidayah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 439,
+      "nim": "M0118050",
+      "nama": "Octavia Devi Safitri Sunanto ",
+      "status": "Biasa"
+     },
+     {
+      "id": 440,
+      "nim": "M0118052",
+      "nama": "Priantama Putra Ramadhani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 441,
+      "nim": "M0118055",
+      "nama": "Ratna Zakkiya Meilia Utami ",
+      "status": "Biasa"
+     },
+     {
+      "id": 442,
+      "nim": "M0118059",
+      "nama": "Rika Wijayati",
+      "status": "Istimewa"
+     },
+     {
+      "id": 443,
+      "nim": "M0118063",
+      "nama": "Siti Osmatun Kasanah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 444,
+      "nim": "M0118065",
+      "nama": "Stefani Dinda Tania Serenata ",
+      "status": "Aktif"
+     },
+     {
+      "id": 445,
+      "nim": "M0118066",
+      "nama": "Syifahana Mellanie Putri",
+      "status": "Istimewa"
+     },
+     {
+      "id": 446,
+      "nim": "M0118067",
+      "nama": "Wahyu Rendra Kurniawan",
+      "status": "Istimewa"
+     },
+     {
+      "id": 447,
+      "nim": "M0118068",
+      "nama": "Wardatul Jannah",
+      "status": "Istimewa"
+     },
+     {
+      "id": 448,
+      "nim": "M0118069",
+      "nama": "Warih Qodri Pramesthi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 449,
+      "nim": "M0118070",
+      "nama": "Wulan Indah Saputri ",
+      "status": "Biasa"
+     },
+     {
+      "id": 450,
+      "nim": "M0118071",
+      "nama": "Yuni Wulandari ",
+      "status": "Istimewa"
+     },
+     {
+      "id": 451,
+      "nim": "M0117001",
+      "nama": "Abdul Malik Aljabar",
+      "status": "Istimewa"
+     },
+     {
+      "id": 452,
+      "nim": "M0117003",
+      "nama": "Afifah Tri Rejeki",
+      "status": "Istimewa"
+     },
+     {
+      "id": 453,
+      "nim": "M0117004",
+      "nama": "Agus Wahyudi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 454,
+      "nim": "M0117007",
+      "nama": "Ahmad Faiz Hafizhuddin",
+      "status": "Istimewa"
+     },
+     {
+      "id": 455,
+      "nim": "M0117010",
+      "nama": "Amaranti Sekar Imani",
+      "status": "Istimewa"
+     },
+     {
+      "id": 456,
+      "nim": "M0117014",
+      "nama": "Asmi Dwi Atnasari",
+      "status": "Istimewa"
+     },
+     {
+      "id": 457,
+      "nim": "M0117016",
+      "nama": "Basanohana Lativa Paradise",
+      "status": "Istimewa"
+     },
+     {
+      "id": 458,
+      "nim": "M0117029",
+      "nama": "Fauzan Rafif",
+      "status": "Istimewa"
+     },
+     {
+      "id": 459,
+      "nim": "M0117045",
+      "nama": "Mumtaza Aini Azmiyatie",
+      "status": "Istimewa"
+     },
+     {
+      "id": 460,
+      "nim": "M0117046",
+      "nama": "Munbais Husni Zam Zam",
+      "status": "Istimewa"
+     },
+     {
+      "id": 461,
+      "nim": "M0117051",
+      "nama": "Najwa Awalina",
+      "status": "Istimewa"
+     },
+     {
+      "id": 462,
+      "nim": "M0117065",
+      "nama": "Vie’an Huzair Majalawa",
+      "status": "Aktif"
+     },
+     {
+      "id": 463,
+      "nim": "M0116023",
+      "nama": "Ghooda Phateena Taqi",
+      "status": "Istimewa"
+     },
+     {
+      "id": 464,
+      "nim": "M0116031",
+      "nama": "Leni Wulanda Larasati",
+      "status": "Istimewa"
+     },
+     {
+      "id": 465,
+      "nim": "M0116038",
+      "nama": "Nandhika Wahyu P.",
+      "status": "Istimewa"
+     },
+     {
+      "id": 466,
+      "nim": "M0116044",
+      "nama": "Pertiwi Dwi S.",
+      "status": "Istimewa"
+     },
+     {
+      "id": 467,
+      "nim": "M0116047",
+      "nama": "Rivani Febri Andini",
+      "status": "Istimewa"
+     },
+     {
+      "id": 468,
+      "nim": "M0115030",
+      "nama": "Nur Sesa Oktaviani",
+      "status": "Istimewa"
+     }
 ]
