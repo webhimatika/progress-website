@@ -1,0 +1,412 @@
+*{
+  font-family: "Roboto";
+}
+
+
+.headers {
+  margin-top: 70px;
+  position: relative;
+  min-height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url(p.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0 6%;
+}
+.overlays {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 100%;
+  background: linear-gradient(90deg, #146c94 55.21%, #39a2db 100%);
+  padding: 0 6%;
+}
+
+.foto-content {
+  margin-top: 20px;
+  position: relative;
+  min-height: 20rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.headers-content h2 {
+  margin-top: 60px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  padding: auto;
+}
+
+.headers-content p {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.foto-tentangkami{
+  margin-top: 30px;
+  position: relative;
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  max-width: 480px ;
+  width: 40%;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.foto-tentangkami img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  justify-content: center;
+  object-fit: cover;
+  width: 300px; 
+  height: 237px; 
+  object-fit: cover;
+}
+
+.foto-tentangkami h1 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 1000;
+}
+
+.foto-tentangkami p {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  margin-top: 5px;
+}
+
+.foto-tentangkami1{
+  margin-top: 30px;
+  position: relative;
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  max-width: 480px ;
+  width: 40%;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.foto-tentangkami1 img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  justify-content: center;
+  object-fit: cover;
+  width: 300px; 
+  height: 237px; 
+  object-fit: cover;
+}
+
+.foto-tentangkami1 h1 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 1000;
+}
+
+.foto-tentangkami1 p {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  margin-top: 5px;
+}
+
+.foto-tentangkami2{
+  margin-top: 30px;
+  position: relative;
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  max-width: 480px ;
+  width: 40%;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.foto-tentangkami2 img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  justify-content: center;
+  object-fit: cover;
+  width: 300px; 
+  height: 237px; 
+  object-fit: cover;
+}
+
+.foto-tentangkami2 h1 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 1000;
+}
+
+.foto-tentangkami2 p {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  margin-top: 5px;
+}
+
+.tentangkami-wrapp {
+  padding: 0 6%;
+  padding-top: 3rem;
+  margin-top: 40px;
+  min-height: 40rem;
+  margin-bottom: 100px;
+}
+
+.birobidang h2 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  font-family: "montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 80px;
+}
+
+.birobidangpict1 {
+  margin-top: 20px;
+  position: relative;
+  min-height: 20rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  margin-bottom: 80px;
+  gap: 150px;
+  display: flex;
+}
+.foto-birobidang img{
+  height: 90%;
+  width: 90%;
+  object-fit: contain;
+  justify-content: center;
+  object-fit: cover;
+  object-fit: cover;
+}
+.foto-birobidang1 img{
+  height: 90%;
+  width: 90%;
+  object-fit: contain;
+  justify-content: center;
+  object-fit: cover;
+  object-fit: cover;
+}
+.foto-birobidang2 img{
+  height: 90%;
+  width: 90%;
+  object-fit: contain;
+  justify-content: center;
+  object-fit: cover;
+  object-fit: cover;
+}
+.foto-birobidang3 img{
+  height: 90%;
+  width: 90%;
+  object-fit: contain;
+  justify-content: center;
+  object-fit: cover;
+  object-fit: cover;
+}
+.foto-birobidang4 img{
+  height: 90%;
+  width: 90%;
+  object-fit: contain;
+  justify-content: center;
+  object-fit: cover;
+  object-fit: cover;
+}
+.birobidangpict1 button {
+  background-color: #39a2db;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 120px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: transform .4s;
+  justify-content: end;
+}
+.birobidangpict1 button:hover{
+  transform: scale(1.2);
+}
+
+/* Ukuran Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 100%;
+  }
+}
+/* Visi Misi Untuk Laptop*/
+/* Visi Misi Lanjutan Laptop*/
+
+/* Ukuran Tablet */
+@media (max-width: 1005px) {
+  html {
+    font-size: 70%;
+  }
+  .headers-content {
+    font-size: 3.8rem;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    height: 100%;
+  }
+  .headers-content p{
+    padding: 0 5%;
+  }
+  .foto-content {
+    width: 750px;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+  }
+  .foto-content h1{
+    margin-top: -30px;
+  }
+  .foto-content p{
+    margin-top: -15px;
+  }
+  .foto-tentangkami{
+    width: 200px;
+    height: 270px;
+  }
+  .foto-tentangkami1{
+    width: 200px;
+    height: 270px;
+  }
+  .foto-tentangkami2{
+    width: 200px;
+    height: 270px;
+  }
+  .birobidangpict1{
+    gap: 70px;
+    margin-bottom: 40px;
+  }
+}
+
+/* Visi Misi Lanjutan Tablet*/
+
+/* Ukuran Android */
+@media (max-width: 700px) {
+  .headers-content p{
+    padding: 0%;
+    flex-direction: column;
+  }
+  .headers-content {
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    height: 100%;
+  }
+  .foto-content {
+    flex-direction: column;
+    display: flex;
+    align-items: center; 
+    padding-left: 0%;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+  }
+  .foto-content h1 {
+    margin-top: -50px;
+  }
+  .foto-content p {
+    margin-top: -40px;
+  }
+  .foto-tentangkami{
+    margin-top: 10px;
+    order: 1;
+  }
+  .foto-tentangkami1{
+    margin-top: 30px;
+  }
+  .foto-tentangkami2{
+    margin-top: 30px;
+    order: 3;
+  }
+  .birobidangpict img{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px){
+  .birobidangpict1{
+    flex-direction: column;
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Visi Misi Untuk Android*/
+/* Visi Misi Lanjutan Android*/
