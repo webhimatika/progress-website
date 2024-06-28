@@ -292,6 +292,7 @@
   font-size: 15px;
   transition: transform .4s;
   justify-content: end;
+  cursor: pointer;
 }
 .birobidangpict1 button:hover{
   transform: scale(1.2);
