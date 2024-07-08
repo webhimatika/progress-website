@@ -187,3 +187,107 @@ p,
     text-align: justify;
   }
 }
+/* PAGINATION START DEKSTOP */
+
+.items {
+  display: none;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  font-family: "Montserrat";
+  font-size: 0.8rem;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.tabs,
+.pagination .prev-btn,
+.pagination .next-btn {
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10%;
+  height: 1.7rem;
+  width: 1.7rem;
+}
+.pagination .prev-btn,
+.pagination .next-btn,
+.pagination .page-tabs .tab {
+  cursor: pointer;
+}
+.pagination .page-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+}
+.pagination .prev-btn,
+.pagination .next-btn {
+  color: rgba(0, 0, 0, 0.3);
+}
+.pagination .page-tabs .active-tab {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #39a2db;
+  border-radius: 10%;
+  height: 1.7rem;
+  width: 1.7rem;
+}
+/* PAGINATION END DEKSTOP */
+
+@media (max-width: 1000px) {
+  /* PAGINATION START TABLET */
+  .pagination {
+    gap: 1rem;
+    font-size: 1rem;
+  }
+  .pagination .page-tabs {
+    gap: 1rem;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .pagination .page-tabs .active {
+    height: 2rem;
+    width: 2rem;
+  }
+  /* PAGINATION END TABLET */
+}
+@media (max-width: 450px) {
+  /* PAGINATION START ANDROID */
+  .search {
+    display: flex;
+    justify-content: center;
+    padding-right: 0px;
+  }
+  .search-engin input {
+    font-size: 1rem;
+    font-weight: 50;
+  }
+  table {
+    font-size: 10px;
+    font-weight: 50;
+  }
+  .pagination {
+    gap: 0.9rem;
+    font-size: 1rem;
+  }
+  .pagination .page-tabs {
+    gap: 0.9rem;
+    line-height: 2rem;
+  }
+  .pagination .page-tabs .active {
+    height: 2rem;
+    width: 2rem;
+  }
+  /* PAGINATION END ANDROID */
+}
