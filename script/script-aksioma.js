@@ -8,6 +8,7 @@ const closeFull = document.querySelector(".close-full-btn");
 function showPDF(event, pdfURL) {
   event.preventDefault(); // Mencegah perilaku default dari anchor tag
   pdfViewer.data = pdfURL;
+  pdfViewer.src = pdfURL;
   // cek apakah ukuran halaman < 500
   if (window.innerWidth < 450) {
     window.open(pdfURL);
@@ -17,6 +18,7 @@ function showPDF(event, pdfURL) {
   pdfContainer.style.display = "block"; // menampilkan PDF
   closeFull.style.display = "flex"; // menampilkan close btn
   // membuat latar menjadi gelap
+  document.getElementsByTagName("body")[0].classList.add("off");
   aksiomaContainer.classList.add("off");
   footer.classList.add("off");
   copyright.classList.add("off");
@@ -37,6 +39,7 @@ function closePDF() {
 
   pdfContainer.style.display = "none";
   closeFull.style.display = "none";
+  document.getElementsByTagName("body")[0].classList.remove("off");
   aksiomaContainer.classList.remove("off");
   footer.classList.remove("off");
   copyright.classList.remove("off");

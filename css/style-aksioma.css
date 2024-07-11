@@ -1,3 +1,9 @@
+body.off {
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+}
+
 .aksioma-container.off {
   background-color: #fff;
   filter: brightness(30%);
@@ -152,9 +158,11 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   overflow: auto;
   z-index: 100;
+  pointer-events: all;
 }
 
-.pdf-container object {
+.pdf-container object,
+.pdf-container iframe {
   width: 100%;
   height: 100%;
 }
@@ -169,6 +177,7 @@
   left: 90%;
   transform: translate(-50%, -50%);
   z-index: 100;
+  pointer-events: all;
 }
 .close-btn,
 .full-btn {
