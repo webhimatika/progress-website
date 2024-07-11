@@ -8,7 +8,7 @@ if (isset($_GET['slug'])) {
 }
 
 // Import data JSON dari file
-$jsonData = file_get_contents('assets/database_berita.json');
+$jsonData = file_get_contents('../assets/database_berita.json');
 $data = json_decode($jsonData, true);
 
 // Cari berita yang sesuai dengan slug
@@ -54,9 +54,9 @@ if ($berita === null) {
   <!--Calibri Font => klo mau pake langsung di CSS(font-family: "calibri",sans-serif;)-->
 
   <!-- My Css Style-->
-  <link rel="stylesheet" href="css/style-nav.css" />
-  <link rel="stylesheet" href="css/review-kegiatan.css" />
-  <link rel="stylesheet" href="css/style-footer.css" />
+  <link rel="stylesheet" href="../css/style-nav.css" />
+  <link rel="stylesheet" href="../css/review-kegiatan.css" />
+  <link rel="stylesheet" href="../css/style-footer.css" />
 
   <!-- Feather Icons-->
   <script src="https://unpkg.com/feather-icons"></script>
@@ -64,8 +64,8 @@ if ($berita === null) {
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
 
-  <script src="/komponen/Navbar/Navbar.js"></script>
-  <script src="/komponen/Footer/Footer.js"></script>
+  <script src="../komponen/Navbar/Navbar.js"></script>
+  <script src="../komponen/Footer/Footer.js"></script>
 </head>
 
 <body>
@@ -77,7 +77,7 @@ if ($berita === null) {
     <div class="content">
       <h4><?php echo $berita['title']; ?></h4>
       <div class="image-container">
-        <img src="assets/berita/<?php echo $berita['cover']; ?>" alt="<?php echo $berita['title']; ?>" />
+        <img src="../assets/berita/<?php echo $berita['cover']; ?>" alt="<?php echo $berita['title']; ?>" />
       </div>
       <div class="deskripsi">
         <p><?php echo $berita['date']; ?></p>
@@ -93,7 +93,7 @@ if ($berita === null) {
   <!-- Footer End -->
 
   <!-- navbar scipt -->
-  <script src="script/nav-script.js"></script>
+  <script src="../script/nav-script.js"></script>
   <!-- Feather Icons -->
   <script>
     feather.replace();

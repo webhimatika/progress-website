@@ -9,13 +9,17 @@
       rel="shortcut icon"
       href="assets/logo himatika.png"
       type="image/x-icon" />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3H6MB7RLPJ"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3H6MB7RLPJ"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-  
-      gtag('config', 'G-3H6MB7RLPJ');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-3H6MB7RLPJ");
     </script>
     <!-- My Font -->
     <link
@@ -38,9 +42,9 @@
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
-  
-    <script src="/komponen/Navbar/Navbar.js"></script>  
-    <script src="/komponen/Footer/Footer.js"></script>  
+
+    <script src="/komponen/Navbar/Navbar.js"></script>
+    <script src="/komponen/Footer/Footer.js"></script>
   </head>
   <body>
     <!-- Navigasi Bar Start -->
@@ -60,6 +64,19 @@
         <div class="items" id="items">
           <div class="group-book">
             <!-- aksioma tahun 2024 -->
+            <div class="content-book">
+              <a
+                href="#"
+                onclick="showPDF(event, this.getAttribute('data-pdf-url'))"
+                data-pdf-url="assets/Aksioma/pdf-aksioma/Chess-one step for a myriad of possibilities.pdf"
+                ><img
+                  src="assets/Aksioma/cover-aksioma/edisi 7-2024.jpg"
+                  alt="Chess:one step for a myriad of possibilities"
+              /></a>
+              <h3>#EDISI 7</h3>
+              <h4>Chess: one step for a myriad of possibilities</h4>
+              <p>Tahun 2024</p>
+            </div>
             <div class="content-book">
               <a
                 href="#"
