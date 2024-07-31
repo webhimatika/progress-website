@@ -111,39 +111,7 @@ body.off {
   color: #666666;
   font-weight: 500;
 }
-.slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-  font-family: "Montserrat";
-  font-size: 1rem;
-  color: #39a2db;
-  font-weight: 600;
-}
-.slide p,
-.slide .num-slide p {
-  cursor: pointer;
-}
-.slide .num-slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  font-size: 1rem;
-  font-family: "calibri";
-  font-weight: 600;
-  line-height: 1.7rem;
-  color: #000000;
-}
-.slide .num-slide .active {
-  color: #fff;
-  text-align: center;
-  background-color: #39a2db;
-  border-radius: 10%;
-  height: 1.7rem;
-  width: 1.7rem;
-}
+
 .pdf-container {
   display: none;
   position: fixed;
@@ -222,15 +190,30 @@ body.off {
 .items {
   display: none;
 }
+
 .pagination {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
+  gap: 0.7rem;
   font-family: "Montserrat";
-  font-size: 1rem;
-  color: #39a2db;
-  font-weight: 600;
+  font-size: 0.8rem;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.tabs,
+.pagination .prev-btn,
+.pagination .next-btn {
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10%;
+  height: 1.7rem;
+  width: 1.7rem;
 }
 .pagination .prev-btn,
 .pagination .next-btn,
@@ -241,18 +224,17 @@ body.off {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 0.7rem;
 }
-.pagination .page-tabs a {
-  font-size: 1rem;
-  font-family: "calibri";
-  font-weight: 600;
-  line-height: 1.7rem;
-  color: #000000;
-  text-decoration: none;
+.pagination .prev-btn,
+.pagination .next-btn {
+  color: rgba(0, 0, 0, 0.3);
 }
 .pagination .page-tabs .active-tab {
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   background-color: #39a2db;
   border-radius: 10%;
@@ -260,6 +242,7 @@ body.off {
   width: 1.7rem;
 }
 /* PAGINATION END DEKSTOP */
+
 /*Ukuran Tablet*/
 @media (max-width: 1000px) {
   .group-book .content-book {

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "S001",
+    "edition": 5,
+    "title": "Heroes Today",
+    "cover": "edisi 5-2020.png",
+    "url": "edisi-5-2020.pdf",
+    "year": 2020
+  },
+  {
+    "id": "S002",
+    "edition": 4,
+    "title": "Matematika dan Bahasa",
+    "cover": "edisi 4-2020.png",
+    "url": "edisi-4-2020.pdf",
+    "year": 2020
+  },
+  {
+    "id": "S003",
+    "edition": 3,
+    "title": "Welcome to Campus Life",
+    "cover": "edisi 3-2020.png",
+    "url": "edisi-3-2020.pdf",
+    "year": 2020
+  },
+  {
+    "id": "S002",
+    "edition": 2,
+    "title": "City Tonight",
+    "cover": "edisi 2-2020.png",
+    "url": "edisi-2-2020.pdf",
+    "year": 2020
+  },
+  {
+    "id": "S001",
+    "edition": 1,
+    "title": "Cheerful Quarantine Check",
+    "cover": "edisi 1-2020.png",
+    "url": "edisi-1-2020.pdf",
+    "year": 2020
+  },
+  {
+    "id": "S001",
+    "edition": 5,
+    "title": "Heroes Today",
+    "cover": "edisi 5-2020.png",
+    "url": "edisi-5-2020.pdf",
+    "year": 2020
+  },
+  {
+    "id": "S002",
+    "edition": 4,
+    "title": "Matematika dan Bahasa",
+    "cover": "edisi 4-2020.png",
+    "url": "edisi-4-2020.pdf",
+    "year": 2020
+  },
+  {
+    "id": "S003",
+    "edition": 3,
+    "title": "Welcome to Campus Life",
+    "cover": "edisi 3-2020.png",
+    "url": "edisi-3-2020.pdf",
+    "year": 2020
+  },
+  {
+    "id": "S002",
+    "edition": 2,
+    "title": "City Tonight",
+    "cover": "edisi 2-2020.png",
+    "url": "edisi-2-2020.pdf",
+    "year": 2020
+  },
+  {
+    "id": "S001",
+    "edition": 1,
+    "title": "Cheerful Quarantine Check",
+    "cover": "edisi 1-2020.png",
+    "url": "edisi-1-2020.pdf",
+    "year": 2020
+  }
+]
