@@ -78,5 +78,141 @@
     "cover": "edisi 1-2020.png",
     "url": "edisi-1-2020.pdf",
     "year": 2020
+  },
+  {
+    "id": "S001",
+    "edition": 5,
+    "title": "Youth Can be Future Heroes",
+    "cover": "edisi 5-2021.png",
+    "url": "edisi-5-2021.pdf",
+    "year": 2021
+  },
+  {
+    "id": "S002",
+    "edition": 4,
+    "title": "Indonesian Youth Become Sustainable Agent of Change",
+    "cover": "edisi 4-2021.png",
+    "url": "edisi-4-2021.pdf",
+    "year": 2021
+  },
+  {
+    "id": "S003",
+    "edition": 3,
+    "title": "Healthy Body and Millenials: How to Build a Smart Brain",
+    "cover": "edisi 3-2021.png",
+    "url": "edisi-3-2021.pdf",
+    "year": 2021
+  },
+  {
+    "id": "S002",
+    "edition": 2,
+    "title": "Lingkungan",
+    "cover": "edisi 2-2021.png",
+    "url": "edisi-2-2021.pdf",
+    "year": 2021
+  },
+  {
+    "id": "S001",
+    "edition": 1,
+    "title": "Kartini Masa Kini",
+    "cover": "edisi 1-2021.png",
+    "url": "edisi-1-2021.pdf",
+    "year": 2021
+  },
+  {
+    "id": "S001",
+    "edition": 5,
+    "title": "Diversity Makes colorful Life",
+    "cover": "edisi 5-2022.png",
+    "url": "edisi-5-2022.pdf",
+    "year": 2022
+  },
+  {
+    "id": "S002",
+    "edition": 4,
+    "title": "More Literature For The Perfect Future",
+    "cover": "edisi 4-2022.png",
+    "url": "edisi-4-2022.pdf",
+    "year": 2022
+  },
+  {
+    "id": "S003",
+    "edition": 3,
+    "title": "Creative Youth Innovative Future",
+    "cover": "edisi 3-2022.png",
+    "url": "edisi-3-2022.pdf",
+    "year": 2022
+  },
+  {
+    "id": "S002",
+    "edition": 2,
+    "title": "From Comfort Zone To Positive Action",
+    "cover": "edisi 2-2022.png",
+    "url": "edisi-2-2022.pdf",
+    "year": 2022
+  },
+  {
+    "id": "S001",
+    "edition": 1,
+    "title": "Educationem Est Mutatio",
+    "cover": "edisi 1-2022.png",
+    "url": "edisi-1-2022.pdf",
+    "year": 2022
+  },
+  {
+    "id": "S001",
+    "edition": 1,
+    "title": "Lawan Sastra Ngesti Mulya",
+    "cover": "edisi 1-2023.png",
+    "url": "edisi-1-2023.pdf",
+    "year": 2023
+  },
+  {
+    "id": "S002",
+    "edition": 2,
+    "title": "Life In The Future",
+    "cover": "edisi 2-2023.png",
+    "url": "edisi-2-2023.pdf",
+    "year": 2023
+  },
+  {
+    "id": "S003",
+    "edition": 3,
+    "title": "Arta Nusantara",
+    "cover": "edisi 3-2023.png",
+    "url": "edisi-3-2023.pdf",
+    "year": 2023
+  },
+  {
+    "id": "S002",
+    "edition": 4,
+    "title": "Agraris Country: a Land of Endless Possibilities",
+    "cover": "edisi 4-2023.png",
+    "url": "edisi-4-2023.pdf",
+    "year": 2023
+  },
+  {
+    "id": "S001",
+    "edition": 5,
+    "title": "Thrilling Night: Mystery on Hallowen Night",
+    "cover": "edisi 5-2023.png",
+    "url": "edisi-5-2023.pdf",
+    "year": 2023
+  },
+  {
+    "id": "S001",
+    "edition": 6,
+    "title": "Ocean Blue Under The Ocean",
+    "cover": "edisi 6-2024.png",
+    "url": "Ocean Blue Under The Ocean - 6.pdf",
+    "year": 2024
+  },
+  {
+    "id": "S002",
+    "edition": 7,
+    "title": "Chess: one step for a myriad of possibilities",
+    "cover": "edisi 7-2024.png",
+    "url": "Chess-one step for a myriad of possibilities.pdf",
+    "year": 2024
   }
 ]
