@@ -53,6 +53,11 @@
       integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <script src="/komponen/Navbar/Navbar.js"></script>
     <script src="/komponen/Footer/Footer.js"></script>
     
@@ -75,14 +80,6 @@
         line-height: 1.8;
       }
 
-      /* Full height image header */
-      .bgimg-1 {
-        background-position: center;
-        background-size: cover;
-        background-image: url("assets/background website.jpg");
-        height: 100vh;
-        animation: slide 20s infinite;
-      }
 
       .w3-bar .w3-button {
         padding: 16px;
@@ -98,23 +95,25 @@
 
     <!-- Header with full-height image -->
     <header class="bgimg-1 w3-display-container w3-grayscale" id="home">
-      <div class="w3-display-middle w3-text-white center" style="width: 100%">
-        <span
-          class="w3-jumbo w3-hide-small center"
-          style="font-family: 'Fraunces', sans-serif; font-weight: 700"
-          >HIMATIKA FMIPA UNS 2024</span
-        ><br />
-        <span
-          class="w3-xxxlarge w3-hide-large w3-hide-medium center"
-          style="font-family: 'Fraunces', sans-serif; font-weight: 700"
-          >HIMATIKA FMIPA UNS 2024</span
-        ><br />
-        <span
-          class="w3-xxlarge"
-          style="font-family: 'merienda', sans-serif; font-weight: 700"
-          >Be Progressive, Be Proactive.</span
-        >
-      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <img
+                src="assets/background website.jpg"
+              />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <img
+                src="assets/background website.jpg"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>  
     </header>
 
     <!-- About Section -->
@@ -186,7 +185,7 @@
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/FEHKjvk9AXE?si=-cWc3U44DHLwqnJU"
+            src="https://www.youtube.com/embed/5te25BY_s2o?si=M85VRKKCKJ6gvaH2"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -313,36 +312,6 @@
       </div>
     </div>
 
-    <!-- Promo Section "Statistics" -->
-    <!-- <div
-      class="w3-container container-wrap w3-row w3-center w3-padding-64 middle-horizontal bg-primary">
-      <div class="w3-quarter">
-        <span class="w3-xxxlarge">5</span>
-        <br />
-        <p style="font-size: 1.2rem">DPO</p>
-      </div>
-      <div class="w3-quarter">
-        <span class="w3-xxxlarge">9</span>
-        <br />
-        <p style="font-size: 1.2rem">PHT</p>
-      </div>
-      <div class="w3-quarter">
-        <span class="w3-xxxlarge">6</span>
-        <br />
-        <p style="font-size: 1.2rem">Bidang</p>
-      </div>
-      <div class="w3-quarter">
-        <span class="w3-xxxlarge">4</span>
-        <br />
-        <p style="font-size: 1.2rem">Biro</p>
-      </div>
-      <div class="w3-quarter">
-        <span class="w3-xxxlarge">78</span>
-        <br />
-        <p style="font-size: 1.2rem">Pengurus</p>
-      </div>
-    </div> -->
-
     <!-- Contact Section -->
     <div
       class="w3-container w3-light-grey blank"
@@ -426,5 +395,11 @@
         mySidebar.style.display = "none";
       }
     </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script src="../script/script-page-home.js"></script>
   </body>
 </html>
