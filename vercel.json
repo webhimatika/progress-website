@@ -1,15 +1,15 @@
 {
-    "functions": {
-      "*.php": {
-        "runtime": "vercel-php@0.6.0"
-      },
-      "review-kegiatan/*.php": {
-        "runtime": "vercel-php@0.6.0"
-      }
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.6.0"
     },
-    "routes": [
-        { "src": "/aksioma.php", "dest": "/aksioma.php" },
-        { "src": "review-kegiatan.php", "dest": "review-kegiatan.php" },
-        { "src": "review-kegiatan/kegiatan.php", "dest": "review-kegiatan/kegiatan.php" }
-    ]
-  }
+    "api/review-kegiatan/*.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+  "routes": [
+    { "src": "/aksioma.php", "dest": "/api/aksioma.php" },
+    { "src": "/kegiatan.php", "dest": "/api/kegiatan.php" },
+    { "src": "/review-kegiatan/keg.php", "dest": "/api/review-kegiatan/keg.php" }
+  ]
+}
