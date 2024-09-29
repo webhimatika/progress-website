@@ -1,0 +1,10 @@
+# Ignore all files except those in api/ directory
+!api/
+
+# Ignore unnecessary files and directories
+node_modules/
+vendor/
+*.log
+*.tmp
+*.bak
+.git/
