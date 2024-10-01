@@ -77,7 +77,7 @@ $endPrint = min($startPrint + 4, $total_pages);
   <?php for ($i = $start; $i <= $end; $i++) : ?>
     <div class="ooo">
       <div class="berita">
-        <img src="assets/berita/<?php echo $data[$i]['cover']; ?>" alt="<?php echo $data[$i]['title']; ?>">
+        <img loading="lazy" src="assets/berita/<?php echo $data[$i]['cover']; ?>" alt="<?php echo $data[$i]['title']; ?>">
         <div class="isi">
           <div class="text">
             <h3><?php echo $data[$i]['title']; ?></h3>
