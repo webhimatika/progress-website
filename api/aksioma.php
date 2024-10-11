@@ -132,8 +132,8 @@ $akhir = min($awal + $jumlah_data_halaman, $total_data);
       </div>
       </section>
             </div>
-                <div id="pdfContainer" class="pdf-container">
-              <object id="pdfViewer" type="application/pdf"></object>
+            <div id="pdfContainer" class="pdf-container">
+                <iframe id="pdfViewer" src="" width="100%" height="500px" frameborder="0"></iframe>
             </div>
           <div class="close-full-btn">
         <div class="close-btn" id="close-btn">

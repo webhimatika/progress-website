@@ -7,7 +7,7 @@ const closeFull = document.querySelector(".close-full-btn");
 
 function showPDF(event, pdfURL) {
   event.preventDefault(); // Mencegah perilaku default dari anchor tag
-  pdfViewer.data = pdfURL;
+  // pdfViewer.data = pdfURL;
   pdfViewer.src = pdfURL;
   // cek apakah ukuran halaman < 500
   if (window.innerWidth < 450) {
@@ -26,16 +26,16 @@ function showPDF(event, pdfURL) {
 }
 
 function fullPDF() {
-  const pdfURL = pdfViewer.getAttribute("data");
+  const pdfURL = pdfViewer.getAttribute("src");
   window.open(pdfURL); //membuka pdf di tab baru
   console.log(pdfURL);
   return;
 }
 
 function closePDF() {
-  let pdfURL = pdfViewer.getAttribute("data");
+  let pdfURL = pdfViewer.getAttribute("src");
   pdfURL = " "; // Ketika pdf di close maka pdfURL akan => ""
-  pdfViewer.data = pdfURL; // membuat data pada pdfViewer => ""
+  pdfViewer.src = pdfURL; // membuat data pada pdfViewer => ""
 
   pdfContainer.style.display = "none";
   closeFull.style.display = "none";
