@@ -93,7 +93,7 @@ $akhir = min($awal + $jumlah_data_halaman, $total_data);
               <a
                 href=""
                 onclick="showPDF(event, this.getAttribute('data-pdf-url'))"
-                data-pdf-url="assets/Aksioma/pdf-aksioma/<?php echo $aksioma[$i]['url']; ?>">
+                data-pdf-url="<?php echo $aksioma[$i]['url']; ?>">
                 <img
                   loading="lazy" src="assets/Aksioma/cover-aksioma/<?php echo $aksioma[$i]['cover']; ?>"
                   alt=<?php echo $aksioma[$i]['title'];?>/>
