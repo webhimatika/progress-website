@@ -4,592 +4,68 @@
   --primary-color: #39a2db;
   --secondary-color: #146c94;
 }
-* {
-  margin: 0;
+
+/* Cooming soon section */
+*{
   padding: 0;
-  font-family: var(--primary-font);
-}
-html {
-  scroll-behavior: smooth;
-}
-.heading {
-  position: relative;
-  height: 100vh;
-}
-
-.heading::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(169, 71, 185, 0.6);
-  z-index: -1;
-}
-
-.heading::after {
-  content: "";
-  background: url("/assets/starfm/FOTO\ PUNCAK\ STARFM\ FIX.jpg");
-  background-position: center;
-  object-fit: cover;
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -2;
-}
-
-.header {
-  display: flex;
-  height: 100vh;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0 3rem;
-}
-.paragraph {
-  font-family: var(--primary-font);
-  width: 50%;
-  color: white;
-}
-.paragraph h1 {
-  font-size: 5rem;
-}
-.paragraph p {
-  font-size: 2rem;
-  margin-bottom: 3rem;
-}
-.mascot {
-  width: 40rem;
-  height: 30rem;
-  object-fit: cover;
-  background-size: cover;
-}
-
-.mascot img {
-  /* height: auto; */
-  width: 37.5rem;
-}
-.tombol-daftar {
-  display: flex;
-  flex-direction: column;
-  text-transform: uppercase;
-}
-.tombol-daftar a {
-  font-family: var(--primary-font);
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.05rem;
-  text-decoration: none;
-  width: 20rem;
-}
-.tombol-daftar a:first-child {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: black;
-  background-color: #ffd700;
-  padding: 1rem;
-  border-radius: 5px;
-  border: 1px solid #ffd700;
-  transition: 200ms ease-in;
-}
-.tombol-daftar a:first-child:hover {
-  background-color: var(--primary-color);
-  color: #fff;
-}
-
-/* next */
-#pendaftaranlomba {
-  padding-top: 6rem;
-}
-.container {
-  margin: 4rem 3rem;
-}
-.title {
-  text-align: center;
-  font-family: var(--primary-font);
-  margin-bottom: 3rem;
-}
-.title h2 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-.title p {
-  opacity: 70%;
-  font-size: 1rem;
-  font-weight: 400;
-}
-.content {
-  display: flex;
-  gap: 3rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.content .daftar-lomba {
-  position: relative;
-  width: 21rem;
-  height: 100%;
-  border-radius: 5px;
-  border: 1px solid var(--primary-color);
-  /* overflow: hidden; */
-}
-.daftar-lomba img {
-  width: 21rem;
-  background-size: cover;
-  object-fit: cover;
-  background-position: center;
-  height: 11rem;
-}
-.daftar-lomba .daftar-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 1rem;
-  height: 30rem;
-}
-
-.daftar-lomba .daftar-text .description h6 {
-  color: var(--secondary-color);
-  font-family: var(--secondary-font);
-  font-size: 1.2rem;
-  font-weight: 600;
-  letter-spacing: 0.03rem;
-  margin-bottom: 0.8rem;
-}
-.daftar-lomba .daftar-text .description ul {
-  display: block;
-}
-.daftar-lomba .daftar-text .description ul > li {
-  font-family: var(--primary-font);
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.02rem;
-  margin-bottom: 2px;
-}
-.daftar-lomba .daftar-text .description ol li {
-  font-family: var(--primary-font);
-  font-size: 1rem;
-  font-weight: 400;
-  letter-spacing: 0.02rem;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 1.2rem;
-  list-style-type: decimal;
-}
-.daftar-lomba .daftar-text .daftar-btn {
-  display: flex;
-  flex-direction: column;
-  text-transform: uppercase;
-  gap: 0.7rem;
-}
-.daftar-lomba .daftar-text .daftar-btn a {
-  font-family: var(--primary-font);
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.05rem;
-}
-.daftar-lomba .daftar-text .daftar-btn a:first-child {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--primary-color);
-  flex-shrink: 0;
-  padding: 1rem;
-  border-radius: 5px;
-  border: 1px solid var(--primary-color);
-  transition: 200ms ease-in;
-}
-.daftar-lomba .daftar-text .daftar-btn a:last-child {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  background-color: var(--primary-color);
-  flex-shrink: 0;
-  padding: 1rem;
-  border-radius: 5px;
-  border: 1px solid var(--primary-color);
-  transition: 200ms ease-in;
-}
-.daftar-lomba .daftar-text .daftar-btn a:first-child:hover {
-  background-color: var(--primary-color);
-  color: #fff;
-}
-.daftar-lomba .daftar-text .daftar-btn a:last-child:hover {
-  border-color: var(--secondary-color);
-  background-color: var(--secondary-color);
-}
-.discount {
-  position: absolute;
-  left: -4%;
-  top: 1%;
-  z-index: 10;
-}
-
-.discount .title-discount {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.7rem;
+  margin: 0;
   font-family: "Poppins", sans-serif;
-  background-color: red;
-  width: fit-content;
-  padding: 0.5rem 1rem;
-  color: #fff;
 }
-.discount h5 {
-  font-size: 1rem;
-  font-weight: 400;
-}
-.discount .eyes {
-  width: 16px;
-  height: 16px;
-}
-.discount .eyes:hover {
-  cursor: pointer;
-}
-.discount .eyes:hover ~ .content-discount {
-  display: block;
-}
-.discount .content-discount {
-  position: absolute;
-  display: none;
-  bottom: -200%;
-  width: 15rem;
-  left: 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 0.8rem;
-  color: black;
-  padding: 0.5rem;
-  background-color: rgb(233, 233, 233);
-}
-.discount .content-discount::after {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 35%;
-  border-style: solid;
-  border-width: 10px;
-  border-color: transparent transparent rgb(233, 233, 233) transparent;
-}
-.discount .content-discount ul {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.discount .content-discount span {
-  color: var(--secondary-color);
-  font-weight: 600;
+body {
+  background-color: rgb(17, 17, 17);
+  min-height: 100vh;
 }
 
-/* webinar section */
-.webinar {
-  width: auto;
-  background-color: #eaeaea;
-}
-.webinar .content-webinar {
-  padding: 2rem 0;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  font-family: var(--primary-font);
-}
-.webinar .content-webinar .description {
-  display: flex;
-  width: 500px;
-  height: 26rem;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.webinar .description .lg-webinar-title,
-.webinar .sm-webinar-title {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-.webinar .sm-webinar-title {
-  display: none;
-}
-.webinar .description p {
-  font-size: 1rem;
-  font-weight: 400;
-}
-.webinar .description .webinar-time {
-  display: flex;
-  padding: 1.6rem 0;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid var(--primary-color);
-}
-.webinar .description .webinar-time p {
-  padding: 0.8rem 0;
-  text-align: center;
-  width: 7rem;
-  border: 1px solid var(--primary-color);
-  color: var(--primary-color);
-}
-.webinar .description a {
-  display: inline-block;
-  color: #fff;
-  background-color: var(--primary-color);
-  width: max-content;
-  padding: 1rem 2rem;
-  font-size: 1rem;
-  transition: 300ms ease-in;
-  cursor: pointer;
-}
-.webinar .description a:hover {
-  background-color: var(--secondary-color);
-}
-.webinar .content-webinar .webinar-img a {
-  display: grid;
-  place-content: center;
-  width: 600px;
-  height: 26rem;
-}
-.webinar .content-webinar .webinar-img img {
-  object-fit: contain;
-  box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.5);
-  background-size: cover;
-  height: inherit;
-  background-position: center;
-  cursor: pointer;
-  transition: all 0.5s ease-in;
-}
-.webinar .content-webinar .webinar-img img:hover {
-  rotate: 4deg;
-  scale: 1.0625;
-  box-shadow: 0 0 15px 1px var(--secondary-color);
-}
-
-/* contact person */
-.contact-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-}
-.contact {
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  gap: 1.2rem;
-  align-items: center;
-  justify-content: center;
-}
-.contact-item {
-  /* width: 15rem; */
-  padding: 0 2rem;
-  height: 17rem;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #39a2db;
+header {
   padding: 2rem;
-  border-radius: 15px;
-  align-items: center;
-  justify-content: center;
-}
-.contact-item .icon {
-  padding: 15px;
-  background-color: #d9d9d9;
+  position: fixed;
   display: flex;
+  width: 100%;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  border-radius: 30px;
 }
-.contact-btn {
+
+header a {
+  color: #fff;
+  font-size: 2rem;
+  transition: all 0.3s ease-in;
+}
+
+header a:hover {
+  color: rgb(255, 251, 0);
+}
+
+header p {
+  color: rgb(255, 251, 0);
+  font-size: 2rem;
+  font-weight: 700;
+  position: relative;
+  z-index: 9999;
+}
+
+main {
+  padding: 2rem;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  text-transform: uppercase;
-  margin-top: 30px;
-  gap: 0.5rem;
-}
-.contact-btn a {
-  width: 15rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-}
-.contact-btn a:first-child {
-  display: flex;
-  align-items: center;
   justify-content: center;
-  color: #39a2db;
-  flex-shrink: 0;
-  padding: 1rem;
-  border-radius: 5px;
-  border: 1px solid #39a2db;
-  transition: 200ms ease-in;
-}
-.contact-btn a:last-child {
-  display: flex;
   align-items: center;
-  justify-content: center;
+}
+
+main h1 {
   color: #fff;
-  background-color: #39a2db;
-  flex-shrink: 0;
-  padding: 1rem;
-  border-radius: 5px;
-  border: 1px solid #39a2db;
-  transition: 200ms ease-in;
-}
-.contact-btn a:first-child:hover {
-  background-color: #39a2db;
-  color: #fff;
-}
-.contact-btn a:last-child:hover {
-  border-color: #146c94;
-  background-color: #146c94;
-}
-.media-sosial {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
+  font-size: 5rem;
+  text-align: center;
 }
 
-@media (max-width: 1000px) {
-  .header {
-    height: 100vh;
-    display: flex;
-
-    flex-direction: column-reverse;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1px;
-    /* margin: 3rem 1rem; */
-  }
-  .paragraph {
-    width: 100%;
-  }
-  .paragraph h1 {
-    font-size: 4rem;
-  }
-  .paragraph p {
-    font-size: 2rem;
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
-  }
-  .tombol-daftar a {
-    width: max-content;
-    margin-bottom: 2rem;
-  }
-  .tombol-daftar a:first-child {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    padding: 1rem 3rem;
-    border-radius: 5px;
-    transition: 200ms ease-in;
-  }
-  .mascot img {
-    object-fit: cover;
-    background-size: cover;
-  }
-  /* daftar dan berkas section */
-  .content .daftar-lomba {
-    height: 100%;
-  }
-  .daftar-lomba .daftar-text {
-    height: fit-content;
-  }
+main h2 {
+  font-size: 7rem;
+  color: #ffffff;
 }
-@media (max-width: 450px) {
-  .header {
-    height: 100vh;
-    display: flex;
 
-    flex-direction: column-reverse;
-    justify-content: center;
-    /* gap: 2rem; */
-    align-items: center;
-    /* margin: 3rem 1rem; */
-  }
-  .paragraph {
-    width: 100%;
-  }
-  .paragraph h1 {
-    font-size: 2rem;
-  }
-  .paragraph p {
-    font-size: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
-  }
-  .tombol-daftar a {
-    width: max-content;
-    margin-bottom: 2rem;
-  }
-  .tombol-daftar a:first-child {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    padding: 0.5rem 1.3rem;
-    border-radius: 5px;
-    transition: 200ms ease-in;
-  }
-  .mascot {
-    width: 30rem;
-    height: 28rem;
-  }
-  .mascot img {
-    width: 30rem;
-  }
-  .discount .title-discount::after {
-    border-width: 1rem;
-  }
-  /* webinar section */
-  .webinar .content-webinar {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 2rem;
-  }
-  .webinar .description .lg-webinar-title {
-    display: none;
-  }
-  .webinar .sm-webinar-title {
-    display: block;
-    width: 100%;
-  }
-  .webinar .content-webinar .description {
-    height: 100%;
-    max-width: 530px;
-    width: 350px;
-    gap: 1.5rem;
-  }
-  .webinar .description .webinar-time p {
-    font-size: 1.2rem;
-  }
-  .webinar .description a {
-    width: 100%;
-  }
-  .webinar .content-webinar .webinar-img {
-    display: grid;
-    place-content: center;
-    width: 100%;
-    height: 26rem;
-  }
-  .contact {
-    flex-direction: column;
-  }
-  .contact-item {
-    width: 80%;
-    margin: 0 5px;
-  }
-  .contact-btn a {
-    width: 13rem;
-  }
+.highlight {
+  padding: 0 1rem;
+  white-space: nowrap;
+  background-color: rgb(255, 251, 0); 
+  color: rgb(17, 17, 17);
 }
