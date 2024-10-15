@@ -67,4 +67,12 @@ window.addEventListener("DOMContentLoaded", () => {
     .catch((err) => {
       console.error(`Error fetching navigation bar: ${err}`);
     });
+  fetch("/komponen/Footer/Footer.html")
+    .then((response) => response.text())
+    .then((data) => {
+        document.getElementById("footer").innerHTML = data;
+    })
+    .catch((err) => {
+        console.error(`Error fetching footer: ${err}`);
+    });
 });
