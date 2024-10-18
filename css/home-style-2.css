@@ -28,7 +28,38 @@
 .slide-content {
   display: grid;
   place-items: center;
+  position: relative;
   text-align: center;
+}
+
+.slide-content img {
+  z-index: -1;
+}
+
+.slide-content[data-hero="title"] img {
+  filter: brightness(0.7);
+}
+
+.slide-content .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  width: 100%;
+}
+
+.slide-content .title {
+  font-family: "Fraunces", sans-serif;
+  font-weight:  700;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.slide-content .subtitle {
+  font-family: "Merienda", sans-serif;
+  font-size: 3rem;
+  color: #fff;
 }
 
 .swiper {
@@ -73,7 +104,7 @@
 }
 
 .wipol{
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .kacang{
