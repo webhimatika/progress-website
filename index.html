@@ -36,27 +36,8 @@
       gtag('config', 'G-3H6MB7RLPJ');
     </script>
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Poppins" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
-      rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Yeseva One"
-      rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Courgette"
-      rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
-      rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap"
-      rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100..900;1,100..900&family=Montserrat:wght@400;500;700&family=Yeseva+One&family=Courgette&family=Fraunces:ital,wght@0,100..900;1,100..900&family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+
     <!--Calibri Font => klo mau pake langsung di CSS(font-family: "calibri",sans-serif;)-->
 
     <!-- My Css Style-->
@@ -116,12 +97,18 @@
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <div class="slide-content">
+            <div class="slide-content" data-hero="title">
               <img
                 src="assets/background website.webp"
                 alt="hero section1"
-                loading="lazy"
+                loading="eager"
+                width="400"
+                height="300"
               />
+              <div class="content">
+                <h1 class="title">HIMATIKA FMIPA UNS 2024</h1>
+                <h2 class="subtitle">Be Progressive, Be Proactive</h2>
+              </div>
             </div>
           </div>
           <div class="swiper-slide">
@@ -129,7 +116,9 @@
               <img
                 src="assets/background website.webp"
                 alt="hero section2"
-                loading="lazy"
+                loading="eager"
+                width="400"
+                height="300"
               />
             </div>
           </div>
@@ -396,5 +385,6 @@
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script/script-page-home.js"></script>
   </body>
 </html>
