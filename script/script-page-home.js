@@ -13,10 +13,4 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  breakpoints: {
-    400: {
-      slidesPerView: 1, // 1 slide per view for small screens
-      spaceBetween: 50,
-    },
-  },
 });
