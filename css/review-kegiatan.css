@@ -5,6 +5,7 @@
   text-decoration: none;
   outline: none;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
   /*  list-style-type: none; */
 }
 
@@ -50,30 +51,41 @@ h1 {
   background-color: rgb(241, 241, 241);
 }
 
+main {
+  display: flex;
+  background-color: rgb(241, 241, 241);
+  padding-top: 102px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  gap: 2rem;
+}
+
 .container {
-  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   background-color: rgb(241, 241, 241);
-  padding-top: 3rem;
+  width: 75%;
+}
+
+aside {
+  width: 25%;
 }
 
 .content {
-  width: 80%;
-  margin: 1rem auto;
   /* border: 1px solid rgba(0, 0, 0, 0.2); */
   border-radius: 10px;
-  padding: 10px;
   border-width: 3px;
   /* box-shadow: 0px 0 8px 2px rgba(0, 0, 0, 0.2); */
+  
 }
 .content h4 {
-  text-align: center;
+  text-align: start;
   font-family: "Poppins", sans-serif;
   font-size: 1.8rem;
-  color: #146c94;
+  color: #000000;
+  font-size: 1.6rem;
 }
 /* .content h4::after {
     content: "";
@@ -88,38 +100,83 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 35px;
+  margin-bottom: 20px;
 }
 .image-container img {
-  border-radius: 10px;
+  border-radius: 16px;
   justify-content: center;
   display: block;
   width: 100%;
-  height: auto;
+  height: 420px;
+  object-fit: cover;
 }
 
 .deskripsi {
-  margin-top: 10px;
-  padding: 0 35px;
+  color: #000000;
+  opacity: 50%;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   color: #00000072;
+  text-align: start;
+  padding-bottom: 5px;
+  font-size: 1.2rem;
 }
 .konten-isi {
-  margin: 15px 0;
-  padding: 0 35px;
-  color: black;
+  color: #000000;
   font-family: "Poppins", sans-serif;
   text-align: justify;
   transition: 0.5s;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   border-radius: 10px;
 }
+.konten-isi p{
+  padding-bottom: 1rem;
+}
+
+aside h2 {
+  text-align: start;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  color: #000000;
+  font-size: 1.6rem;
+  padding-bottom: 5px;
+}
+
+.line {
+  height: 1px;
+  width: 80%;
+  background-color: #000000;
+  margin-bottom: 5px;
+}
+
+.ling{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.ling a {
+  color: #000000;
+}
+
+.ling a:hover{
+  text-decoration: underline;
+}
 @media (max-width: 450px) {
-  .image-container,
-  .deskripsi,
-  .konten-isi {
-    padding: 0 10px;
+  .image-container img{
+    height: 240px;
   }
+  .deskripsi,
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  aside {
+    width: 100%;
+    padding-bottom: 32px;
+  }
+  .container{
+    width: 100%;
+  }
+
 }

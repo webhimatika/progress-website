@@ -87,6 +87,7 @@ if ($berita === null) {
       </div>
     </div>
   </div>
+  <aside></aside>
 
   <!-- Footer Start -->
   <div id="footer"></div>
