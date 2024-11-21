@@ -26,7 +26,6 @@ if ($berita === null) {
   exit;
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -72,22 +71,41 @@ if ($berita === null) {
   <!-- Navigasi Bar Start -->
   <div id="navbar"></div>
   <!-- nav end -->
-
-  <div class="container">
+<main>
+<div class="container">
     <div class="content">
-      <h4><?php echo $berita['title']; ?></h4>
-      <div class="image-container">
-        <img src="../assets/berita/<?php echo $berita['cover']; ?>" alt="<?php echo $berita['title']; ?>" />
-      </div>
+      <h4><?php echo ($berita['title']); ?></h4>
       <div class="deskripsi">
-        <p><?php echo $berita['date']; ?></p>
+        <p><?php echo ($berita['date']); ?></p>
       </div>
+      <div class="image-container">
+        <img src="../assets/berita/<?php echo ($berita['cover']); ?>" alt="<?php echo $berita['title']; ?>" />
+        </div>
       <div class="konten-isi">
-        <p><?php echo $berita['content']; ?></p>
+      <p><?php echo ($berita['content']); ?></p>
       </div>
     </div>
   </div>
-  <aside></aside>
+  <aside>
+    <h2>Post Terkini</h2>
+    <div class="line"></div>
+
+    <div class="ling">
+    <?php
+        $dataTanpaBeritaSaatIni = array_filter($data, function ($item) use ($berita) {
+          return $item['slug'] !== $berita['slug']; 
+        });
+
+        $dataTerbaru = array_slice($dataTanpaBeritaSaatIni, 0, 4);
+
+        foreach ($dataTerbaru as $post) {
+          echo '<a href="kegiatan.php?slug=' . htmlspecialchars($post['slug']) . '" class="news">'
+          . htmlspecialchars($post['title']) . 'asdasd</a>';
+            }
+            ?>
+    </div>
+  </aside>
+</main>
 
   <!-- Footer Start -->
   <div id="footer"></div>
