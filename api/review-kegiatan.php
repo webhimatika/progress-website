@@ -54,9 +54,9 @@ $endPrint = min($startPrint + 4, $total_pages);
 
       gtag("config", "G-3H6MB7RLPJ");
     </script>
-    <link rel="stylesheet" href="/css/style-nav.css" />
-    <link rel="stylesheet" href="/css/style-acara.css" />
-    <link rel="stylesheet" href="/css/style-footer.css" />
+    <link rel="stylesheet" href="../css/style-nav.css" />
+    <link rel="stylesheet" href="../css/style-acara.css" />
+    <link rel="stylesheet" href="../css/style-footer.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet" />
@@ -86,46 +86,47 @@ $endPrint = min($startPrint + 4, $total_pages);
     </header>
     <h1>Review Kegiatan</h1>
     <main>
-      <div class="ooo">
-      <?php for ($i = $start; $i <= $end; $i++) : ?>
-        <div>
-          <a href="" class="container-berita">
-            <div class="berita">
-              <img loading="lazy" src="assets/berita/<?php echo $data[$i]['cover']; ?>" alt="<?php echo $data[$i]['title']; ?>"/>
-              <div class="isi">
-                <div class="text">
-                  <h3>
-                    <?php echo $data[$i]['title']; ?>
-                  </h3>
-                  <p>
-                  <?php echo $data[$i]['content']; ?>
-                  </p>
-                </div>
-                <div class="siqma">
-                  <div class="news">Selengkapnya...</div>
-                </div>
-              </div>
-            </div>
-          </a>
+        <div class="ooo">
+            <?php for ($i = $start; $i <= $end; $i++) : ?>
+                <a class="container-berita">
+                    <div class="berita">
+                        <img loading="lazy" src="assets/berita/<?php echo $data[$i]['cover']; ?>" alt="<?php echo $data[$i]['title']; ?>">
+                        <div class="isi">
+                            <div class="text">
+                                <h3>
+                                  <?php echo $data[$i]['title']; ?>
+                                </h3>
+                                <p>
+                                  <?php echo getExcerpt($data[$i]['content'], 40); ?>
+                                </p>
+                            </div>
+                            <div class="siqma">
+                                <a href="/review-kegiatan/kegiatan.php?slug=<?php 
+                                echo $data[$i]['slug']; ?>" 
+                                class="news">Selengkapnya...</a>
+                            </div>
+                        </div>
+                      </div>
+                    </a>
+            <?php endfor; ?>
         </div>
-      </div>
-      <?php endfor ?>
 
-  <!-- Post Terkini -->
-  <aside>
-    <h2>Post Terkini</h2>
-    <div class="line"></div>
-    <div class="ling">
-      <?php
-      // Ambil 4 berita terbaru
-      $recentPosts = array_slice($data, 0, 4);
-      foreach ($recentPosts as $post) : ?>
-        <a href="kegiatan.php?slug=<?php echo $post['slug']; ?>">
-          <?php echo $post['title']; ?>
-        </a>
-      <?php endforeach; ?>
-    </div>
-  </aside>
+        <!-- Post Terkini -->
+        <aside>
+            <h2>Post Terkini</h2>
+            <div class="line"></div>
+            <div class="ling">
+                <?php
+                $recentPosts = array_slice($data, 0, 4);
+                foreach ($recentPosts as $post) : ?>
+                    <a href="/review-kegiatan/kegiatan.php?slug=<?php 
+                    echo $post['slug']; ?>">
+                        <?php echo $post['title']; ?>
+                    </a>
+                <?php endforeach; ?>
+            </div>
+        </aside>
+    </main>
 
   <!-- Pagination -->
   <div class="pagination">
