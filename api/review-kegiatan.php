@@ -88,7 +88,7 @@ $endPrint = min($startPrint + 4, $total_pages);
     <main>
         <div class="ooo">
             <?php for ($i = $start; $i <= $end; $i++) : ?>
-                <a class="container-berita">
+                <a href="" class="container-berita">
                     <div class="berita">
                         <img loading="lazy" src="assets/berita/<?php echo $data[$i]['cover']; ?>" alt="<?php echo $data[$i]['title']; ?>">
                         <div class="isi">
