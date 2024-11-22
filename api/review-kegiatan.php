@@ -29,67 +29,103 @@ $indexPrint = floor(($current_page - 1) / 5);
 $startPrint = $indexPrint * 5 + 1;
 $endPrint = min($startPrint + 4, $total_pages);
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review Kegiatan | HIMATIKA FMIPA UNS</title>
+    <link
+      rel="shortcut icon"
+      href="assets/logo himatika.png"
+      type="image/x-icon" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3H6MB7RLPJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Review Kegiatan | HIMATIKA FMIPA UNS</title>
-  <link rel="shortcut icon" href="assets/logo himatika.png" type="image/x-icon" />
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3H6MB7RLPJ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+      gtag("config", "G-3H6MB7RLPJ");
+    </script>
+    <link rel="stylesheet" href="/css/style-nav.css" />
+    <link rel="stylesheet" href="/css/style-acara.css" />
+    <link rel="stylesheet" href="/css/style-footer.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet" />
+    <!-- Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <!-- Feather Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
 
-    gtag("config", "G-3H6MB7RLPJ");
-  </script>
-  <link rel="stylesheet" href="css/style-nav.css" />
-  <link rel="stylesheet" href="css/style-acara.css" />
-  <link rel="stylesheet" href="css/style-footer.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
-  <!-- Font Awesome-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
-  <!-- Feather Icons-->
-  <script src="https://unpkg.com/feather-icons"></script>
+    <script src="/komponen/Navbar/Navbar.js"></script>
+    <script src="/komponen/Footer/Footer.js"></script>
+  </head>
 
-  <script src="/komponen/Navbar/Navbar.js"></script>
-  <script src="/komponen/Footer/Footer.js"></script>
-</head>
-
-<body>
-  <!-- Navigasi Bar Start -->
-  <div id="navbar"></div>
-  <!-- nav end -->
-  <header class="header">
-    <div class="overlay"></div>
-    <main class="header-content">
-      <h2>Berita Acara HIMATIKA FMIPA UNS</h2>
-    </main>
-  </header>
-  <h1>Review Kegiatan</h1>
-  <?php for ($i = $start; $i <= $end; $i++) : ?>
-    <div class="ooo">
-      <div class="berita">
-        <img loading="lazy" src="assets/berita/<?php echo $data[$i]['cover']; ?>" alt="<?php echo $data[$i]['title']; ?>">
-        <div class="isi">
-          <div class="text">
-            <h3><?php echo $data[$i]['title']; ?></h3>
-            <p><?php echo getExcerpt(strip_tags($data[$i]['content']), 40); ?></p>
-          </div>
-          <div class="siqma">
-            <a href="review-kegiatan/kegiatan.php?slug=<?php echo $data[$i]['slug']; ?>" class="news">Selengkapnya</a>
-          </div>
+  <body>
+    <!-- Navigasi Bar Start -->
+    <div id="navbar"></div>
+    <!-- nav end -->
+    <header class="header">
+      <div class="overlay"></div>
+      <main class="header-content">
+        <h2>Berita Acara HIMATIKA FMIPA UNS</h2>
+      </main>
+    </header>
+    <h1>Review Kegiatan</h1>
+    <main>
+      <div class="ooo">
+      <?php for ($i = $start; $i <= $end; $i++) : ?>
+        <div>
+          <a href="" class="container-berita">
+            <div class="berita">
+              <img loading="lazy" src="assets/berita/<?php echo $data[$i]['cover']; ?>" alt="<?php echo $data[$i]['title']; ?>"/>
+              <div class="isi">
+                <div class="text">
+                  <h3>
+                    <?php echo $data[$i]['title']; ?>
+                  </h3>
+                  <p>
+                  <?php echo $data[$i]['content']; ?>
+                  </p>
+                </div>
+                <div class="siqma">
+                  <div class="news">Selengkapnya...</div>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
+      <?php endfor ?>
+
+  <!-- Post Terkini -->
+  <aside>
+    <h2>Post Terkini</h2>
+    <div class="line"></div>
+    <div class="ling">
+      <?php
+      // Ambil 4 berita terbaru
+      $recentPosts = array_slice($data, 0, 4);
+      foreach ($recentPosts as $post) : ?>
+        <a href="kegiatan.php?slug=<?php echo $post['slug']; ?>">
+          <?php echo $post['title']; ?>
+        </a>
+      <?php endforeach; ?>
     </div>
-  <?php endfor; ?>
+  </aside>
 
   <!-- Pagination -->
   <div class="pagination">
@@ -120,18 +156,17 @@ $endPrint = min($startPrint + 4, $total_pages);
       <?php endif; ?>
     <?php endif; ?>
   </div>
-  <!-- Footer Start -->
-  <div id="footer"></div>
-  <!-- Footer End -->
-  <!-- My Java Script -->
-  <script src="script/script-susunan-pengurus.js"></script>
-  <!-- navbar scipt -->
-  <script src="script/nav-script.js"></script>
+    <!-- Footer Start -->
+    <div id="footer"></div>
+    <!-- Footer End -->
+    <!-- My Java Script -->
+    <script src="script/script-susunan-pengurus.js"></script>
+    <!-- navbar scipt -->
+    <script src="script/nav-script.js"></script>
 
-  <!-- Feather Icons -->
-  <script>
-    feather.replace();
-  </script>
-</body>
-
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>
