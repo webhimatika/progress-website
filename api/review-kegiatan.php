@@ -28,6 +28,15 @@ $end = min(($start + $items_per_page - 1), $total_data - 1);
 $indexPrint = floor(($current_page - 1) / 5);
 $startPrint = $indexPrint * 5 + 1;
 $endPrint = min($startPrint + 4, $total_pages);
+
+// memastikan nomor halaman 
+if ($current_page < 1) {
+  header("Location: ?page=1");
+  exit();
+} elseif ($current_page > $total_pages) {
+  header("Location: ?page=1");
+  exit();
+}
 ?>
 
 <!DOCTYPE html>
@@ -88,9 +97,12 @@ $endPrint = min($startPrint + 4, $total_pages);
     <main>
         <div class="ooo">
             <?php for ($i = $start; $i <= $end; $i++) : ?>
-                <a href="" class="container-berita">
+                <a href="/review-kegiatan/kegiatan.php?slug=<?php 
+                echo $data[$i]['slug']; ?>" 
+                class="container-berita">
                     <div class="berita">
-                        <img loading="lazy" src="assets/berita/<?php echo $data[$i]['cover']; ?>" alt="<?php echo $data[$i]['title']; ?>">
+                        <img loading="lazy" src="assets/berita/<?php echo $data[$i]['cover']; ?>" 
+                        alt="<?php echo $data[$i]['title']; ?>">
                         <div class="isi">
                             <div class="text">
                                 <h3>
