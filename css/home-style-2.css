@@ -126,7 +126,21 @@
   background-color: #39a2db;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
-
+.view-more {
+  color: #f2f2f2;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view-more a{
+  background-color: #146c94;
+  color: #f2f2f2;
+  padding: 5px 8px;
+  border-radius: 3px;
+  margin: 50px;
+  font-size: medium;
+}
 @media (max-width: 1000px) {
   .middle-vertical-tablet {
     display: flex;

@@ -45,15 +45,19 @@ h1 {
   font-weight: 700;
   font-size: 2rem;
   color: #000000;
-  padding: 0 6%;
+  padding: 0 2rem;
   padding-top: 3rem;
   background-color: rgb(255, 255, 255);
-  padding-bottom: 3rem;
 }
-
+main {
+  display: flex;
+}
 .ooo {
-  padding-top: 1.5rem;
   padding-bottom: 0.5rem;
+  width: 75%;
+}
+aside{
+  width: 25%;
 }
 
 .berita {
@@ -65,13 +69,13 @@ h1 {
 }
 
 .berita img {
-  width: 400px;
-  height: 300px;
   border-radius: 5px;
   margin-right: 20px;
   background-size: cover;
   object-fit: cover;
   background-position: center;
+  width: 228px;
+  height: 210px;
 }
 
 .isi {
@@ -94,9 +98,6 @@ p,
 }
 
 .siqma {
-  padding-top: 17%;
-  padding-bottom: 1rem;
-  text-align: right;
 }
 
 .news:hover {
@@ -104,12 +105,7 @@ p,
 }
 
 .news {
-  padding: 0.5rem;
-  background-color: #146c94;
-  color: #fff;
-  width: 100px;
-  border-radius: 20px;
-  transition: 1s;
+
 }
 
 .ooo::after {
