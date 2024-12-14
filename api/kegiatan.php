@@ -100,7 +100,7 @@ if ($berita === null) {
 
         foreach ($dataTerbaru as $post) {
           echo '<a href="kegiatan.php?slug=' . htmlspecialchars($post['slug']) . '" class="news">'
-          . htmlspecialchars($post['title']) . 'asdasd</a>';
+          . htmlspecialchars($post['title']) . '</a>';
             }
             ?>
     </div>
