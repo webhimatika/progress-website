@@ -90,6 +90,7 @@
   width: 100%;
   object-fit: contain;
   transform: scale(140%);
+  margin-left: -15px;
 }
 /* Media Queires */
 
