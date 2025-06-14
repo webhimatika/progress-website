@@ -72,7 +72,7 @@ if ($berita === null) {
   <div id="navbar"></div>
   <!-- nav end -->
 <main>
-<div class="container">
+  <div class="container">
     <div class="content">
       <h4><?php echo ($berita['title']); ?></h4>
       <div class="deskripsi">

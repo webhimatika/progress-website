@@ -18,10 +18,14 @@
   flex-direction: column;
   align-items: flex-start;
 }
+.logo-bawah {
+  height: 80px;
+}
 .logo-foot {
   margin-bottom: -0.5rem;
   width: 300px;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   cursor: pointer;
 }
 .col-footer p {
