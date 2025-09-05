@@ -5,9 +5,9 @@
     }
   },
   "routes": [
-    { "src": "/aksioma.php",  "dest": "/api/aksioma.php" },
-    { "src": "/database-mahasiswa.php",  "dest": "/api/database-mahasiswa.php" },
-    { "src": "/review-kegiatan.php",  "dest": "/api/review-kegiatan.php" },
-    { "src": "/review-kegiatan/kegiatan.php",  "dest": "/api/kegiatan.php" }
+    { "src": "/aksioma.php", "dest": "/api/aksioma.php" },
+    { "src": "/database-mahasiswa.php", "dest": "/api/database-mahasiswa.php" },
+    { "src": "/review-kegiatan.php", "dest": "/api/review-kegiatan.php" },
+    { "src": "/review-kegiatan/kegiatan.php", "dest": "/api/kegiatan.php" }
   ]
 }
