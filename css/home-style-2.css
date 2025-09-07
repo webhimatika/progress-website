@@ -51,7 +51,7 @@
 
 .slide-content .title {
   font-family: "Fraunces", sans-serif;
-  font-weight:  700;
+  font-weight: 700;
   color: #fff;
   font-size: 4rem;
 }
@@ -99,15 +99,15 @@
   font-weight: 600;
 }
 
-.Anemia{
+.Anemia {
   font-size: 16px;
 }
 
-.wipol{
+.wipol {
   font-weight: 400;
 }
 
-.kacang{
+.kacang {
   color: #146c94;
 }
 
@@ -150,14 +150,14 @@
   font-size: 24px;
   font-weight: 600;
   color: #202020;
-  line-height: 1.2; 
+  line-height: 1.2;
   height: 96px;
 }
 .card-card .top-text-card p {
   font-size: 1rem;
   font-weight: 600;
   color: #146c94;
-  line-height: 1 ;
+  line-height: 1;
 }
 .card-card .bottom-text-card {
   padding: 0 20px 10px 20px;
@@ -167,16 +167,16 @@
 }
 .card-card .bottom-text-card .text-card {
   text-align: justify;
-  display: -webkit-box;               /* Use flexbox layout */
-  -webkit-box-orient: vertical;       /* Orient the flexbox vertically */
-  -webkit-line-clamp: 7;              /* Show only 3 lines */
-  overflow: hidden;                   /* Hide overflow */
-  text-overflow: ellipsis;            /* Show ellipsis at the end */
-  line-clamp: 7;                      /* For non-webkit browsers */
+  display: -webkit-box; /* Use flexbox layout */
+  -webkit-box-orient: vertical; /* Orient the flexbox vertically */
+  -webkit-line-clamp: 7; /* Show only 3 lines */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Show ellipsis at the end */
+  line-clamp: 7; /* For non-webkit browsers */
   display: -moz-box;
   display: -ms-flexbox;
   display: box;
-  box-orient: vertical;  
+  box-orient: vertical;
 }
 .card-card .bottom-text-card .btn-card {
   margin: 10px 0;
@@ -243,7 +243,7 @@
     font-size: 24px;
     font-weight: 600;
     color: #202020;
-    line-height: 1.2; 
+    line-height: 1.2;
     height: 3rem;
   }
 }
@@ -260,7 +260,10 @@
     font-size: 24px;
     font-weight: 600;
     color: #202020;
-    line-height: 1.2; 
+    line-height: 1.2;
     height: fit-content;
+  }
+  .content .title {
+    font-size: 2.5rem;
   }
 }
