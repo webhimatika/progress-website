@@ -1,71 +1,328 @@
-:root {
-  --primary-font: Arial, sans-serif;
-  --secondary-font: Montserrat, sans-serif;
-  --primary-color: #39a2db;
-  --secondary-color: #146c94;
-}
-
-/* Cooming soon section */
-*{
-  padding: 0;
+body {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  padding: 0;
+  background: #fff;
 }
 
 header {
-  position: fixed;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(17, 17, 17);
-}
-
-header a {
-  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(90deg, #0f4427, #056489 ) ;
+  padding: 1rem;
   color: #fff;
-  text-decoration: none;
-  font-size: 2rem;
-  transition: all 0.3s ease-in;
-}
-
-header a:hover {
-  color: rgb(255, 251, 0);
-}
-
-header p {
-  padding: 2rem;
-  color: rgb(255, 251, 0);
-  font-size: 2rem;
-  font-weight: 700;
-  position: relative;
-  z-index: 9999;
+  font-weight: bold;
+  font-size: 100px;
 }
 
 main {
-  padding: 0 2rem;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(17, 17, 17);
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
 }
 
-main h1 {
+.title-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #003c24, #007b40);
+  color: #eeff00;
+  font-weight: bold;
+  padding: 0.8rem 2rem;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  padding: 1rem;
+  text-align: center;
+  background: #fff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 2rem;
+  color: #070400;
+}
+
+.badge {
+  display: inline-block;
+  margin: 0.5rem 0 1rem;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
   color: #fff;
-  font-size: 5rem;
+}
+
+.olimpiade {
+  background: #014265;
+}
+
+.puncak {
+  background: #014265;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.buttons {
+  margin-top: 1rem;
+}
+
+.buttons a {
+  display: inline-block;
+  border: 1px solid #06124e;
+  color: #06124e;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.buttons a:hover {
+  background: #031a4f;
+  color: #fff;
+}
+
+.detail-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
+  text-align: left; /* biar teksnya mulai dari kiri */
+  line-height: 1.6;
+}
+
+.detail-page h1 {
+  font-size: 4rem; /* besar banget biar kelihatan dominan */
+  font-weight: 700;
+  color: #012b4b;
+  margin-bottom: 1rem;
+  margin-left: -10rem; /* agak ke kiri, tapi tetap ada jarak */
+  margin-top: 10px;
+  background: linear-gradient(90deg, #0f4427, #056489 ) ;
+  padding: 1rem;
+  color: #fff;
+  
+}
+
+.detail-page p {
+  font-size: 1rem; /* perbandingan 4:1 dari h1 */
+  color: #333;
+  margin-left: -10rem; /* sejajar sama judul */
+  margin-right: -10rem;
+  text-align: justify;
+}
+
+
+
+.detail-page .card img {
+
+  height: auto;          /* jaga proporsi */
+  display: block;
+  margin-left: -20px;        /* tengah */
+}
+
+.detail-image img {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    background: transparent !important;
+}
+
+
+.timeline-section {
+  width: 100%;
+  padding: 60px 0;
   text-align: center;
 }
 
-main h2 {
-  font-size: 7rem;
-  color: #ffffff;
+.timeline-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 40px;
 }
 
-.highlight {
-  padding: 0 1rem;
-  white-space: nowrap;
-  background-color: rgb(255, 251, 0); 
-  color: rgb(17, 17, 17);
+.timeline-image img {
+  max-width: 100%;   /* biar responsive */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0; /* opsional: kasih sudut melengkung */
 }
+
+.timeline-section {
+  margin-top: 60px; /* kasih jarak ke atas */
+}
+
+.timeline-section {
+  width: 100%;
+  background: #fff;   /* kalau gak mau ada warna tambahan */
+  padding: 40px 0;
+  text-align: center;
+}
+
+
+.timeline-image img {
+  width: 100%;     /* biar full kanan kiri */
+  height: auto;
+  display: block;
+  margin: 0;       /* hilangin jarak kiri kanan */
+  border-radius: 0; /* biar nggak melengkung */
+}
+
+.news-section {
+  width: 100%;
+  padding: 50px 5%;
+  background: #fff;
+}
+
+.news-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.news-left, .news-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.news-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  color: #fff;
+}
+
+.news-title.orange {
+  background: linear-gradient(to right, #072d00, #095287);
+}
+
+.news-title.yellow {
+  background: linear-gradient(to right, #072d00, #095287);
+}
+
+.announcement {
+  display: flex;
+  align-items: center;
+  background: #054875;
+  color: #ffffff;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+}
+
+.date-box {
+  text-align: center;
+  margin-right: 15px;
+}
+
+.date-box span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+}
+
+.news-right .news-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.news-right img {
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.news-text p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.tag {
+  background: rgb(12, 66, 0);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+}
+
+.btn-more {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #014819, #01354b);
+  color: white;
+  text-decoration: none;
+}
+
+/* Hilangkan scroll horizontal */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card img {
+  width: 300px;        /* ukuran logo besar */
+  height: auto;
+  margin: 0 auto 1rem; /* posisi tengah dan jarak bawah */
+  display: block;
+}
+
+.card h3 {
+  font-size: 1.4rem;   /* lebih kecil dari sebelumnya */
+  color: #070400;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
