@@ -1,76 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>STAR FM | HIMATIKA FMIPA UNS</title>
     <link
       rel="shortcut icon"
       href="assets/logo himatika.png"
-      type="image/x-icon" />
+      type="image/x-icon"
+    />
 
-    <!-- Meta HTML -->
-    <meta name="description" content="STAR FM adalah program kerja mercusuar HIMATIKA FMIPA UNS yang terdiri atas beberapa acara seperti SMART MC, SPA, MCL, dan Starfest.">
-    <meta name="keywords" content="HIMATIKA, FMIPA UNS, Himpunan Mahasiswa Matematika, UNS, kegiatan mahasiswa, STAR FM, SMART MC, SPA, MCL, Starfest, lomba, olimpiade">
-    <meta name="author" content="HIMATIKA FMIPA UNS">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="STAR FM | HIMATIKA FMIPA UNS">
-    <meta property="og:description" content="Program Kerja STAR FM HIMATIKA FMIPA UNS.">
-    <meta property="og:url" content="https://himatikauns.vercel.app/starfm.html">
-    <meta property="og:type" content="website">
-    
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3H6MB7RLPJ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-3H6MB7RLPJ');
-    </script>
-
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Poppins" />
+    <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
-      rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Yeseva One"
-      rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Courgette"
-      rel="stylesheet" />
-
-    <!--Calibri Font => klo mau pake langsung di CSS(font-family: "calibri",sans-serif;)-->
-
-    <!-- My Css Style-->
-    <link rel="stylesheet" href="css/starfm/starfm.css" />
-    <!-- Font Awesome -->
-    <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    />
 
-    <!-- Feather Icons-->
-    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- CSS Eksternal -->
+    <link rel="stylesheet" href="css/starfm/starfm.css" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="circle"></div>
-     <header>
-      <a href="/">Back</a>
+    <header>
       <p>STAR FM VOL.XI</p>
-     </header>
-     <main>
-      <h1>We Are 
-        <span class="highlight">Coming Soon</span>
-      </h1>
-      <h2>2025</h2>
-     </main>
+    </header>
 
-     <!-- Feather Icons -->
-    <script>
-      feather.replace();
-    </script>
+    <main>
+      <div class="title-btn">OUR EVENT</div>
+
+      <div class="cards">
+        <!-- SMART MC -->
+      <div class="card">
+        <img src="assets/StarFM/logosmartmc.png" alt="SMART MC Logo" />
+        <span class="badge olimpiade">SMART MC</span>
+        <p>Sebelas Maret Mathematics Competition</p>
+        <div class="buttons">
+        <a href="" class="btn-detail">Detail</a>
+       </div>
+      </div>
+
+          <!-- STARFEST -->
+      <div class="card">
+        <img src="assets/StarFM/logostarfest.png" alt="STARFEST Logo" />
+        <span class="badge puncak">STARFEST</span>
+        <p>
+          Science Technology and Art Festival
+        </p>
+        <div class="buttons">
+        <a href="" class="btn-detail">Detail</a>
+      </div>
+</div>
+
+</div>
+
+        </div>
+      </div>
+      <section class="timeline-section">
+        <div class="timeline-image">
+          <img src="assets/StarFM/timelinestarfm.jpg" alt="Timeline Lomba" />
+        </div>
+      </section>
+      <section class="news-section">
+        <div class="news-container">
+          <!-- KABAR PRESTASI
+          <div class="news-left" data-aos="fade-right">
+            <h2 class="news-title orange">Kabar Prestasi</h2>
+            <div class="announcement">
+              <div class="date-box">
+                <span>15</span>
+                <small>Sep 2025</small>
+              </div>
+              <p>Pengumuman Hasil Semi Final OSN Tahun 2025</p>
+            </div>
+
+            <div class="announcement">
+              <div class="date-box">
+                <span>01</span>
+                <small>Sep 2025</small>
+              </div>
+              <p>
+                Pengumuman Hasil Pelaksanaan OSN tingkat Provinsi Tahun 2025
+              </p>
+            </div>
+
+            <div class="announcement">
+              <div class="date-box">
+                <span>23</span>
+                <small>Aug 2025</small>
+              </div>
+              <p>
+                Pemberitahuan Daftar Sekolah Pengimbas Program BOS Kinerja P ...
+              </p>
+            </div>
+
+            <a href="#" class="btn-more">Pengumuman lainnya</a>
+          </div>
+
+           BERITA TERBARU 
+          <div class="news-right" data-aos="fade-left">
+            <h2 class="news-title yellow">Berita Terbaru</h2>
+            <div class="news-item">
+              <img src="assets/berita1.jpg" alt="Berita 1" />
+              <div class="news-text">
+                <span class="tag">Jenjang</span>
+                <p>
+                  Siswa Indonesia Raih Satu Emas, Satu Perak, dan Tiga Perunggu
+                  di Ajang IOAA 2025
+                </p>
+                <small>27 Aug 2025 | 798</small>
+              </div>
+            </div>
+
+            <div class="news-item">
+              <img src="assets/berita2.jpg" alt="Berita 2" />
+              <div class="news-text">
+                <span class="tag">Jenjang</span>
+                <p>
+                  Siswa Indonesia Torehkan Sebelas Medali di Ajang International
+                  Earth Science Olympiad (IESO) 2025
+                </p>
+                <small>24 Aug 2025 | 773</small> -->
+              </div>
+            </div>
+          </div>
+        </div> 
+      </section>
+    </main>
+    
   </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
